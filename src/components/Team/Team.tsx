@@ -1,24 +1,32 @@
 import React from 'react'
+import Member from './Member'
 
 const Team = () => {
   return (
-    <div>
-      <div className="container px-6 py-10 mx-auto">
-                <h1  className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">our team</h1>
-                
-                <p  className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
-                </p>
+    
+    <section  className="bg-white w-[100%] overflow-y-auto font">
+      <div  className="container px-6 py-10 mx-[10%]">
+          <h1  className="text-4xl font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>
+          
+          <div className='my-6 mb-24'>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Leads</h1>
+            <div  className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 -ml-24">
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+            </div>
+          </div>
 
-                <div  className="flex items-center justify-center">
-                    <div className="flex items-center p-1 border border-blue-600 dark:border-blue-400 rounded-xl">
-                        <button  className="px-4 py-2 text-sm font-medium text-white capitalize bg-blue-600 md:py-3 rounded-xl md:px-12">design</button>
-                        <button  className="px-4 py-2 mx-4 text-sm font-medium text-blue-600 capitalize md:py-3 dark:text-blue-400 dark:hover:text-white focus:outline-none hover:bg-blue-600 hover:text-white rounded-xl md:mx-8 md:px-12">development</button>
-                        <button  className="px-4 py-2 text-sm font-medium text-blue-600 capitalize md:py-3 dark:text-blue-400 dark:hover:text-white focus:outline-none hover:bg-blue-600 hover:text-white rounded-xl md:px-12">marketing</button>
-                    </div>
-                </div>
-    </div>
-    </div>
+          <div className='my-6'>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Admin</h1>
+            <div  className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4 -ml-24">
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+                <Member name="Sashank Shukla" position='Web Developer' facebook='im' github='im' img='im' linkedin='im'/>
+            </div>
+          </div>
+      </div>
+</section>
   )
 }
 
