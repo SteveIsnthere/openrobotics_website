@@ -1,9 +1,11 @@
 import React from 'react';
+import Member from './components/Team/Member';
+import Team from './components/Team/Team'
 
 function App() {
   return (
-    <div className="App">
-       <h1 className='text-blue-500'>Test Tailwind</h1>
+    <div className="App flex flex-row">
+       <Member name="Sashank Shukla" position='Web Developer' facebook='facebook' linkedin='Linkedin' github='github' img="img"/>
     </div>
   );
 }
