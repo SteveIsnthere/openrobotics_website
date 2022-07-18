@@ -3,7 +3,7 @@ import Member from './Member'
 
 const Team = () => {
   return (
-    <section  className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
+    <section className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
       <div className="container">
           <h1  className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>
           

@@ -2,11 +2,11 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div className="container flex flex-col lg:flex-row px-6 lg:pt-10 mx-auto">
+    <section className="container flex flex-col lg:flex-row px-6 lg:pt-10 mx-auto">
     <div
       className="flex flex-col text-center md:text-left md:flex-row h-screen justify-evenly md:items-center"
     >
-      <div className="flex flex-col w-full ml-[5%]">
+      <div className="flex flex-col w-full -ml-10 mr-6 lg:ml-[5%]">
         <div>
            <img src='assets/img/logo_update.png' alt="logo w/text" height={200} width={200}></img>
         </div>
@@ -73,7 +73,7 @@ const ContactPage = () => {
         </div>
       </div>
     </div>
-  </div>
+  </section>
   )
 }
 
