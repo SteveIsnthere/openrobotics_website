@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <section className="container flex flex-col lg:flex-row px-6 lg:pt-10 mx-auto">
     <div
-      className="flex flex-col text-center md:text-left md:flex-row h-screen justify-evenly md:items-center"
+      className="flex flex-col lg:flex-rowtext-center md:text-left md:flex-row h-screen justify-evenly md:items-center"
     >
       <div className="flex flex-col w-full -ml-10 mr-6 lg:ml-[5%]">
         <div>
@@ -15,6 +15,8 @@ const ContactPage = () => {
           Please leave a message and we will get back to you as soon as possible
         </p>
       </div>
+  
+
       <div className="w-full md:w-full lg:w-9/12 mx-auto md:mx-0">
         <div className="bg-white p-10 flex flex-col w-full shadow-xl rounded-xl">
           <h2 className="text-2xl font-bold text-gray-800 text-left mb-5">

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App w-screen overflow-x-hidden">
        <Navbar/>
-       <Contact/>
+       <Team/>
     </div>
   );
 }
