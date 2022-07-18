@@ -12,7 +12,7 @@ const Navbar = () =>{
     { title: "Sponsors", path: "javascript:void(0)" }
 ]
   return (
-    <div className='w-full mb-8 border-[2px] border-b-gray-300'>
+    <div className='w-full mb-8 font-Roboto300 fixed z-20'>
       <nav className="bg-white w-full border-b md:border-0 md:static">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">

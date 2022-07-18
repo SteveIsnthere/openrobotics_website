@@ -1,3 +1,4 @@
+import { PropaneSharp } from '@mui/icons-material';
 import React from 'react'
 
 interface Props{
@@ -11,8 +12,8 @@ interface Props{
 
  const Member = (props:Props) => {
   return (
-      <div className="flex flex-col items-center mt-20 transition-colors duration-200 transform cursor-pointer rounded-xl">
-      <img className="object-cover w-32 h-32 rounded-full ring-2 ring-red-700" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""></img>
+      <div className="flex flex-col items-center mt-10 transition-colors duration-200 transform cursor-pointer rounded-xl">
+      <img className="object-cover w-32 h-32 rounded-full ring-2 ring-red-700" src={props.img} alt=""></img>
 
       <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">{props.name}</h1>
 
