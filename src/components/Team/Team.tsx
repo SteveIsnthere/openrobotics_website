@@ -28,17 +28,17 @@ const Team = () => {
   ];
 
   const Admin:Array<Person> = [
-    new Person("Sashank Shukla"  , 'Web Developer'    , 'im' , 'im' , 'assets/img/admin/sashank.jpg'   , 'im'),
-    new Person("Inzaghi Moniaga" , 'Web Developer'    , 'im' , 'im' , 'assets/img/admin/inzaghi.jpg'   , 'im'),
-    new Person("Ben Lu"          , 'Graphic Designer' , 'im' , 'im' , 'assets/img/admin/ben.png'       , 'im'),
+    new Person("Sashank Shukla"  , 'Web Developer'    ,     'im' , 'im' , 'assets/img/admin/sashank.jpg'   , 'im'),
+    new Person("Inzaghi Moniaga" , 'Web Developer'    ,     'im' , 'im' , 'assets/img/admin/inzaghi.jpg'   , 'im'),
+    new Person("Ben Lu"          , 'Graphic Designer' ,     'im' , 'im' , 'assets/img/admin/ben.png'       , 'im'),
     new Person("Dhriti Bansal" ,   'Social Media Manager' , 'im' , 'im' , 'assets/img/admin/dhriti.jpg', 'im'),
-    new Person("Kritika Joshi"   , 'Integration Lead' , 'im' , 'im' , 'assets/img/admin/kritika.png'   , 'im'),
-    new Person("Niki Manesh"     , 'Mentor'           , 'im' , 'im' , 'assets/img/admin/niki.png'      , 'im'),
-    new Person("Brian Zimmerman" , 'Finance Lead'     , 'im' , 'im' , 'assets/img/admin/brian.png'     , 'im'),
-    new Person("Nafae Saiyed"    , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
-    new Person("Taymur Pasha"    , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
-    new Person("Jay Hou"         , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
-    new Person("Tian Hao Xu"     , 'Safety Officer'   , 'im' , 'im' , 'assets/img/admin/tian.png'      , 'im'),
+    new Person("Kritika Joshi"   , 'Integration Lead' ,     'im' , 'im' , 'assets/img/admin/kritika.png'   , 'im'),
+    new Person("Niki Manesh"     , 'Mentor'           ,     'im' , 'im' , 'assets/img/admin/niki.png'      , 'im'),
+    new Person("Brian Zimmerman" , 'Finance Lead'     ,     'im' , 'im' , 'assets/img/admin/brian.png'     , 'im'),
+    new Person("Nafae Saiyed"    , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Taymur Pasha"    , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Jay Hou"         , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Tian Hao Xu"     , 'Safety Officer'   ,     'im' , 'im' , 'assets/img/admin/tian.png'      , 'im'),
   ];
   const PianoBot:Array<Person> = [
     new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
