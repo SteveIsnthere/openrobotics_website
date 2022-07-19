@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
+       <Recruitment/>
        <Contact/>
        <Team/>
        <Footer/>
