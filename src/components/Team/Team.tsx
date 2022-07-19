@@ -9,6 +9,7 @@ const Team = () => {
           
           <div className='my-16 mx-[5%] mb-24'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Leads</h1>
+            <span className="w-screen h-2 bg-gray-900 mb-6"></span>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
                 <Member name="Matthew Poon" position='Captain' linkedin='im' github='im' img="assets/img/admin/matthew.png"  email='im'/>
                 <Member name="Fouad Elgamal" position='Captain' linkedin='im' github='im' img="assets/img/admin/fouad.jpg" email='im'/>
@@ -73,7 +74,7 @@ const Team = () => {
           </div>
 
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup trainTrain</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Train</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             <Member name="Kuok Kun(AO) Chio" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/kuok.png' email='im'/>
             <Member name="Yang Su" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/yang.png' email='im'/>

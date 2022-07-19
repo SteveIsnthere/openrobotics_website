@@ -4,13 +4,13 @@ const ContactPage = () => {
   return (
         <section className="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
           <div className="container justify-center items-center">
-              <div className="flex flex-wrap lg:justify-between -mx-4 mt-4">
-                <div className="w-full lg:w-1/2 xl:w-6/12 px-4 mt-16 ml-16">
+              <div className="flex flex-wrap lg:justify-center  -mx-4 mt-4">
+                <div className="w-full lg:w-1/2 xl:w-6/12 px-4 mt-16 md:ml-16">
                     <div className="max-w-[570px] mb-12 lg:mb-0">
                       <h2 className="text-dark mb-6  uppercase font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                           GET IN TOUCH WITH US
                       </h2>
-                      <div className="flex mb-8 md:mt-60 lg:mt-16 max-w-[370px] w-full">
+                      <div className="flex mb-8 md:mt-40 lg:mt-16 max-w-[370px] w-full">
                           <div
                             className="
                             max-w-[60px]
