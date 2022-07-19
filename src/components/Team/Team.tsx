@@ -1,112 +1,172 @@
 import React from 'react'
 import Member from './Member'
 
+
 const Team = () => {
+  class Person{
+    name:string;
+    position:string;
+    linkedin:string;
+    github:string;
+    email: string;
+    img:string;
+
+    constructor(name:string,position:string,linkedin:string,github:string,img:string,email:string){
+      this.name = name;
+      this.position = position;
+      this.linkedin = linkedin;
+      this.github = github;
+      this.email = email;
+      this.img = img;
+    }
+  }
+
+  const Leads:Array<Person> = [
+    new Person ("Matthew Poon"  , 'Captain' ,'im' ,'im' ,"assets/img/admin/matthew.png", 'im'),
+    new Person ("Fouad Elgamal" , 'Captain' ,'im' ,'im' ,"assets/img/admin/fouad.jpg" ,  'im'),
+  ];
+
+  const Admin:Array<Person> = [
+    new Person("Sashank Shukla"  , 'Web Developer'    , 'im' , 'im' , 'assets/img/admin/sashank.jpg'   , 'im'),
+    new Person("Inzaghi Moniaga" , 'Web Developer'    , 'im' , 'im' , 'assets/img/admin/inzaghi.jpg'   , 'im'),
+    new Person("Ben Lu"          , 'Graphic Designer' , 'im' , 'im' , 'assets/img/admin/ben.png'       , 'im'),
+    new Person("Kritika Joshi"   , 'Integration Lead' , 'im' , 'im' , 'assets/img/admin/kritika.png'   , 'im'),
+    new Person("Niki Manesh"     , 'Mentor'           , 'im' , 'im' , 'assets/img/admin/niki.png'      , 'im'),
+    new Person("Brian Zimmerman" , 'Finance Lead'     , 'im' , 'im' , 'assets/img/admin/brian.png'     , 'im'),
+    new Person("Nafae Saiyed"    , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Taymur Pasha"    , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Jay Hou"         , 'Finance Member'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Tian Hao Xu"     , 'Safety Officer'   , 'im' , 'im' , 'assets/img/admin/tian.png'      , 'im'),
+  ];
+  const PianoBot:Array<Person> = [
+    new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
+    new Person("Veronica Nguyen"      , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/veronica.png" ,'im'),
+    new Person("Evan Liu"             , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/evan.png"     ,'im'),
+    new Person("Fernando Ng"          , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/fernando.png" ,'im'),
+    new Person("Karthik Ravichandran" , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/karthik.png"  ,'im'),
+    new Person("Prayus Shrestha"      , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/prayus.png"   ,'im'),
+    new Person("Ryan Acapulco"        , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/ryan.png"     ,'im'),
+    new Person("Scott Beaulieu"       , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/scott.png"    ,'im'),
+    new Person("Yiting Wu"            , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/yiting.png"   ,'im'),
+  ];
+  const ArtBot:Array<Person> = [
+    new Person("Aiden Smith"      , 'ArtBot Lead'   , 'im' , 'im' , 'assets/img/artbot/aiden.png'    , 'im'),
+    new Person("Navneeth Devadas" , 'ArtBot Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Felice Jie Chen"  , 'ArtBot Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Benji Li"         , 'ArtBot Member' , 'im' , 'im' , 'assets/img/artbot/benji.png'    , 'im'),
+  ];
+  const Arm:Array<Person> = [
+    new Person("Joey Gaffney"     , 'Arm Lead'   , 'im' , 'im' , 'assets/img/arm/joey.png'        , 'im'),
+    new Person("Arwin Patrick"    , 'Arm Lead'   , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Jonas Chianu"     , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/jonas.png'       , 'im'),
+    new Person("Hazel Chongoti"   , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/hazel.png'       , 'im'),
+    new Person("David Kim"        , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/david.png'       , 'im'),
+    new Person("Debby Lin"        , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/debby.png'       , 'im'),
+    new Person("Cailin Ringstorm" , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Iris Xu"          , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Ryan Yeung"       , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/ryan.png'        , 'im'),
+    new Person("Grace Zhang"      , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+  ];
+  const Train:Array<Person> = [
+    new Person("Kuok Kun(AO) Chio" , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/kuok.png'      , 'im'),
+    new Person("Yang Su"           , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/yang.png'      , 'im'),
+    new Person("Kamran Alam"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/kamran.png'    , 'im'),
+    new Person("Wilson Chen"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/wilson.png'    , 'im'),
+    new Person("Vishal Desh"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Yoshi Inomata"     , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/yoshi.png'     , 'im'),
+    new Person("Eros Rojas"        , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/eros.png'      , 'im'),
+    new Person("Tian Hao Xu"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/tian.png'      , 'im'),
+  ];
+  const Gripper:Array<Person> = [
+    new Person("Matthew Sam"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/gripper/matthew.png' , 'im'),
+    new Person("Husein Alatas" , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/husein.png'  , 'im'),
+    new Person("Akhil Prabhu"  , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/akhil.png'   , 'im'),
+    new Person("Chaewoon Song" , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+    new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.png' , 'im'),
+  ];
+  const Software:Array<Person> = [
+    new Person("Francisco Farinha" , 'Software Lead'   , 'im' , 'im' , 'assets/img/software/francisco.png' , 'im'),
+    new Person("Andrew Xie"        , 'Software Lead'   , 'im' , 'im' , 'assets/img/software/andrew.png'    , 'im'),
+    new Person("Aayush Behl"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/aayush.png'    , 'im'),
+    new Person("Ashli Forbes"      , 'Software Member' , 'im' , 'im' , 'assets/img/default_profile.png'    , 'im'),
+    new Person("Damien Fung"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/damien.png'    , 'im'),
+    new Person("Tawsif Hasan"      , 'Software Member' , 'im' , 'im' , 'assets/img/software/tawsif.png'    , 'im'),
+  ];
+
+
   return (
     <section className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
       <div className="container">
-          <h1  className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>
-          
+          <h1  className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>    
           <div className='my-16 mx-[5%] mb-24'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Leads</h1>
-            <span className="w-screen h-2 bg-gray-900 mb-6"></span>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                <Member name="Matthew Poon" position='Captain' linkedin='im' github='im' img="assets/img/admin/matthew.png"  email='im'/>
-                <Member name="Fouad Elgamal" position='Captain' linkedin='im' github='im' img="assets/img/admin/fouad.jpg" email='im'/>
+                {Leads.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
             </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize md:-mb-4 lg:text-4xl">Admin</h1>
             <div className="grid grid-cols-1 gap-8 mt-12 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Sashank Shukla" position='Web Developer' linkedin='im' github='im' img='assets/img/admin/sashank.jpg' email='im'/>
-            <Member name="Inzaghi Moniaga" position='Web Developer' linkedin='im' github='im' img='assets/img/admin/inzaghi.jpg' email='im'/>
-            <Member name="Ben Lu" position='Graphic Designer' linkedin='im' github='im' img='assets/img/admin/ben.png' email='im'/>
-            <Member name="Kritika Joshi" position='Integration Lead' linkedin='im' github='im' img='assets/img/admin/kritika.png' email='im'/>
-            <Member name="Niki Manesh" position='Mentor' linkedin='im' github='im' img='assets/img/admin/niki.png' email='im'/>
-            <Member name="Brian Zimmerman" position='Finance Lead/Treasurer' linkedin='im' github='im' img='assets/img/admin/brian.png' email='im'/>
-            <Member name="Nafae Saiyed" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Taymur Pasha" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Jay Hou" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Tian Hao Xu" position='Safety Officer' linkedin='im' github='im' img='assets/img/admin/tian.png' email='im'/>
+                {Admin.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">PianoBot</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Shawna Naderi" position='PianoBot Lead' linkedin='im' github='im' img="assets/img/pianobot/shawna.png" email='im'/>
-            <Member name="Veronica Nguyen" position='PianoBot Lead' linkedin='im' github='im' img="assets/img/pianobot/veronica.png" email='im'/>
-            <Member name="Evan Liu" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/evan.png" email='im'/>
-            <Member name="Fernando Ng" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/fernando.png" email='im'/>
-            <Member name="Karthik Ravichandran" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/karthik.png" email='im'/>
-            <Member name="Prayus Shrestha" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/prayus.png" email='im'/>
-            <Member name="Ryan Acapulco" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/ryan.png" email='im'/>
-            <Member name="Scott Beaulieu" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/scott.png" email='im'/>
-            <Member name="Yiting Wu" position='PianoBot Member' linkedin='im' github='im' img="assets/img/pianobot/yiting.png" email='im'/>
+                {PianoBot.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">ArtBot</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Aiden Smith" position='ArtBot Lead' linkedin='im' github='im' img='assets/img/artbot/aiden.png' email='im'/>
-            <Member name="Navneeth Devadas" position='ArtBot Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Felice Jie Chen" position='ArtBot Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Benji Li" position='ArtBot Member' linkedin='im' github='im' img='assets/img/artbot/benji.png' email='im'/>
+            {ArtBot.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Arm</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Joey Gaffney" position='Arm Lead' linkedin='im' github='im' img='assets/img/arm/joey.png' email='im'/>
-            <Member name="Arwin Patrick" position='Arm Lead' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Jonas Chianu" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/jonas.png' email='im'/>
-            <Member name="Hazel Chongoti" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/hazel.png' email='im'/>
-            <Member name="David Kim" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/david.png' email='im'/>
-            <Member name="Debby Lin" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/debby.png' email='im'/>
-            <Member name="Cailin Ringstorm" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Iris Xu" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Ryan Yeung" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/ryan.png' email='im'/>
-            <Member name="Grace Zhang" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            {Arm.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Train</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Kuok Kun(AO) Chio" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/kuok.png' email='im'/>
-            <Member name="Yang Su" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/yang.png' email='im'/>
-            <Member name="Kamran Alam" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/kamran.png' email='im'/>
-            <Member name="Wilson Chen" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/wilson.png' email='im'/>
-            <Member name="Vishal Desh" position='RoboCup Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Yoshi Inomata" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/yoshi.png' email='im'/>
-            <Member name="Eros Rojas" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/eros.png' email='im'/>
-            <Member name="Tian Hao Xu" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/tian.png' email='im'/>
+            {Train.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Gripper</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Matthew Sam" position='Gripper Lead' linkedin='im' github='im' img='assets/img/gripper/matthew.png' email='im'/>
-            <Member name="Husein Alatas" position='Gripper Member' linkedin='im' github='im' img='assets/img/gripper/husein.png' email='im'/>
-            <Member name="Akhil Prabhu" position='Gripper Member' linkedin='im' github='im' img='assets/img/gripper/akhil.png' email='im'/>
-            <Member name="Chaewoon Song" position='Gripper Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Jenica Sy" position='Gripper Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            {Gripper.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Software</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Francisco Farinha" position='Software Lead' linkedin='im' github='im' img='assets/img/software/francisco.png' email='im'/>
-            <Member name="Andrew Xie" position='Software Lead' linkedin='im' github='im' img='assets/img/software/andrew.png' email='im'/>
-            <Member name="Aayush Behl" position='Software Member' linkedin='im' github='im' img='assets/img/software/aayush.png' email='im'/>
-            <Member name="Ashli Forbes" position='Software Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
-            <Member name="Damien Fung" position='Software Member' linkedin='im' github='im' img='assets/img/software/damien.png' email='im'/>
-            <Member name="Tawsif Hasan" position='Software Member' linkedin='im' github='im' img='assets/img/software/tawsif.png' email='im'/>
+            {Software.map((lead) => (
+                   <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
+                ))}
           </div>
           </div>
       </div>
