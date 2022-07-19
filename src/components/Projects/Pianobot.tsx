@@ -299,18 +299,6 @@ function Projects() {
   </section>
   {/* Team Section End */}
 
-
-  {/* Map Section Start */}
-  <section id="google-map-area">
-    <div className="mx-6 mb-6">
-      <div className="flex">
-        <div className="w-full">
-          <object style={{border: 0, height: '450px', width: '100%'}} data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.522865237287!2d-123.25668306710931!3d49.26648891321531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672b68ab5f98d%3A0x3e8051ef97db397c!2sHennings%20Bldg%2C%206224%20Agricultural%20Rd%2C%20Vancouver%2C%20BC%20V6T%201Z1%2C%20Canada!5e0!3m2!1sen!2sid!4v1658104190441!5m2!1sen!2sid" />
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* Map Section End */}
   {/* Footer Section Start */}
   <footer id="footer" className="bg-gray-800 py-16">
     <div className="container">
