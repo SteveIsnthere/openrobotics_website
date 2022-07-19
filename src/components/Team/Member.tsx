@@ -1,4 +1,5 @@
 import {AiFillGithub, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai';
+import {FaGlobe} from 'react-icons/fa';
 import React from 'react'
 
 interface Props{
@@ -20,7 +21,7 @@ interface Props{
       <p className="mt-2 capitalize text-red-700 ">{props.position}</p>
 
       <div className="flex mt-3 -mx-2">
-          <a href={props.linkedin} className="mx-2 text-2xl text-gray-900 hover:text-red-800" aria-label="Reddit">
+          <a href={props.linkedin} className="mx-2 text-2xl text-blue-700 hover:text-red-800" aria-label="Reddit">
              <AiFillLinkedin/>
           </a>
 
@@ -28,8 +29,8 @@ interface Props{
               <AiFillGithub/>
           </a>
 
-          <a href={props.email} className="mx-2 text-2xl text-gray-900 hover:text-red-800" aria-label="Github">
-             <AiOutlineMail/>
+          <a href={props.email} className="mx-2 text-2xl text-emerald-600 hover:text-red-800" aria-label="Github">
+             <FaGlobe/>
           </a>
       </div>
      </div> 

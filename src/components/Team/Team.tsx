@@ -1,5 +1,6 @@
 import React from 'react'
-import Member from './Member'
+import Member from './Member';
+
 
 
 const Team = () => {
@@ -22,8 +23,8 @@ const Team = () => {
   }
 
   const Leads:Array<Person> = [
-    new Person ("Matthew Poon"  , 'Captain' ,'im' ,'im' ,"assets/img/admin/matthew.png", 'im'),
-    new Person ("Fouad Elgamal" , 'Captain' ,'im' ,'im' ,"assets/img/admin/fouad.jpg" ,  'im'),
+    new Person ("Matthew Poon"  , 'OpBots Captain' ,'im' ,'im' ,"assets/img/admin/matthew.png", 'im'),
+    new Person ("Fouad Elgamal" , 'OpBots Captain' ,'im' ,'im' ,"assets/img/admin/fouad.jpg" ,  'im'),
   ];
 
   const Admin:Array<Person> = [
@@ -98,7 +99,9 @@ const Team = () => {
   return (
     <section className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
       <div className="container">
-          <h1  className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>    
+          <h1  className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">Meet The Team</h1>  
+
+
           <div className='my-16 mx-[5%] mb-24'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Leads</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
