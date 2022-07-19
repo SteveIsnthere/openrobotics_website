@@ -29,7 +29,7 @@ interface Props{
               <AiFillGithub/>
           </a>
 
-          <a href={props.email} className="mx-2 text-2xl text-emerald-600 hover:text-red-800" aria-label="Github">
+          <a href={props.email} className="mx-2 text-2xl text-teal-500 hover:text-red-800" aria-label="Github">
              <FaGlobe/>
           </a>
       </div>

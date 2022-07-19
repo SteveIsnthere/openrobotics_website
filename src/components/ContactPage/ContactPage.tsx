@@ -14,7 +14,7 @@ const ContactPage = () => {
                           <div
                             className="
                             max-w-[60px]
-                            sm:max-w-[70px] w-full h-[60px] sm:h-[70px] flex items-center justify-center mr-6 overflow-hidden bg-primary bg-opacity-5 text-primary rounded
+                            sm:max-w-[70px] w-full text-red-700 h-[60px] sm:h-[70px] flex items-center justify-center mr-6 overflow-hidden bg-primary bg-opacity-5 text-primary rounded
                             ">
                             <svg
                                 width="24"
@@ -42,6 +42,7 @@ const ContactPage = () => {
                             w-full
                             h-[60px]
                             sm:h-[70px]
+                            text-red-700
                             flex
                             items-center
                             justify-center
@@ -85,7 +86,7 @@ const ContactPage = () => {
                                 py-3
                                 px-[14px]
                                 text-body-color text-base
-                                border border-[f0f0f0]
+                                border-2 border-[f0f0f0]
                                 outline-none
                                 focus-visible:shadow-none
                                 focus:border-red-600
@@ -102,7 +103,7 @@ const ContactPage = () => {
                                 py-3
                                 px-[14px]
                                 text-body-color text-base
-                                border border-[f0f0f0]
+                                border-2 border-[f0f0f0]
                                 resize-none
                                 outline-none
                                 focus-visible:shadow-none
