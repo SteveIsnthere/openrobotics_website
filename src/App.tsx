@@ -6,10 +6,9 @@ import Contact from './components/ContactPage/ContactPage';
 
 function App() {
   return (
-    <div className="App w-screen overflow-x-hidden">
+    <div className="App w-screen overflow-x-hidden font-Roboto">
        <Navbar/>
        <Contact/>
-       <Team/>
     </div>
   );
 }
