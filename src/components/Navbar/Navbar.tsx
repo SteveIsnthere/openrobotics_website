@@ -9,11 +9,12 @@ const Navbar = () =>{
     { title: "Projects", path: "#" },
     { title: "Our Team", path: "#" },
     { title: "Join Us", path: "#" },
-    { title: "Sponsors", path: "#" }
+    { title: "Sponsors", path: "#" },
+     {title : "Contact" , path:"#"},
 ]
   return (
-    <section className='w-full mb-8 font-Roboto300 fixed z-20'>
-      <nav className="bg-white w-full border-b md:border-0 md:static">
+    <section className='w-screen mb-8 font-Roboto300 fixed z-20'>
+      <nav className="bg-white w-screen border-b md:border-0 md:static">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="#">
