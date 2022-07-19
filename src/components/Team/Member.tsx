@@ -13,7 +13,7 @@ interface Props{
  const Member = (props:Props) => {
   return (
       <div className="flex flex-col items-center mt-4 transition-colors duration-200 transform cursor-pointer rounded-xl">
-      <img className="object-cover w-32 h-32 rounded-full ring-2 ring-red-700" src={props.img} alt=""></img>
+      <img className="object-cover w-32 h-32 rounded-full" src={props.img} alt=""></img>
 
       <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize">{props.name}</h1>
 

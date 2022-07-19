@@ -10,24 +10,24 @@ const Team = () => {
           <div className='my-16 mx-[5%] mb-24'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">Leads</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-                <Member name="Matthew Poon" position='Captain' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"  email='im'/>
-                <Member name="Fouad Elgamal" position='Captain' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+                <Member name="Matthew Poon" position='Captain' linkedin='im' github='im' img="assets/img/admin/matthew.png"  email='im'/>
+                <Member name="Fouad Elgamal" position='Captain' linkedin='im' github='im' img="assets/img/admin/fouad.jpg" email='im'/>
             </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize md:-mb-4 lg:text-4xl">Admin</h1>
             <div className="grid grid-cols-1 gap-8 mt-12 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Sashank Shukla" position='Web Developer' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Inzaghi Moniaga" position='Web Developer' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Ben Lu" position='Graphic Designer' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Kritika Joshi" position='Integration Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Niki Manesh" position='Mentor' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Briam Zimmerman" position='Finance Lead/Treasurer' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Nafae Saiyed" position='Finance Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Taymur Pasha" position='Finance Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Jay Hou" position='Finance Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Tian Hao Xu" position='Safety Officer' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Sashank Shukla" position='Web Developer' linkedin='im' github='im' img='assets/img/admin/sashank.jpg' email='im'/>
+            <Member name="Inzaghi Moniaga" position='Web Developer' linkedin='im' github='im' img='assets/img/admin/inzaghi.jpg' email='im'/>
+            <Member name="Ben Lu" position='Graphic Designer' linkedin='im' github='im' img='assets/img/admin/ben.png' email='im'/>
+            <Member name="Kritika Joshi" position='Integration Lead' linkedin='im' github='im' img='assets/img/admin/kritika.png' email='im'/>
+            <Member name="Niki Manesh" position='Mentor' linkedin='im' github='im' img='assets/img/admin/niki.png' email='im'/>
+            <Member name="Brian Zimmerman" position='Finance Lead/Treasurer' linkedin='im' github='im' img='assets/img/admin/brian.png' email='im'/>
+            <Member name="Nafae Saiyed" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Taymur Pasha" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Jay Hou" position='Finance Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Tian Hao Xu" position='Safety Officer' linkedin='im' github='im' img='assets/img/admin/tian.png' email='im'/>
           </div>
           </div>
 
@@ -49,63 +49,63 @@ const Team = () => {
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">ArtBot</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Aiden Smith" position='ArtBot Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Navneeth Devadas" position='ArtBot Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Felice Jie Chen" position='ArtBot Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Benji Li" position='ArtBot Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Aiden Smith" position='ArtBot Lead' linkedin='im' github='im' img='assets/img/artbot/aiden.png' email='im'/>
+            <Member name="Navneeth Devadas" position='ArtBot Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Felice Jie Chen" position='ArtBot Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Benji Li" position='ArtBot Member' linkedin='im' github='im' img='assets/img/artbot/benji.png' email='im'/>
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Arm</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Joey Gaffney" position='Arm Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Arwin Patrick" position='Arm Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Jonas Chianu" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Hazel Chongoti" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="David Kim" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Debby Lin" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Cailin Ringstorm" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Iris Xu" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Ryan Yeung" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Grace Zhang" position='Arm Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Joey Gaffney" position='Arm Lead' linkedin='im' github='im' img='assets/img/arm/joey.png' email='im'/>
+            <Member name="Arwin Patrick" position='Arm Lead' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Jonas Chianu" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/jonas.png' email='im'/>
+            <Member name="Hazel Chongoti" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/hazel.png' email='im'/>
+            <Member name="David Kim" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/david.png' email='im'/>
+            <Member name="Debby Lin" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/debby.png' email='im'/>
+            <Member name="Cailin Ringstorm" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Iris Xu" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Ryan Yeung" position='Arm Member' linkedin='im' github='im' img='assets/img/arm/ryan.png' email='im'/>
+            <Member name="Grace Zhang" position='Arm Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup DriveTrain</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup trainTrain</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Kuok Kun(AO) Chio" position='RoboCup Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Yang Su" position='RoboCup Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Kamran Alam" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Wilson Chen" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Vishal Desh" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Yoshi Inomata" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Eros Rojas" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Tian Hao Xu" position='RoboCup Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Kuok Kun(AO) Chio" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/kuok.png' email='im'/>
+            <Member name="Yang Su" position='RoboCup Lead' linkedin='im' github='im' img='assets/img/train/yang.png' email='im'/>
+            <Member name="Kamran Alam" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/kamran.png' email='im'/>
+            <Member name="Wilson Chen" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/wilson.png' email='im'/>
+            <Member name="Vishal Desh" position='RoboCup Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Yoshi Inomata" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/yoshi.png' email='im'/>
+            <Member name="Eros Rojas" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/eros.png' email='im'/>
+            <Member name="Tian Hao Xu" position='RoboCup Member' linkedin='im' github='im' img='assets/img/train/tian.png' email='im'/>
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Gripper</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Matthew Sam" position='Gripper Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Husein Alatas" position='Gripper Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Akhil Prabhu" position='Gripper Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Chaewoon Song" position='Gripper Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Jenica Sy" position='Gripper Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Matthew Sam" position='Gripper Lead' linkedin='im' github='im' img='assets/img/gripper/matthew.png' email='im'/>
+            <Member name="Husein Alatas" position='Gripper Member' linkedin='im' github='im' img='assets/img/gripper/husein.png' email='im'/>
+            <Member name="Akhil Prabhu" position='Gripper Member' linkedin='im' github='im' img='assets/img/gripper/akhil.png' email='im'/>
+            <Member name="Chaewoon Song" position='Gripper Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Jenica Sy" position='Gripper Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
           </div>
           </div>
 
           <div className='my-16 mx-[5%]'>
             <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Software</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            <Member name="Francisco Farinha" position='Software Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Andrew Xie" position='Software Lead' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Aayush Behl" position='Software Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Ashli Forbes" position='Software Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Damien Fung" position='Software Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
-            <Member name="Tawsif Hasan" position='Software Member' linkedin='im' github='im' img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" email='im'/>
+            <Member name="Francisco Farinha" position='Software Lead' linkedin='im' github='im' img='assets/img/software/francisco.png' email='im'/>
+            <Member name="Andrew Xie" position='Software Lead' linkedin='im' github='im' img='assets/img/software/andrew.png' email='im'/>
+            <Member name="Aayush Behl" position='Software Member' linkedin='im' github='im' img='assets/img/software/aayush.png' email='im'/>
+            <Member name="Ashli Forbes" position='Software Member' linkedin='im' github='im' img='assets/img/default_profile.png' email='im'/>
+            <Member name="Damien Fung" position='Software Member' linkedin='im' github='im' img='assets/img/software/damien.png' email='im'/>
+            <Member name="Tawsif Hasan" position='Software Member' linkedin='im' github='im' img='assets/img/software/tawsif.png' email='im'/>
           </div>
           </div>
       </div>
