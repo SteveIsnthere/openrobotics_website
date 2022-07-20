@@ -58,7 +58,7 @@ const Navbar = () =>{
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <a href="#" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600/25 text-gray-900 font-bold rounded-md shadow">
+                <a href="#" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600 text-gray-900 hover:text-gray-200 font-bold rounded-md shadow">
                     Donate
                 </a>
               </div>

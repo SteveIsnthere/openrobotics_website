@@ -52,13 +52,13 @@ const Recruitment = () =>{
              {arrow ? <AiOutlineDown className='mx-4 my-1 font-bold'/> : <AiOutlineUp className='mx-4 my-1 font-bold'/>}
             </button>
             </div>
-            <div className={"w-full text-center flex flex-col justify-start items-start rounded-lg py-4 bg-white border-2 border-gray-100 border-t-gray-200 mt-0 " + set(arrow) + " " + border2(arrow)}>
+            <div className={"w-full text-center flex flex-col justify-start items-start rounded-lg py-4 bg-white border-2 border-gray-200 border-t-gray-200 mt-0 " + set(arrow) + " " + border2(arrow)}>
               <p className='text-gray-900 font-bold mb-4 px-4 py-4'>Number of positions : <span className="font-normal text-gray-900">{position.positions}</span></p>
               <p className='text-gray-900 font-bold px-4'>About the role : <span className="font-normal text-gray-900">{position.description}</span></p>
             </div>
           </div>
        ))}
-      <button className='bg-gray-900 w-auto rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center'>Apply Now</button>
+      <button className='bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center'>Apply Now</button>
     </section>
   )
 }
