@@ -9,12 +9,11 @@ const Navbar = () =>{
     { title: "Projects", path: "#" },
     { title: "Our Team", path: "#" },
     { title: "Join Us", path: "#" },
-    { title: "Sponsors", path: "#" },
-     {title : "Contact" , path:"#"},
+    { title: "Sponsors", path: "#" }
 ]
   return (
-    <section className='w-screen mb-8 font-Roboto300 fixed z-20'>
-      <nav className="bg-white w-screen border-b md:border-0 md:static">
+    <section className='w-full mb-8 font-Roboto300 fixed z-20'>
+      <nav className="bg-white w-full border-b md:border-0 md:static">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="#">
@@ -59,7 +58,7 @@ const Navbar = () =>{
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <a href="#" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600/25 text-gray-900 font-bold rounded-md shadow">
+                <a href="#" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600 text-gray-900 hover:text-gray-200 font-bold rounded-md shadow">
                     Donate
                 </a>
               </div>
