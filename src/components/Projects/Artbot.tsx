@@ -5,13 +5,13 @@ function Projects() {
     <div>
       
   {/* Hero Area Start */}
-  <section className="min-h-screen p-32 text-center" style={{backgroundImage: 'url("assets/img/pianobot/header.png")', backgroundSize: 'cover'}}>
+  <section className="min-h-screen p-32 text-center" style={{backgroundImage: 'url("assets/img/artbot.png")', backgroundSize: 'cover'}}>
   <div className="bg-white mx-4 p-4 text-center md:p-8">
   <p className="italic text-sm">
-  Started: 2018-09-08
+  Started: 2018-01-05
   </p>
   <h1 className="text-5xl wow uppercase font-bold">
-    PIANOBOT
+    ARTBOT
   </h1>
   <p className="text-lg">
   Ongoing project
@@ -26,7 +26,8 @@ function Projects() {
     <div className="container">
       <div className="flex flex-wrap items-center">
       <h2 className="mb-2 section-heading wow fadeInDown text-red-700" data-wow-delay="0.3s">Project Description</h2>
-      <h2 className="mb-9 wow">Formed in 2018, Pianobot is a newer project dedicated to intergrating a universal enjoyment of music into engineering. Originally incepted by 5 members, the team views the problem of replicating the finesse and capabilities of a human artist as an exciting endeaviour. The team also has long term goals of potentially adopting other instruments, such as to form an entire band of robots. The "Pianobot" name is expected to change based on the aforementioned.</h2>
+      <h2 className="mb-9 wow">
+What's an artbot? It's a robot that makes art! But not just any art, beautiful art. The Artbot project is a unique opportunity for students to learn more about the intricacies of visual arts by building a robot that can paint 2D compositions. Participating in the international RobotArt competition, students are focusing on constructing a delta robot to create both abstract art pieces, and modern (robot) interpretations of classic works.</h2>
            
         <div className="w-full lg:w-1/2">
           
@@ -40,7 +41,7 @@ function Projects() {
                   </div>
                   <div className="features-content">
                     <h4 className="feature-title">Goals: </h4>
-                    <p> The Pianobot project allows students with a passion for music and robotics to combine their interests into one fun project!</p>
+                    <p> The Artbot project is a unique opportunity for students to learn more about the intricacies of visual arts by building a robot that can paint 2D compositions!</p>
                   </div>
                 </div>
               </div>
@@ -51,7 +52,7 @@ function Projects() {
                   </div>
                   <div className="features-content">
                     <h4 className="feature-title">Ideas: </h4>
-                    <p> Modelled off the standards of the Royal Conservatory of Music (RCM)</p>
+                    <p> Creating a robot that can create both abstract art pieces and modern interpretations of classic works.</p>
                   </div>
                 </div>
               </div>
@@ -62,7 +63,7 @@ function Projects() {
                   </div>
                   <div className="features-content">
                     <h4 className="feature-title">Objective: </h4>
-                    <p> Students are aiming to have the robot play music pieces designed for pianists with qualifications of RCM level 4</p>
+                    <p> Participating in the international RobotArt competition, students are focusing on constructing a delta robot to create both abstract art pieces, and modern (robot) interpretations of classic works.</p>
                   </div>
                 </div>
               </div>
@@ -73,7 +74,7 @@ function Projects() {
                   </div>
                   <div className="features-content">
                     <h4 className="feature-title">Future Usage:</h4>
-                    <p> Hopefully, open to more song requests later on. (Robot head may or may not be included).</p>
+                    <p> Generating new and original artwork by combining different styles and techniques</p>
                   </div>
                 </div>
               </div>
@@ -82,7 +83,7 @@ function Projects() {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight" data-wow-delay="0.3s">
-          <iframe className='w-full' src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUBCOpenRobotics%2Fvideos%2F2395379350590553%2F" height="350" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          <iframe className='w-full' src="https://www.youtube.com/embed/JL0T250wD-s" title="RobotArt: Tulips" height="350" scrolling="no" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
         </div>
       </div>

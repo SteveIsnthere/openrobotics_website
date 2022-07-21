@@ -67,7 +67,7 @@ const Team = () => {
       <div className="container">
          
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Arm Team</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl text-center">RoboCup Arm Team</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Arm.map((lead) => (
                    <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
@@ -76,7 +76,7 @@ const Team = () => {
           </div>
 
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Train Team</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl text-center">RoboCup Train Team</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Train.map((lead) => (
                    <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
@@ -85,7 +85,7 @@ const Team = () => {
           </div>
 
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Gripper Team</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl text-center">RoboCup Gripper Team</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Gripper.map((lead) => (
                    <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
@@ -94,7 +94,7 @@ const Team = () => {
           </div>
 
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">RoboCup Software Team</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl text-center">RoboCup Software Team</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Software.map((lead) => (
                    <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
