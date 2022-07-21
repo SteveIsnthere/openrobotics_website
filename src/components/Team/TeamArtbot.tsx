@@ -32,7 +32,7 @@ const Team = () => {
     <section className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
       <div className="container">
           <div className='my-16 mx-[5%]'>
-            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">The ArtBot Team</h1>
+            <h1  className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl text-center">The ArtBot Team</h1>
             <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {ArtBot.map((lead) => (
                    <Member name={lead.name} position={lead.position} linkedin={lead.linkedin} github={lead.github} img={lead.img} email={lead.email}/>
