@@ -1,16 +1,25 @@
 import React from 'react';
-import Member from './components/Team/Member';
+
+//main components
 import Navbar from './components/Navbar/Navbar';
-import Robocup from './components/Projects/Robocup';
-import Team from './components/Team/TeamRobocup';
+import Team from './components/Team/Team';
+import Contact from './components/ContactPage/ContactPage'
+import Recruitment from './components/Recruitment/Recruitment';
 import Footer from './components/Footer/Footer';
+
+// teams
+import Robocup from './components/Projects/Robocup';
+import RoboCupTeam from './components/Team/TeamRobocup';
+
+
 
 function App() {
   return (
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
-       <Robocup />
-       <Team />
+       <Recruitment/>
+       <Contact/>
+       <Team/>
        <Footer/>
     </div>
   );
