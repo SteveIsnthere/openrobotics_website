@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Team from './components/Team/Team';
 import Contact from './components/ContactPage/ContactPage'
 import Recruitment from './components/Recruitment/Recruitment';
+import Map from './components/Home/Map';
 import Footer from './components/Footer/Footer';
 
 // teams
@@ -19,8 +20,7 @@ function App() {
   return (
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
-       <PianoBot />
-        <RoboCupTeam />
+       <Map />
        <Footer/>
     </div>
   );
