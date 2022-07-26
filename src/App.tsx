@@ -2,11 +2,20 @@ import React from 'react';
 
 //main components
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
+//Team
 import Team from './components/Team/Team';
 import Contact from './components/ContactPage/ContactPage'
 import Recruitment from './components/Recruitment/Recruitment';
+
+//Landing
+
+import Hero from './components/Home/Hero';
+import Sponsor from './components/Home/Sponsor';
+import Home from './components/Home/Home';
+import Projects from './components/Home/Projects';
 import Map from './components/Home/Map';
-import Footer from './components/Footer/Footer';
 
 // teams
 import RoboCup from './components/Projects/Robocup';
@@ -20,6 +29,10 @@ function App() {
   return (
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
+       <Hero />
+       <Sponsor />
+       <Home />
+       <Projects />
        <Map />
        <Footer/>
     </div>
