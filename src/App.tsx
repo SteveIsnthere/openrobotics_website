@@ -30,9 +30,8 @@ function App() {
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
        <Hero />
-       <Sponsor />
        <Home />
-       <Projects />
+      
        <Map />
        <Footer/>
     </div>
