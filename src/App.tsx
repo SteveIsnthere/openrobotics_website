@@ -31,7 +31,8 @@ function App() {
        <Navbar/>
        <Hero />
        <Home />
-      
+       <Projects/>
+       <Sponsor/>
        <Map />
        <Footer/>
     </div>
