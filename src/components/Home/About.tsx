@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -29,12 +30,12 @@ function About() {
           UBC Open Robotics, nicknamed 'OpBots', is an advanced robotics design team at The University of British Columbia. Together, we represent approximately 60 students from various faculties. Our three projects allow us to explore different aspects of mechatronics; from a piano-playing robot, to a painting robot, to an advanced humanoid service bot, we have it all!
           </p>
 
-          <a
+          <Link
             className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
-            href="#"
+            to="/Team"
           >
             Meet the Team
-          </a>
+          </Link>
         </div>
       </div>
     </div>

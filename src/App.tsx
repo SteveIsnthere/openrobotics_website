@@ -19,6 +19,8 @@ import Recruitment from './components/Recruitment/Recruitment';
 //Landing
 
 import Home from './components/Home/Home';
+import Projects from './components/Home/Projects';
+import Sponsor from './components/Home/Sponsor';
 
 // teams
 import RoboCup from './components/Projects/Robocup';
@@ -39,6 +41,8 @@ function App() {
         <Route path="/Team" element={<Team />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Recruitment" element={<Recruitment />} />
+        <Route path="/Sponsor" element={<Sponsor />} />
+        <Route path="/Projects" element={<Projects />} />
         <Route path="*" element={<Navigate to="/"/>} />
        </Routes>
        <Footer/>

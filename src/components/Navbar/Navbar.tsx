@@ -7,10 +7,10 @@ const Navbar = () =>{
   const [state, setState] = useState(false)
   const navigation = [
     { title: "Home", path: "/" },
-    { title: "Projects", path: "#" },
+    { title: "Projects", path: "/Projects" },
     { title: "Our Team", path: "/Team" },
     { title: "Contact Us", path: "/Contact" },
-    { title: "Sponsors", path: "#" }
+    { title: "Sponsors", path: "/Sponsor" }
 ]
   return (
     <section className='w-full mb-8 font-Roboto300 fixed z-20'>
