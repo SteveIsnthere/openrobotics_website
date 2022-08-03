@@ -21,7 +21,7 @@ function Projects() {
             <h1 className="text-4xl uppercase font-bold xs:text-5xl md:text-6xl">
               ARTBOT
             </h1>
-            <p className="text-lg">Ongoing project</p>
+            <p className="text-lg">Completed Project</p>
           </div>
         </div>
       </section>
