@@ -5,10 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 function Project() {
   return (
@@ -18,12 +17,13 @@ function Project() {
           Our Projects
         </h2>
       </div>
+      <div className="relative max-w-screen-xl px-4 py-5 mx-auto">
       <Swiper
         spaceBetween={30}
-        slidesPerGroup={3}
-        centeredSlides={true}
-        navigation={true}
-        modules={[Navigation]}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
         className="mySwiper center"
         breakpoints={{
           // when window width is >= 640px
@@ -120,6 +120,7 @@ function Project() {
           </a>
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }
