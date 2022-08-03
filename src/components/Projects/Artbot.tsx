@@ -1,7 +1,10 @@
 import React from "react";
 
+import ArtBotTeam from './TeamArtbot';
+
 function Projects() {
   return (
+    <>
     <div>
       {/* Hero Area Start */}
       <section
@@ -148,6 +151,8 @@ function Projects() {
       {/* End Preloader */}
       {/* All js Here */}
     </div>
+    <ArtBotTeam />
+    </>
   );
 }
 

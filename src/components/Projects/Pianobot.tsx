@@ -1,7 +1,10 @@
 import React from "react";
 
+import PianoBotTeam from './TeamPianobot';
+
 function Projects() {
   return (
+    <>
     <div>
       {/* Hero Area Start */}
       <section
@@ -146,6 +149,8 @@ function Projects() {
       {/* End Preloader */}
       {/* All js Here */}
     </div>
+    <PianoBotTeam />
+    </>
   );
 }
 

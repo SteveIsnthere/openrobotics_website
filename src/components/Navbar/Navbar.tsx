@@ -1,14 +1,15 @@
 import React from 'react'
 import { useState } from 'react'
 import Logo from '../Navbar/logo.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () =>{
   const [state, setState] = useState(false)
   const navigation = [
-    { title: "Home", path: "#" },
+    { title: "Home", path: "/" },
     { title: "Projects", path: "#" },
-    { title: "Our Team", path: "#" },
-    { title: "Join Us", path: "#" },
+    { title: "Our Team", path: "/Team" },
+    { title: "Contact Us", path: "/Contact" },
     { title: "Sponsors", path: "#" }
 ]
   return (
@@ -48,9 +49,9 @@ const Navbar = () =>{
                           navigation.map((item, idx) => {
                               return (
                                 <li key={idx} className="text-gray-600 hover:text-red-600 hover:font-semibold">
-                                    <a href={item.path}>
+                                    <Link to={item.path}>
                                         { item.title }
-                                    </a>
+                                    </Link>
                                 </li>
                               )
                           })

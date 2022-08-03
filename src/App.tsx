@@ -1,8 +1,15 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate
+} from "react-router-dom";
 
 //main components
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from "./ScrollToTop";
 
 //Team
 import Team from './components/Team/Team';
@@ -11,31 +18,32 @@ import Recruitment from './components/Recruitment/Recruitment';
 
 //Landing
 
-import Hero from './components/Home/Hero';
-import Sponsor from './components/Home/Sponsor';
 import Home from './components/Home/Home';
-import Projects from './components/Home/Projects';
-import Map from './components/Home/Map';
 
 // teams
 import RoboCup from './components/Projects/Robocup';
-import RoboCupTeam from './components/Team/TeamRobocup';
 import ArtBot from './components/Projects/Artbot';
-import ArtBotTeam from './components/Team/TeamArtbot';
 import PianoBot from './components/Projects/Pianobot';
-import PianoBotTeam from './components/Team/TeamPianobot';
 
 function App() {
   return (
+    <Router>
+      <ScrollToTop />
     <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
        <Navbar/>
-       <Hero />
-       <Home />
-       <Projects/>
-       <Sponsor/>
-       <Map />
+       <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Robocup" element={<RoboCup />} />
+        <Route path="/Artbot" element={<ArtBot />} />
+        <Route path="/Pianobot" element={<PianoBot />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Recruitment" element={<Recruitment />} />
+        <Route path="*" element={<Navigate to="/"/>} />
+       </Routes>
        <Footer/>
     </div>
+    </Router>
   );
 }
 

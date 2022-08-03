@@ -1,7 +1,10 @@
 import React from "react";
 
+import RoboCupTeam from './TeamRobocup';
+
 function Projects() {
   return (
+    <>
     <div>
       {/* Hero Area Start */}
       <section
@@ -151,6 +154,8 @@ function Projects() {
       {/* End Preloader */}
       {/* All js Here */}
     </div>
+    <RoboCupTeam />
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -39,9 +40,9 @@ function Project() {
         }}
       >
         <SwiperSlide>
-          <a
+          <Link to="/Artbot"
             className="block overflow-hidden border border-gray-100 rounded-lg shadow-sm"
-            href=""
+            
           >
             <img
               className="object-cover w-full h-56"
@@ -63,12 +64,12 @@ function Project() {
                 <span aria-hidden="true">&rarr;</span>
               </div>
             </div>
-          </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <a
+          <Link to="/Pianobot"
             className="block overflow-hidden border border-gray-100 rounded-lg shadow-sm"
-            href=""
+
           >
             <img
               className="object-cover w-full h-56"
@@ -90,12 +91,12 @@ function Project() {
                 <span aria-hidden="true">&rarr;</span>
               </div>
             </div>
-          </a>
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <a
+          <Link to="/Robocup"
             className="block overflow-hidden border border-gray-100 rounded-lg shadow-sm"
-            href=""
+            
           >
             <img
               className="object-cover w-full h-56"
@@ -117,7 +118,7 @@ function Project() {
                 <span aria-hidden="true">&rarr;</span>
               </div>
             </div>
-          </a>
+          </Link>
         </SwiperSlide>
       </Swiper>
       </div>

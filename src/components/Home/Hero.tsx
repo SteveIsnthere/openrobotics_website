@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   const [state, setState] = useState(false);
@@ -29,9 +30,9 @@ function Hero() {
       </p>
 
       <div className="flex flex-wrap gap-4 mt-8 text-center">
-        <a className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-red-800 sm:w-auto active:bg-red-600 hover:bg-red-700 focus:outline-none focus:ring" href="/get-started">
+        <Link to="/Recruitment" className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-red-800 sm:w-auto active:bg-red-600 hover:bg-red-700 focus:outline-none focus:ring">
           Join Us
-        </a>
+        </Link>
 
         <a className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-red-800 sm:w-auto hover:text-red-700 active:text-red-600 focus:outline-none focus:ring" href="/about">
           Learn More 🤔
