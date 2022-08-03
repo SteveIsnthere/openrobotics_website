@@ -59,7 +59,7 @@ const Navbar = () =>{
                   </ul>
               </div>
               <div className="hidden md:inline-block">
-                <a href="#" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600 text-gray-900 hover:text-gray-200 font-bold rounded-md shadow">
+                <a href="https://donate.support.ubc.ca/page/20924/donate/1?transaction.dirgift=Open+Robotics+Student+Team%20G1102" className="py-3 px-4 border-2 border-red-600 hover:bg-red-600 text-gray-900 hover:text-gray-200 font-bold rounded-md shadow">
                     Donate
                 </a>
               </div>
