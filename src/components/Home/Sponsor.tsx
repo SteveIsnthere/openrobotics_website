@@ -14,7 +14,7 @@ function Sponsor() {
   return (
     <section>
       <div className="relative max-w-screen-xl px-4 py-5 mx-auto">
-        <h2 className="text-4xl font-bold py-14 text-center tracking-tight sm:text-5xl">
+        <h2 className="text-4xl font-bold py-14 mt-5 text-center tracking-tight sm:text-5xl">
           Sponsorship
         </h2>
 

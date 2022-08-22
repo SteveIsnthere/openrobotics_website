@@ -14,7 +14,7 @@ function Project() {
   return (
     <>
       <div className="relative max-w-screen-xl px-4 py-5 mx-auto">
-        <h2 className="text-4xl py-14 text-center font-bold tracking-tight sm:text-5xl">
+        <h2 className="text-4xl py-14 mt-5 text-gray-900 text-center font-bold tracking-tight sm:text-5xl">
           Our Projects
         </h2>
       </div>
