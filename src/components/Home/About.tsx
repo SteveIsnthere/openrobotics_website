@@ -34,7 +34,7 @@ function About() {
               </p>
 
               <Link
-                className="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-red-600 border border-red-600 rounded active:text-red-500 hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring"
+                className="inline-block px-12 py-3 mt-8 text-md font-medium text-white bg-red-600 border border-red-600 rounded active:text-red-500 hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring"
                 to="/Team"
               >
                 Meet the Team

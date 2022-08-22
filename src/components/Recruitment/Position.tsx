@@ -24,13 +24,12 @@ const Position = (props: Props) => {
     return !visible ? "rounded-t-none" : " ";
   };
   return (
-    <div className="flex flex-col w-full py-4">
+    <div className="flex flex-col w-full py-4" onClick={() => setArrow(!arrow)}>
       <div
         className={
           "flex py-4 mt-4 flex-row justify-between text-center items-start font-bold rounded-lg border-b-2 border-l-2 border-r-2 border-gray-200 bg-gray-200 text-gray-900 w-full " +
           removeBorder(arrow)
         }
-        onClick={() => setArrow(!arrow)}
       >
         <h1 className="mx-2">{props.name}</h1>
         <button className="outline-none style-none border-none bg-gray-200">

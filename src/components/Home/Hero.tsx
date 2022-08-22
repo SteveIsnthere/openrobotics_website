@@ -18,10 +18,10 @@ function Hero() {
 
         <div className="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
           <div className="max-w-xl text-center sm:text-left">
-            <h1 className="text-3xl font-extrabold sm:text-5xl">
+            <h1 className="text-3xl font-extrabold sm:text-5xl text-gray-900">
               UBC OPEN ROBOTICS<br></br>
-              <strong className="font-extrabold text-red-800 sm:block">
-                Creating Robots, improving Humans
+              <strong className="font-extrabold text-red-700 sm:block">
+                Automation, Innovation, and Mentorship
               </strong>
             </h1>
 
@@ -32,13 +32,13 @@ function Hero() {
             <div className="flex flex-wrap gap-4 mt-8 text-center">
               <Link
                 to="/Recruitment"
-                className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-red-800 sm:w-auto active:bg-red-600 hover:bg-red-700 focus:outline-none focus:ring"
+                className="block w-full px-12 py-3 text-md font-medium text-white rounded shadow bg-red-700 sm:w-auto  hover:bg-red-600 focus:outline-none focus:ring"
               >
                 Join Us
               </Link>
 
               <a
-                className="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-red-800 sm:w-auto hover:text-red-700 active:text-red-600 focus:outline-none focus:ring"
+                className="block w-full px-12 py-3 text-md font-medium bg-white rounded shadow text-red-600 sm:w-auto hover:bg-gray-100  focus:outline-none focus:ring"
                 href="/about"
               >
                 Learn More 🤔

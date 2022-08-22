@@ -149,7 +149,7 @@ function Projects() {
         {/* End Preloader */}
         {/* All js Here */}
       </div>
-      <PianoBotTeam />
+      {/* <PianoBotTeam /> */}
     </>
   );
 }

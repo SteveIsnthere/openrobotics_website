@@ -59,7 +59,7 @@ function Project() {
                   robot that can paint 2D compositions!
                 </p>
 
-                <div className="inline-block pb-1 mt-4 font-medium text-blue-600 border-b border-blue-500 ">
+                <div className="inline-block pb-1 mt-4 font-medium text-red-600 border-b border-red-600 ">
                   Find out more
                   <span aria-hidden="true">&rarr;</span>
                 </div>
@@ -78,14 +78,14 @@ function Project() {
               />
 
               <div className="p-6">
-                <h5 className="text-xl font-bold">PIANO BOT</h5>
+                <h5 className="text-xl font-bold">PIANOBOT</h5>
 
                 <p className="mt-2 text-sm text-gray-500">
                   The Pianobot project allows students with a passion for music
                   and robotics to combine their interests into one fun project!
                 </p>
 
-                <div className="inline-block pb-1 mt-4 font-medium text-blue-600 border-b border-blue-500 ">
+                <div className="inline-block pb-1 mt-4 font-medium text-red-600 border-b border-red-600 ">
                   Find out more
                   <span aria-hidden="true">&rarr;</span>
                 </div>
@@ -111,7 +111,7 @@ function Project() {
                   service and assistance robot technology for household usage.
                 </p>
 
-                <div className="inline-block pb-1 mt-4 font-medium text-blue-600 border-b border-blue-500 ">
+                <div className="inline-block pb-1 mt-4 font-medium text-red-600 border-b border-red-600 ">
                   Find out more
                   <span aria-hidden="true">&rarr;</span>
                 </div>
