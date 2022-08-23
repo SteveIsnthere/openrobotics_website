@@ -42,8 +42,8 @@ const Team = () => {
   ];
   const PianoBot:Array<Person> = [
     // new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
-    new Person("Veronica Nguyen"      , 'PianoBot Lead - Software'   , 'im' , 'im' , "assets/img/pianobot/veronica.png" ,'im'),
-    new Person("Samuel Krisetia"      , "PianoBot Lead - Mechanical"   , "im" , "im" , " ", "im")
+    new Person("Veronica Nguyen"      , 'Software Lead'   , 'im' , 'im' , "assets/img/pianobot/veronica.png" ,'im'),
+    new Person("Samuel Krisetia"      , "Mechanical Lead"   , "im" , "im" , "assets/img/default_profile.jpg", "im")
     // new Person("Evan Liu"             , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/evan.png"     ,'im'),
     // new Person("Fernando Ng"          , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/fernando.png" ,'im'),
     // new Person("Karthik Ravichandran" , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/karthik.png"  ,'im'),
@@ -59,11 +59,11 @@ const Team = () => {
     new Person("Benji Li"         , 'ArtBot Member' , 'im' , 'im' , 'assets/img/artbot/benji.png'    , 'im'),
   ];
   const Arm:Array<Person> = [
-    new Person("Joey Gaffney"     , 'Arm Lead - Electrical'   , 'im' , 'im' , 'assets/img/arm/joey.png'        , 'im'),
+    new Person("Joey Gaffney"     , 'Electrical Lead'   , 'im' , 'im' , 'assets/img/arm/joey.png'        , 'im'),
     // new Person("Arwin Patrick"    , 'Arm Lead'   , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
     // new Person("Jonas Chianu"     , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/jonas.png'       , 'im'),
     // new Person("Hazel Chongoti"   , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/hazel.png'       , 'im'),
-    new Person("David Kim"        , 'Arm Lead - Mechanical' , 'im' , 'im' , 'assets/img/arm/david.png'       , 'im'),
+    new Person("David Kim"        , 'Mechanical Lead' , 'im' , 'im' , 'assets/img/arm/david.png'       , 'im'),
     // new Person("Debby Lin"        , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/debby.png'       , 'im'),
     // new Person("Cailin Ringstorm" , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
     // new Person("Iris Xu"          , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
@@ -71,7 +71,7 @@ const Team = () => {
     // new Person("Grace Zhang"      , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
   ];
   const Train:Array<Person> = [
-    new Person("David Kim"        , 'Drivetrain Lead - Mechanical' , 'im' , 'im' , 'assets/img/arm/david.png', "im"),
+    new Person("David Kim"        , 'Mechanical Lead' , 'im' , 'im' , 'assets/img/arm/david.png', "im"),
     // new Person("Kuok Kun(AO) Chio" , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/kuok.png'      , 'im'),
     // new Person("Yang Su"           , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/yang.png'      , 'im'),
     // new Person("Kamran Alam"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/kamran.png'    , 'im'),
@@ -79,10 +79,10 @@ const Team = () => {
     // new Person("Vishal Desh"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
     // new Person("Yoshi Inomata"     , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/yoshi.png'     , 'im'),
     // new Person("Eros Rojas"        , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/eros.png'      , 'im'),
-    new Person("Tian Hao Xu"       , 'Drivetrain Lead - Electrical' , 'im' , 'im' , 'assets/img/train/tian.png'      , 'im'),
+    new Person("Tian Hao Xu"       , 'Electrical Lead' , 'im' , 'im' , 'assets/img/train/tian.png'      , 'im'),
   ];
   const Gripper:Array<Person> = [
-    new Person("Abdulmajeed Amran"   , 'Gripper Lead'   , 'im' , 'im' , ' ' , 'im'),
+    new Person("Abdulmajeed Amran"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
     // new Person("Matthew Sam"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/gripper/matthew.png' , 'im'),
     // new Person("Husein Alatas" , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/husein.png'  , 'im'),
     // new Person("Akhil Prabhu"  , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/akhil.png'   , 'im'),
@@ -90,8 +90,8 @@ const Team = () => {
     // new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
   ];
   const Software:Array<Person> = [
-    new Person("Francisco Farinha" , 'RoboCup@Home Lead - Software'   , 'im' , 'im' , 'assets/img/software/francisco.png' , 'im'),
-    new Person("Andrew Xie"        , 'RoboCup@Home Lead - Software'   , 'im' , 'im' , 'assets/img/software/andrew.png'    , 'im'),
+    new Person("Francisco Farinha" , 'Software Lead'   , 'im' , 'im' , 'assets/img/software/francisco.png' , 'im'),
+    new Person("Andrew Xie"        , 'Software Lead'   , 'im' , 'im' , 'assets/img/software/andrew.png'    , 'im'),
     // new Person("Aayush Behl"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/aayush.png'    , 'im'),
     // new Person("Ashli Forbes"      , 'Software Member' , 'im' , 'im' , 'assets/img/default_profile.jpg'    , 'im'),
     // new Person("Damien Fung"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/damien.png'    , 'im'),

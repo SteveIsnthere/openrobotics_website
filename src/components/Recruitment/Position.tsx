@@ -53,7 +53,7 @@ const Position = (props: Props) => {
           <span className="font-normal text-gray-900">{props.positions}</span>
         </p>
         <p className="text-gray-900 font-bold px-4">
-          About the role :{" "}
+          Role Description :{" "}
           <span className="font-normal text-gray-900">{props.desc}</span>
         </p>
       </div>
