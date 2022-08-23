@@ -12,9 +12,9 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Sponsor() {
   return (
-    <>
+    <section>
       <div className="relative max-w-screen-xl px-4 py-5 mx-auto">
-        <h2 className="text-4xl font-bold py-14 text-center tracking-tight sm:text-5xl">
+        <h2 className="text-4xl font-bold py-14 mt-5 text-center tracking-tight sm:text-5xl">
           Sponsorship
         </h2>
 
@@ -32,14 +32,14 @@ function Sponsor() {
         </p>
         <div className="flex flex-wrap gap-4 mt-8 text-center">
           <a
-            className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-red-800 sm:w-auto active:bg-red-600 hover:bg-red-700 focus:outline-none focus:ring"
+            className="block w-full px-12 py-3 text-md font-medium text-white rounded shadow bg-red-600 sm:w-auto hover:bg-red-700 focus:outline-none focus:ring"
             href="https://donate.support.ubc.ca/page/20924/donate/1?transaction.dirgift=Open+Robotics+Student+Team%20G1102"
           >
             Sponsor Us Now
           </a>
 
           <a
-            className="block w-full px-12 py-3 text-sm font-medium bg-red-200 rounded shadow text-red-800 sm:w-auto hover:text-red-700 active:text-red-600 focus:outline-none focus:ring"
+            className="block w-full px-12 py-3 text-md font-medium bg-gray-900 rounded shadow text-gray-200 sm:w-auto hover:text-white  focus:outline-none focus:ring"
             href="SponsorshipPackage.pdf"
           >
             Sponsorship Guide
@@ -64,7 +64,7 @@ function Sponsor() {
           <img src="assets/img/sponsor/RioTinto.png" />
         </SwiperSlide>
       </Swiper>
-    </>
+    </section>
   );
 }
 

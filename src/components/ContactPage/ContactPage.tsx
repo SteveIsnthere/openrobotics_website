@@ -14,7 +14,7 @@ const ContactPage = () => {
                 <div
                   className="
                             max-w-[60px]
-                            sm:max-w-[70px] w-full text-red-700 h-[60px] sm:h-[70px] flex items-center justify-center mr-6 overflow-hidden bg-primary bg-opacity-5 text-primary rounded
+                            sm:max-w-[70px] w-full text-red-600 h-[60px] sm:h-[70px] flex items-center justify-center mr-6 overflow-hidden bg-primary bg-opacity-5 text-primary rounded
                             "
                 >
                   <svg
@@ -43,7 +43,7 @@ const ContactPage = () => {
                             w-full
                             h-[60px]
                             sm:h-[70px]
-                            text-red-700
+                            text-red-600
                             flex
                             items-center
                             justify-center
@@ -68,7 +68,7 @@ const ContactPage = () => {
                     Email Address
                   </h4>
                   <p className="text-base text-body-color">
-                    ubcopenrobotics@gmail.com
+                    intelligence@www.ubcopenrobotics.ca
                   </p>
                 </div>
               </div>
@@ -76,10 +76,11 @@ const ContactPage = () => {
           </div>
           <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-              <form>
+              <form action="https://formsubmit.co/eeb7e242b7ca7870dcc264b5e1d28365" method="POST">
                 <div className="mb-6">
                   <input
                     type="email"
+                    name = "email"
                     placeholder="Email"
                     className="
                                 w-full
@@ -97,6 +98,7 @@ const ContactPage = () => {
                 <div className="mb-6">
                   <textarea
                     rows={6}
+                    name = "Description"
                     placeholder="Your Message"
                     className="
                                 w-full

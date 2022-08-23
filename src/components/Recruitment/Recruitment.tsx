@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import Position from "./Position";
+import { Link } from "react-router-dom";
 
 class Role {
   title: string;
@@ -35,7 +36,7 @@ const Recruitment = () => {
   ];
 
   return (
-    <section className="flex flex-col m-[10%] py-10 md:mt-24 sm:mt-60 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg justify-center items-center">
+    <section className="flex flex-col m-[10%] py-10 md:mt-24 sm:mt-30 xs:mt-60 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl justify-center items-center">
       <h1 className="text-3xl py-4 font-extrabold md:text-5xl text-gray-900">
         Current Openings
       </h1>
@@ -49,10 +50,13 @@ const Recruitment = () => {
         our applications are open to students across all faculties and of
         varying skill levels. We look forward to your applications! For further
         questions please{" "}
-        <span className="font-bold text-red-500 cursor-pointer hover:text-red-700">
-          contact
-        </span>{" "}
-        us
+        <Link
+                className="font-bold text-red-500 cursor-pointer hover:text-red-700"
+                to="/Contact"
+              >
+                contact 
+        </Link>
+        {" "}us
       </p>
       {positions.map((position: Role) => (
         <Position

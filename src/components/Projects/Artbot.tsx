@@ -152,7 +152,7 @@ function Projects() {
         {/* End Preloader */}
         {/* All js Here */}
       </div>
-      <ArtBotTeam />
+      {/* <ArtBotTeam /> */}
     </>
   );
 }
