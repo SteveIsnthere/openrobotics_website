@@ -34,7 +34,7 @@ const Position = (props: Props) => {
         }
         onClick={() => setArrow(!arrow)}
       >
-        <h1 className="mx-2">{props.name}</h1>
+        <h1 className="mx-2">{props.name} {" "} - {props.team}</h1>
         <button className="outline-none style-none border-none bg-gray-200">
           {arrow ? (
             <AiOutlineDown className="mx-4 my-1 font-bold" />
