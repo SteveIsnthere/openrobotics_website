@@ -76,7 +76,7 @@ const ContactPage = () => {
           </div>
           <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div className="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-              <form action="https://intelligence@www.ubcopenrobotics.ca" method="POST">
+              <form action="https://formsubmit.co/intelligence@www.ubcopenrobotics.ca" method="POST">
                 <div className="mb-6">
                   <input
                     type="email"
