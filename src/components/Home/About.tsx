@@ -9,8 +9,8 @@ function About() {
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
               <img
-                className="absolute inset-0 object-cover w-full h-full"
-                src="assets/img/wallpaper.png"
+                className="absolute rounded-lg inset-0 object-cover w-full h-full"
+                src="assets/img/team_photo.jpg"
                 alt="About Us"
               />
             </div>
