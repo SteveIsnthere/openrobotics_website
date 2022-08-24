@@ -64,7 +64,7 @@ const Position = (props: Props) => {
           Preffered Qualifications :{" "}
           <br></br>
           {props.qualifications.map((qual:string) => <div>
-            <span className="font-normal text-gray-900"> - {" "}{"  "} {qual}</span>
+            <span className="font-normal text-gray-900"> {qual}</span>
             <br></br>
             </div>)}
         </p>
@@ -72,7 +72,7 @@ const Position = (props: Props) => {
           Bonus Qualifications :{" "}
           <br></br>
           {props.pref.map((qual:string) => <div>
-            <span className="font-normal text-gray-900"> - {" "}{"  "} {qual}</span>
+            <span className="font-normal text-gray-900"> {qual}</span>
             <br></br>
             </div>)
           }

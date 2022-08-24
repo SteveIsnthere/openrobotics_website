@@ -36,8 +36,10 @@ const Recruitment = () => {
        1,
        "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as improvements to current design. \n ",
        "PianoBot",
-       ["Mechanical Major with CAD experience", "Proficient with SolidWorks and OnShape", "Able to work with a team!"],
-       ["DFAD", "DSFSDDS" , "DSFSDDS"],
+       ["● Mechanical Major with CAD experience", "● Proficient with SolidWorks and OnShape", "● Able to work with a team!"],
+       ["● Comfortable taking initiative and responsibility for sub-projects",
+        "● Effectively communicates with the team",
+        "● Eager to learn and provide insight"],
     ),
   ];
 
