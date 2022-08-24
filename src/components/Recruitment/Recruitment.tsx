@@ -9,30 +9,36 @@ class Role {
   positions: number;
   team: string;
   description: string;
+  qualifications : Array<string>;
+  pref : Array<string>;
 
   constructor(
     title: string,
     positions: number,
     description: string,
-    team: string
+    team: string,
+    qualifications:Array<string>,
+    pref: Array<string>,
   ) {
     this.title = title;
     this.positions = positions;
     this.team = team;
     this.description = description;
+    this.qualifications = qualifications;
+    this.pref = pref;
   }
 }
 
 const Recruitment = () => {
   const positions: Array<Role> = [
     new Role(
-      "Full Stack Developer",
-      2,
-      "yuh fajkd adjldsf afkjdsfs adfkjsfkasdjfa;slkfj ds f;sdkfj sd;kljf",
-      "Admin"
+       "Mechanical Engineer",
+       1,
+       "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as improvements to current design. \n ",
+       "PianoBot",
+       ["Mechanical Major with CAD experience", "Proficient with SolidWorks and OnShape", "Able to work with a team!"],
+       ["DFAD", "DSFSDDS" , "DSFSDDS"],
     ),
-    new Role("Software Engineer", 3, "Do something", "RoboCup"),
-    new Role("Mechanical Engineer", 5, "YEHJDFA", "PianoBot"),
   ];
 
   return (
@@ -64,6 +70,8 @@ const Recruitment = () => {
           positions={position.positions}
           team={position.team}
           desc={position.description}
+          qualifications={position.qualifications}
+          pref = {position.pref}
         />
       ))}
       <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">

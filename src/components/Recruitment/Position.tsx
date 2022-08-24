@@ -7,6 +7,8 @@ interface Props {
   positions: number;
   team: string;
   desc: string;
+  qualifications : Array<string>,
+  pref : Array<string>,
 }
 
 const Position = (props: Props) => {
@@ -43,7 +45,7 @@ const Position = (props: Props) => {
       </div>
       <div
         className={
-          "w-full text-center flex flex-col justify-start items-start rounded-lg py-4 bg-white border-2 border-gray-200 border-t-gray-200 mt-0 " +
+          "w-full text-start flex flex-col justify-start items-start rounded-lg py-4 bg-white border-2 border-gray-200 border-t-gray-200 mt-0 " +
           set(arrow) +
           " " +
           border2(arrow)
@@ -53,9 +55,27 @@ const Position = (props: Props) => {
           Number of positions :{" "}
           <span className="font-normal text-gray-900">{props.positions}</span>
         </p>
-        <p className="text-gray-900 font-bold px-4">
+        <p className="text-gray-900 font-bold px-4 mb-4">
           Role Description :{" "}
+          <br></br>
           <span className="font-normal text-gray-900">{props.desc}</span>
+        </p>
+        <p className="text-gray-900 font-bold px-4 mb-4">
+          Preffered Qualifications :{" "}
+          <br></br>
+          {props.qualifications.map((qual:string) => <div>
+            <span className="font-normal text-gray-900"> - {" "}{"  "} {qual}</span>
+            <br></br>
+            </div>)}
+        </p>
+        <p className="text-gray-900 font-bold px-4">
+          Bonus Qualifications :{" "}
+          <br></br>
+          {props.pref.map((qual:string) => <div>
+            <span className="font-normal text-gray-900"> - {" "}{"  "} {qual}</span>
+            <br></br>
+            </div>)
+          }
         </p>
       </div>
     </div>
