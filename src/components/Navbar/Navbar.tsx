@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
-              <img src={Logo} width={40} height={50} alt="OpBots Logo" />
+              <img src="assets/img/logo_update.png" width={115} height={160} alt="OpBots Logo" />
             </a>
             <div className="md:hidden">
               <button
