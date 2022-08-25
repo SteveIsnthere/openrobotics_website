@@ -96,6 +96,7 @@ const ContactPage = () => {
                   />
                  <input type="hidden" name="_next" value="https://verdant-donut-769bcf.netlify.app/"></input>
 					       <input type="hidden" name="_subject" value="Contact Submission - OpBots"></input>
+                 <input type="hidden" name="_captcha" value="false"></input>
                 </div>
                 <div className="mb-6">
                   <textarea
