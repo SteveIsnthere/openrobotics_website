@@ -23,15 +23,15 @@ const Team = () => {
   }
 
   const Leads:Array<Person> = [
-    new Person ("Matthew Poon"  , 'OpBots Captain' ,'im' ,'im' ,"assets/img/admin/matthew.png", 'im'),
-    new Person ("Fouad Elgamal" , 'OpBots Captain' ,'im' ,'im' ,"assets/img/admin/fouad.jpg" ,  'im'),
+    new Person ("Matthew Poon"  , 'OpBots Captain' ,'https://www.linkedin.com/in/matthew-poon-73626220b/?originalSubdomain=ca' ,'im' ,"assets/img/admin/matthew.png", 'im'),
+    new Person ("Fouad Elgamal" , 'OpBots Captain' ,'https://www.linkedin.com/in/fouad-elgamal/' ,'im' ,"assets/img/admin/fouad.jpg" ,  'im'),
   ];
 
   const Admin:Array<Person> = [
-    new Person("Sashank Shukla"  , 'Web Developer'    ,     'im' , 'im' , 'assets/img/admin/sashank.jpg'   , 'im'),
-    new Person("Inzaghi Moniaga" , 'Web Developer'    ,     'im' , 'im' , 'assets/img/admin/inzaghi.jpg'   , 'im'),
-    new Person("Ben Lu"          , 'Graphic Designer' ,     'im' , 'im' , 'assets/img/admin/ben.png'       , 'im'),
-    new Person("Dhriti Bansal" ,   'Social Media Manager' , 'im' , 'im' , 'assets/img/admin/dhriti.jpg', 'im'),
+    new Person("Sashank Shukla"  , 'Web Developer'    ,     'https://www.linkedin.com/in/sashank-shukla/' , 'im' , 'assets/img/admin/sashank.jpg'   , 'im'),
+    new Person("Inzaghi Moniaga" , 'Web Developer'    ,     'https://www.linkedin.com/in/inzaghi-moniaga-3692b7171/?originalSubdomain=ca' , 'https://github.com/InMDev' , 'assets/img/admin/inzaghi.jpg'   , 'https://inzaghi.tech/'),
+    new Person("Ben Lu"          , 'Graphic Designer' ,     'https://www.linkedin.com/in/-ben-lu-/' , 'im' , 'assets/img/admin/ben.png'       , 'im'),
+    new Person("Dhriti Bansal" ,   'Social Media Manager' , 'https://www.linkedin.com/in/dhriti-bansal/' , 'im' , 'assets/img/admin/dhriti.jpg', 'im'),
     // new Person("Kritika Joshi"   , 'Integration Lead' ,     'im' , 'im' , 'assets/img/admin/kritika.png'   , 'im'),
     // new Person("Niki Manesh"     , 'Mentor'           ,     'im' , 'im' , 'assets/img/admin/niki.png'      , 'im'),
     // new Person("Brian Zimmerman" , 'Finance Lead'     ,     'im' , 'im' , 'assets/img/admin/brian.png'     , 'im'),
@@ -42,8 +42,8 @@ const Team = () => {
   ];
   const PianoBot:Array<Person> = [
     // new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
-    new Person("Veronica Nguyen"      , 'Software Lead'   , 'im' , 'im' , "assets/img/pianobot/veronica.png" ,'im'),
-    new Person("Samuel Krisetia"      , "Mechanical Lead"   , "im" , "im" , "assets/img/default_profile.jpg", "im")
+    new Person("Veronica Nguyen"      , 'Software Lead'   , 'https://www.linkedin.com/in/n-veronica/' , 'im' , "assets/img/pianobot/veronica.png" ,'im'),
+    new Person("Samuel Krisetia"      , "Mechanical Lead"   , "https://www.linkedin.com/in/samuel-krisetia-515663161/" , "im" , "assets/img/default_profile.jpg", "im")
     // new Person("Evan Liu"             , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/evan.png"     ,'im'),
     // new Person("Fernando Ng"          , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/fernando.png" ,'im'),
     // new Person("Karthik Ravichandran" , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/karthik.png"  ,'im'),
