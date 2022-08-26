@@ -7,6 +7,7 @@ interface Props {
   positions: number;
   team: string;
   desc: string;
+  responsibilites: Array<string>,
   qualifications : Array<string>,
   pref : Array<string>,
 }
@@ -29,7 +30,7 @@ const Position = (props: Props) => {
     <div className="flex flex-col w-full py-4">
       <div
         className={
-          "flex py-4 mt-4 flex-row justify-between text-center items-start font-bold rounded-lg border-b-2 border-l-2 border-r-2 border-gray-200 bg-gray-200 text-gray-900 w-full " +
+          "flex py-4 mt-4 flex-row cursor-pointer justify-between text-center items-start font-bold rounded-lg border-b-2 border-l-2 border-r-2 border-gray-200 bg-gray-200 text-gray-900 w-full " +
           removeBorder(arrow)
         }
         onClick={() => setArrow(!arrow)}
@@ -61,10 +62,18 @@ const Position = (props: Props) => {
           <span className="font-normal text-gray-900">{props.desc}</span>
         </p>
         <p className="text-gray-900 font-bold px-4 mb-4">
+          Responsibilites :{" "}
+          <br></br>
+          {props.responsibilites.map((res:string) => <div>
+            <span className="font-normal text-gray-900"> • {" "} {res}</span>
+            <br></br>
+            </div>)}
+        </p>
+        <p className="text-gray-900 font-bold px-4 mb-4">
           Preffered Qualifications :{" "}
           <br></br>
           {props.qualifications.map((qual:string) => <div>
-            <span className="font-normal text-gray-900"> {qual}</span>
+            <span className="font-normal text-gray-900"> • {" "} {qual}</span>
             <br></br>
             </div>)}
         </p>
@@ -72,7 +81,7 @@ const Position = (props: Props) => {
           Bonus Qualifications :{" "}
           <br></br>
           {props.pref.map((qual:string) => <div>
-            <span className="font-normal text-gray-900"> {qual}</span>
+            <span className="font-normal text-gray-900"> • {" "} {qual}</span>
             <br></br>
             </div>)
           }

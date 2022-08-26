@@ -10,7 +10,7 @@ function Hero() {
       <section className="relative bg-blend-darken">
         <img
           className="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
-          src="assets/img/wallpaper.png"
+          src="assets/img/hero_image.png"
           alt="Team Picture"
         />
 
@@ -45,12 +45,12 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
+          {/* <div className="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
             <img
               src="assets/img/introduction-visual.png"
               className="w-full mx-auto hidden lg:block  lg:w-full"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </>
