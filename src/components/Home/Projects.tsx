@@ -18,7 +18,7 @@ function Project() {
           Our Projects
         </h2>
       </div>
-      <div className="relative max-w-screen-xl px-4 py-5 mx-auto">
+      <div className="flex max-w-screen-xl mx-auto items-center justify-center">
         <Swiper
           spaceBetween={30}
           pagination={{
