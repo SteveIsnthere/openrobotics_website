@@ -50,7 +50,7 @@ function Project() {
                 alt=""
               />
 
-              <div className="p-6">
+              <div className="p-6 h-60">
                 <h5 className="text-xl font-bold">ARTBOT</h5>
 
                 <p className="mt-2 text-sm text-gray-500">
@@ -77,7 +77,7 @@ function Project() {
                 alt=""
               />
 
-              <div className="p-6">
+              <div className="p-6 h-60">
                 <h5 className="text-xl font-bold">PIANOBOT</h5>
 
                 <p className="mt-2 text-sm text-gray-500">
@@ -103,7 +103,7 @@ function Project() {
                 alt=""
               />
 
-              <div className="p-6">
+              <div className="p-6 h-60">
                 <h5 className="text-xl font-bold">ROBOCUP@HOME</h5>
 
                 <p className="mt-2 text-sm text-gray-500">
