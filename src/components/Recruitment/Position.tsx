@@ -35,7 +35,7 @@ const Position = (props: Props) => {
         }
         onClick={() => setArrow(!arrow)}
       >
-        <h1 className="mx-2">{props.name} {" "} - {props.team}</h1>
+        <h1 className="mx-2 text-md">{props.name} {" "} - {props.team}</h1>
         <button className="outline-none style-none border-none bg-gray-200">
           {arrow ? (
             <AiOutlineDown className="mx-4 my-1 font-bold" />
@@ -64,7 +64,7 @@ const Position = (props: Props) => {
         <p className="text-gray-900 font-bold px-4 mb-4">
           Responsibilites :{" "}
           <br></br>
-          {props.responsibilites.map((res:string) => <div>
+          {props.responsibilites.map((res:string, idx) => <div key={idx}>
             <span className="font-normal text-gray-900"> • {" "} {res}</span>
             <br></br>
             </div>)}
@@ -72,7 +72,7 @@ const Position = (props: Props) => {
         <p className="text-gray-900 font-bold px-4 mb-4">
           Preffered Qualifications :{" "}
           <br></br>
-          {props.qualifications.map((qual:string) => <div>
+          {props.qualifications.map((qual:string, idx) => <div key={idx}>
             <span className="font-normal text-gray-900"> • {" "} {qual}</span>
             <br></br>
             </div>)}
@@ -80,7 +80,7 @@ const Position = (props: Props) => {
         <p className="text-gray-900 font-bold px-4">
           Bonus Qualifications :{" "}
           <br></br>
-          {props.pref.map((qual:string) => <div>
+          {props.pref.map((qual:string, idx) => <div key={idx}>
             <span className="font-normal text-gray-900"> • {" "} {qual}</span>
             <br></br>
             </div>)

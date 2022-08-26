@@ -190,8 +190,9 @@ const Recruitment = () => {
         </Link>
         {" "}us
       </p>
-      {positions.map((position: Role) => (
+      {positions.map((position: Role, idx) => (
         <Position
+          key = {idx}
           name={position.title}
           positions={position.positions}
           team={position.team}
