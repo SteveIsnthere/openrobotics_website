@@ -38,11 +38,8 @@ function Projects() {
                 Project Description
               </h2>
               <h2 className="mb-9 wow">
-                A robotic arm is a type of mechanical arm, usually programmable,
-                with similar functions to a human arm; the arm may be the sum
-                total of the mechanism or may be part of a more complex robot.
-                The links of such a manipulator are connected by joints allowing
-                either rotational motion or translational displacement.
+              Following UBC Open Robotics's success in the RoboCup@Home Education challenge that involved programming a standard platform robot, our goal is to take part in the RoboCup@Home 2023 in the open platform league. This entails designing and implementing an autonomous service robot to take part in the international competition. To realize this goal, three subteams have been formed, namely the Arms, Gripper and Drivetrain teams, each working on their respective parts of the robot.
+At the current point in our timeline, the robot has undergone extensive design and is currently being built and tested. As such, in the short term our professional development goals for members will be to gain experience in comprehensive testing and performing deisgn iterations as necessary as well as keeping detailed records of the process along the way. Detailed logs of tasks involved and practical knowledge required to implement the robot would be recorded and made open to future generations on UBC Open Robotics members. In the long term, having a flagship robot for the club would also be a huge learning opportunity for future members who would be able to modify and improve upon the robot at a fraction of the original cost.
               </h2>
 
               <div className="w-full lg:w-1/2">
