@@ -94,7 +94,7 @@ const ContactPage = () => {
                                 focus:border-red-600
                                 "
                   />
-                 <input type="hidden" name="_next" value="https://verdant-donut-769bcf.netlify.app/"></input>
+                 <input type="hidden" name="_next" value="https://openrobotics.ca/"></input>
 					       <input type="hidden" name="_subject" value="Contact Submission - OpBots"></input>
                  <input type="hidden" name="_captcha" value="false"></input>
                 </div>
