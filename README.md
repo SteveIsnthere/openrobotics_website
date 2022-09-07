@@ -1,5 +1,5 @@
 # UBC Open Robotics Website
 
-Tech : React, Typescript, TailwindCSS
+Tech Stack : React.js, Node.js, MongoDB, Typescript, TailwindCSS
 
-Lightmode website for UBC Open Robotics
+https://openrobotics.ca/
