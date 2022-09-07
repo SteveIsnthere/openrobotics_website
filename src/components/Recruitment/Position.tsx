@@ -4,7 +4,7 @@ import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 interface Props {
   name: string;
-  positions: number;
+  positions: string;
   team: string;
   desc: string;
   responsibilites: Array<string>,

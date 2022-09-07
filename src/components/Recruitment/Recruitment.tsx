@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 class Role {
   title: string;
-  positions: number;
+  positions: string;
   team: string;
   description: string;
   responsibilities: Array<string>;
@@ -15,7 +15,7 @@ class Role {
 
   constructor(
     title: string,
-    positions: number,
+    positions: string,
     description: string,
     team: string,
     responsibilities: Array<string>,
@@ -36,7 +36,7 @@ const Recruitment = () => {
   const positions: Array<Role> = [
        new Role(
          "Admin Member",
-         2,
+         '2',
          "We are looking for finance members to join our current administration team. This position will involve collaboration with the captains, and project leads to help secure sponsorships and other forms of funding for the team. ",
          "Finance",
          ["Seeking and applying for fundraising opportunities", 
@@ -54,7 +54,7 @@ const Recruitment = () => {
        ),
        new Role(
          "Mechanical Designer",
-         1,
+         '1',
          "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as making improvements to the current design.",
          "PianoBot",
          ["Attending up to 2 hours of general and sub-team meetings weekly",
@@ -70,7 +70,7 @@ const Recruitment = () => {
        ),
        new Role(
          "Electrical Engineer",
-         3,
+         '3',
          "Our Robocup@Home project involves cutting-edge R&D in the realm of service robotics. The team is progressing towards competing in the internationally-acclaimed Robocup Competition, @Home League. The Arms team is responsible for determining specifications, designing, and building an autonomous robotic manipulator for our Robocup@Home robot. This position focuses on the electrical side of the arm, but there will be collaboration with the mechanical team. ",
          "Robocup Arms",
          ["Assisting in the electrical design of the robotic arm including the arm’s control and power circuits", 
@@ -85,7 +85,7 @@ const Recruitment = () => {
        ),
        new Role(
         "Electrical Engineer",
-        3,
+        '3',
         "Our Robocup@Home team is progressing toward competing in the Robocup@Home competition for service robots. The Drivetrain team is responsible for designing and building the electrical portion of the drivetrain for our Robocup@Home robot. We have completed the design stage and are moving on to the testing stage with parts on the way. We would be involved in assembling and testing the drivetrain in the upcoming months. ",
         "Robocup Drivetrain",
         ["Design and test the firmware for the drivetrain", 
@@ -100,7 +100,7 @@ const Recruitment = () => {
        ),
        new Role(
         "Mechanical Designer",
-        2,
+        '2',
         "As mentioned on our website, the Robocup@Home project involves cutting-edge R&D in the realm of service robotics. The team is progressing towards competing in the internationally-acclaimed Robocup Competition, @Home League. The Gripper team is responsible for determining specifications, designing, testing, prototyping, and building a gripper claw for our Robocup@Home robot. ",
         "Robocup Gripper",
         [ "Reading various research papers on various implementations of robotic grippers ",
@@ -119,7 +119,7 @@ const Recruitment = () => {
        ),
        new Role(
         "1st year/2nd year MECH Student",
-        2,
+        ' ',
         "We’re looking to recruit bright-eyed first and second year students to give UBC Open Robotics some fresh blood. While these students will have responsibilities to carry out over the year, this role is less about what you can do for us and more about what we can do for you. We’re looking to train and tutor younger students and help transition them into excellent upper-year designers. We want to help you get more design, machining/manufacturing, and assembly work - a perfect combination of hands-on experience. Within the team, we have leadership roles we are looking to fill in the upcoming future. Step in and step up to not only become a stellar engineer, but also a confident leader. ",
         "Robocup Arms & Drivetrain",
         [ "Learn Computer-Aided Design (CAD) software to design/modify robotic manipulators", 
@@ -142,7 +142,7 @@ const Recruitment = () => {
        ),
        new Role(
         "Mechanical Designer",
-        2,
+        '2',
         "We’re looking to recruit MECH Designers for the Arm and Torso team in order to improve, iterate, and prototype our robot designs. This naturally involves a lot of design, machining/manufacturing, and assembly work - a perfect place to get more hands-on experience. As the team name might suggest, the Arm and Torso team are responsible for the upper half of the robot; this consists of a dynamic arm to interact with the environment, a static arm to support and carry loads, and a torso to provide extra directional translation, act as a skeletal support structure, and house the many mechanical and electrical components for the robot. Within the team, we have leadership roles we are looking to fill in the upcoming future. Step in and step up to not only become a stellar engineer, but also a confident leader." ,
         "Robocup Arms & Drivetrain",
         ["Use Computer-Aided Design (CAD) software to design/modify robotic manipulators", 
@@ -165,6 +165,22 @@ const Recruitment = () => {
           "Have post-secondary knowledge on electronics and exposure to electronic integration", 
           "Can rub your tummy and pat your head at the same time",
           ],
+       ),
+       new Role(
+         "Electrical Engineer",
+         '2',
+         'Pianobot project allows students with a passion for music and robotics to combine their interests into one fun project! Modeled off the standards of the Royal Conservatory of Music (RCM), students are aiming to have the robot play music pieces designed for pianists with qualifications of RCM level 4. The Pianobot team is composed of 3 subteams: software, electrical, and mechanical. Each group is involved in collaborating to design and build the robot. We are looking for additional electrical sub-team members for PianoBot that are here to stay!',
+         "PianoBot",
+         ['Attending up to 2 hours of general and sub-team meetings weekly',
+          'Assisting in the design and testing of electrical designs'],
+         ['Electrical Major with work/project experience (2nd year +)',
+          'Experience with circuit prototyping and debugging',
+          'Experience with using electrical test equipment',
+          'Able to work with a team'],
+         ['Experience with PCB testing and design',
+          'Comfortable taking initiative and responsibility for sub-projects',
+          'Effectively communicates with the team',
+          'Eager to learn and provide insight'],
        )
   ];
 
