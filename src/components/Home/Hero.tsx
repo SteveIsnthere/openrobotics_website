@@ -41,7 +41,7 @@ function Hero() {
                 className="block w-full px-12 py-3 text-md font-medium bg-white rounded shadow text-red-600 sm:w-auto hover:bg-gray-100  focus:outline-none focus:ring"
                 href="https://meet.google.com/ivj-gyjk-zsh?hs=122&authuser=0"
               >
-                Join Our Info session Here 🤔
+                Join Our Info Session Here 🤔
               </a>
             </div>
           </div>
