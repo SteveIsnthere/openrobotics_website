@@ -26,7 +26,7 @@ function Hero() {
             </h1>
 
             <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
-            Winter Application is Open!
+            Fall Recruitment Cycle has closed. Check back later for new positions!
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8 text-center">
