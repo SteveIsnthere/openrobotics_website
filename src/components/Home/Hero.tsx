@@ -26,7 +26,7 @@ function Hero() {
             </h1>
 
             <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
-            The info session is scheduled for Monday, September 12, at 7 p.m.
+            Winter Application is Open!
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8 text-center">
@@ -39,9 +39,9 @@ function Hero() {
 
               <a
                 className="block w-full px-12 py-3 text-md font-medium bg-white rounded shadow text-red-600 sm:w-auto hover:bg-gray-100  focus:outline-none focus:ring"
-                href="https://meet.google.com/ivj-gyjk-zsh?hs=122&authuser=0"
+                href="https://openrobotics.ca/Sponsor"
               >
-                Join Our Info Session Here 🤔
+                Support Us
               </a>
             </div>
           </div>
