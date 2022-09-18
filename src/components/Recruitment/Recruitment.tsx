@@ -213,11 +213,9 @@ const Recruitment = () => {
         Thank you for your interest!
       </h1>
       <p className="py-4 text-md md:text-lg  text-gray-500">
-        Our Fall Recruitment cycle is in full swing right now! If you're
-        interested in joining, apply for one of the positions listed below here. Note that
-        our applications are open to students across all faculties and of
-        varying skill levels. We look forward to your applications! For further
-        questions please{" "}
+        Thank you for your interest in UBC Open Robotics. Our Fall recruitment has just closed and we would like to thank everyone who
+        applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in January and positions will be found here. For any questions feel free to 
+        {" "}
         <Link
                 className="font-bold text-red-500 cursor-pointer hover:text-red-700"
                 to="/Contact"
