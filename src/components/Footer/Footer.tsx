@@ -33,7 +33,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               href="https://www.linkedin.com/company/ubc-open-robotics/mycompany/"
               title="Instagram"
-              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-500 text-gray-900 hover:bg-gray-300"
+              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-700 text-gray-900 hover:bg-gray-300"
             >
               <AiFillLinkedin />
             </a>
@@ -41,7 +41,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               href="https://github.com/openrobotics"
               title="Instagram"
-              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-500 text-gray-900 hover:bg-gray-300"
+              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-700 text-gray-900 hover:bg-gray-300"
             >
               <AiFillGithub />
             </a>
@@ -49,7 +49,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               href="https://www.facebook.com/UBCOpenRobotics/"
               title="Instagram"
-              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-500 text-gray-900 hover:bg-gray-300"
+              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-700 text-gray-900 hover:bg-gray-300"
             >
               <AiFillFacebook />
             </a>
@@ -57,7 +57,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               href="https://www.instagram.com/ubcopenrobotics/?hl=en"
               title="Instagram"
-              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-500 text-gray-900 hover:bg-gray-300"
+              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-700 text-gray-900 hover:bg-gray-300"
             >
               <AiFillInstagram />
             </a>
@@ -65,7 +65,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               href="mailto:intelligence@www.ubcopenrobotics.ca"
               title="Instagram"
-              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-500 text-gray-900 hover:bg-gray-300"
+              className="flex text-2xl items-center justify-center cursor-pointer w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-red-700 text-gray-900 hover:bg-gray-300"
             >
               <AiFillMail />
             </a>

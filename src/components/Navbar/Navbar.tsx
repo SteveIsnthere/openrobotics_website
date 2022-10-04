@@ -67,7 +67,7 @@ const Navbar = () => {
                 return (
                   <li
                     key={idx}
-                    className="text-gray-600 hover:text-red-600 hover:font-semibold"
+                    className="text-gray-900 hover:text-red-600 hover:font-semibold"
                     onClick={() => setState(!state)}
                   >
                     <Link to={item.path}>{item.title}</Link>
