@@ -2,8 +2,8 @@
 
 ### This repo holds the front-end components that are used for the UBC Open Robotics Team Website
 
-<div align="center"><img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/angular-icon.svg"/>
-<img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/bootstrap.svg"/>
+<div align="center">
+<img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/tailwind.svg"/>
 <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/react.svg"/>
 <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/typescript-icon.svg"/>
 </div>
