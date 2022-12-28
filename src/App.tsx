@@ -27,6 +27,9 @@ import RoboCup from "./components/Projects/Robocup";
 import ArtBot from "./components/Projects/Artbot";
 import PianoBot from "./components/Projects/Pianobot";
 
+// internal
+import Login from "./components/Member/Register";
+
 function App() {
   return (
     <Router>
@@ -43,6 +46,7 @@ function App() {
           <Route path="/Recruitment" element={<Recruitment />} />
           <Route path="/Sponsor" element={<Sponsor />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Admin" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
