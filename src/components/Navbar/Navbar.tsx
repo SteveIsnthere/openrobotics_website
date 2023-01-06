@@ -11,7 +11,7 @@ const Navbar = () => {
     { title: "Recruitment", path: "/Recruitment" },
     { title: "Contact Us", path: "/Contact" },
     { title: "Sponsors", path: "/Sponsor" },
-    { title: "Admin" , path: "/Admin"}
+    // { title: "Admin" , path: "/Admin"}
   ];
   return (
     <section className="w-screen mb-8 font-Roboto300 fixed z-20">

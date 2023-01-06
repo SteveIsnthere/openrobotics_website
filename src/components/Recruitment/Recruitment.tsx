@@ -33,6 +33,129 @@ class Role {
 }
 
 const Recruitment = () => {
+  const positions: Array<Role> = [
+     new Role(
+        "Admin Member",
+        '1',
+        "We are looking for a web developer to assist with the expansion of our new Open Robotics website.",
+        "Web Developer (Full-Stack)",
+        ["Discuss design requirements and new features with captains",
+         "Mantain current codebase and write clean new code for the website",
+        "Be a quick learner and open to using and learning new technologies"],
+        ["Proficient in JavaScript/TypeScript",
+         "Experience with full-stack technologies like React, Node, and Express",
+        ],
+        [
+          "Understanding and experience with NoSQL databases",
+          "Experience with tailwindCSS",
+        ],
+     ),
+     new Role(
+             "Mechanical Engineer",
+             '1-2',
+             "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as making improvements to the current design.",
+             "PianoBot",
+             ["3-D printing and prootyping",
+              "CAD Modelling",
+              "Critical thinking and design optimization (mainly weight optimization and manufacturing methods)",
+              ],
+             [ "Willingless to learn",
+               "Consistent communicator",
+               "Able to see a broad view of a project, able to understand why something needs to be done/changed and not just following instructions blindly" 
+              ],
+             [],
+           ),
+           new Role(
+            "Software Engineer",
+            'n/a',
+            `This is a position where you will work on a diverse range of challenges. You will need to be
+            practical yet creative as you will be required to troubleshoot difficult and often frustrating
+            problems.`,
+            "Robocup",
+            ["Experience with modeling software such as Solidworks/Onshape",
+            "Experience with sensors and actuators",
+            `Able to communicate and collaborate with other software and hardware
+            engineers,through sketches, block diagrams, flow charts, technical writing, and
+            presentations`,
+            `Must maintain proper and accurate documentation of engineering
+             research,developments, experiments, purchases, etc.`,
+             ],
+            [ `Exceptional eagerness to learn and become better`,
+              `Experience with instrumentation and soldering`,
+              `Creative and systematic troubleshooting aptitude. Skilled at reading research papers
+              and gleaning inspiration from them.`,
+              `Strong hands on prototyping skills`,
+              `Experience writing code (C++/Python)`,
+              `Experience using ROS`,
+             ], 
+             [],
+          ),
+          new Role(
+            "Electrical Engineer",
+            '3',
+            `Our Robocup@Home team is progressing toward competing in the Robocup@Home
+            competition for service robots. The Drivetrain team is responsible for designing and building
+            the electrical portion of the drivetrain for our Robocup@Home robot. We have completed
+            the design stage and are moving on to the testing stage with parts on the way. We would be
+            involved in assembling and testing the drivetrain in the upcoming months.`,
+            "Robocup DriveTrain",
+            [`Design and test the firmware for the drivetrain`,
+              `Create and test the various electrical components of the drivetrain`,
+              `Work with the mechanical sub-team to integrate the mechanical and
+              electrical parts`,
+              `Collaborate with the software sub-team for firmware integration and QA`,
+             ],
+            [ `Familiarity with circuit design and analysis`,
+             `Experience with lab equipment (i.e. Oscilloscopes, power supplies)`,
+            `PCB design experience`,
+            `Knowledge of or experience with firmware development`,
+             ], 
+             [],
+          ),
+          new Role(
+            "Electrical Engineer",
+            '3',
+            `Our Robocup@Home project involves cutting-edge R&D in the realm of service robotics. The team is progressing towards competing in the internationally-acclaimed Robocup Competition, @Home League. The Arms team is responsible for determining specifications, designing, and building an autonomous robotic manipulator for our Robocup@Home robot. This position focuses on the electrical side of the arm, but there will be collaboration with the mechanical team.`,
+            "Robocup Arms",
+            [ `Assisting in the electrical design of the robotic arm including the arm’s control and power circuits`,
+             ` Work with other electrical team members to design and build electrical test equipment`,
+              `Perform detailed validation and specification testing on hardware components and various stages of prototypes`,
+              `Write basic libraries in device firmware for integration`,  
+             ],
+            [ `Have experience working with circuit design `,
+              `Preference given to candidates who have done at least one work term in the field of electrical engineering `,    
+             ], 
+             [],
+          ),
+          new Role(
+            "Integration Lead",
+            "1",
+            "",
+            "Robocup",
+            [],
+            [],
+            [],
+          ),
+          new Role(
+            "Project Head",
+            "1",
+            "",
+            "Robocup",
+            [],
+            [],
+            [],
+          ),
+          new Role(
+            "Arms/DriveTrain MECH",
+            "TBD",
+            "",
+            "Robocup",
+            [],
+            [],
+            [],
+          ),
+
+  ]
   // const positions: Array<Role> = [
   //      new Role(
   //        "Admin Member",
@@ -53,7 +176,7 @@ const Recruitment = () => {
   //         ],
   //      ),
   //      new Role(
-  //        "Mechanical Designer",
+  //        "Mechanical Engineer",
   //        '1',
   //        "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as making improvements to the current design.",
   //        "PianoBot",
@@ -212,7 +335,7 @@ const Recruitment = () => {
       <h1 className="text-2xl py-2 font-light md:text-3xl text-gray-700">
         Thank you for your interest!
       </h1>
-      <p className="py-4 text-md md:text-lg  text-gray-500">
+      {/* <p className="py-4 text-md md:text-lg  text-gray-500">
         Thank you for your interest in UBC Open Robotics. Our Fall recruitment has just closed and we would like to thank everyone who
         applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in January and positions will be found here. For any questions feel free to 
         {" "}
@@ -223,8 +346,8 @@ const Recruitment = () => {
                 contact 
         </Link>
         {" "}us
-      </p>
-      {/* {positions.map((position: Role, idx) => (
+      </p> */}
+      {positions.map((position: Role, idx) => (
         <Position
           key = {idx}
           name={position.title}
@@ -240,7 +363,7 @@ const Recruitment = () => {
       <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
         <a className="style-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe3gXI7-Wx2bf5JzFZQ1d_V23NmdevU3bnw-bl2jprFZVTing/viewform?usp=sf_link">Apply Now</a>
       </button>
-      </a> */}
+      </a>
     </section>
   );
 };
