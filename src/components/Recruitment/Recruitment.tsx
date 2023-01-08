@@ -234,9 +234,9 @@ const Recruitment = () => {
           pref = {position.pref}
         />
       ))}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3gXI7-Wx2bf5JzFZQ1d_V23NmdevU3bnw-bl2jprFZVTing/viewform?usp=sf_link">  
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform">  
       <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
-        <a className="style-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe3gXI7-Wx2bf5JzFZQ1d_V23NmdevU3bnw-bl2jprFZVTing/viewform?usp=sf_link">Apply Now</a>
+        <a className="style-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform">Apply Now</a>
       </button>
       </a>
     </section>
