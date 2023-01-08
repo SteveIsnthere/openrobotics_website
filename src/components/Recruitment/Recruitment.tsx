@@ -137,13 +137,37 @@ const Recruitment = () => {
             [],
           ),
           new Role(
-            "Project Head",
+            "Mechatronics Designer",
             "1",
-            "",
-            "Robocup",
-            [],
-            [],
-            [],
+            `We’re looking to recruit one MECHA Designer for the Head and Neck team in order to improve, iterate, and prototype our robot designs. This naturally involves a lot of design, machining/manufacturing, and assembly work - a perfect place to get more hands-on experience. 
+
+            Within the team, we have leadership roles we are looking to fill in the upcoming future. Step in and step up to not only become a stellar engineer, but also a confident leader.
+            `,
+            "Robocup Head/Neck",
+            [
+              `Use Computer-Aided Design (CAD) software to design/modify the robotic neck and payload (head)`,
+              `Use 3D printers to create rapid prototypes of your design`,
+              `Machine parts and assemble the Neck and HwS`,
+              `Learn more about good design practices, leadership techniques, and management skills`,
+              `Applying aesthetic techniques to make good quality, attractive robot head panels`,
+
+            ],
+            [
+              `Preffered minimum third year standing`,
+              `Proficient in CAD prototyping with software such as SolidWorks and Onshape`,
+              `Experience in Design for Manufacturing and Assembly (DFMA)`,
+              `Experience with 3D printers and rapid prototyping`,
+              `Experience with project-based learning`,
+              `Interest in aesthetic panel design`,
+
+            ],
+            [
+              `Machine shop experience`,
+              `Experience with Finite Element Analysis (FEA)`,
+              `Multi-tasking proficiency`,
+              `Experience with Arduino`,
+
+            ],
           ),
           new Role(
             "Arms/DriveTrain MECH",
