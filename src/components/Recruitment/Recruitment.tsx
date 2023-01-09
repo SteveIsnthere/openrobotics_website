@@ -67,7 +67,7 @@ const Recruitment = () => {
            ),
            new Role(
             "Software Engineer",
-            'n/a',
+            '8-10',
             `This is a position where you will work on a diverse range of challenges. You will need to be
             practical yet creative as you will be required to troubleshoot difficult and often frustrating
             problems.`,
