@@ -26,7 +26,7 @@ function Hero() {
             </h1>
 
             <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
-                 Spring Recruitment is now live ! Check out the Recruitment page to view open positions
+                 2023 Winter recruitment is now live ! Check out the Recruitment page to view open positions
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8 text-center">
