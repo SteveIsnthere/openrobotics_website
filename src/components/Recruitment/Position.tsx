@@ -70,7 +70,7 @@ const Position = (props: Props) => {
             </div>)}
         </p>
         <p className="text-gray-900 font-bold px-4 mb-4">
-          Preffered Qualifications :{" "}
+          Preferred Qualifications :{" "}
           <br></br>
           {props.qualifications.map((qual:string, idx) => <div key={idx}>
             <span className="font-normal text-gray-900"> • {" "} {qual}</span>
