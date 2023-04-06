@@ -34,7 +34,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900">
+      <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900 flex flex-col min-h-screen	justify-between">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
