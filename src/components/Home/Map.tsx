@@ -4,6 +4,7 @@ function Map() {
   return (
     <div style={{ width: "100%" }}>
       <iframe
+        title="Map of UBC with location of Hennings Building"
         width="100%"
         height={600}
         frameBorder={0}

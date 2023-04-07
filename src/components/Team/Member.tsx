@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaGlobe } from "react-icons/fa";
 import React from "react";
 
