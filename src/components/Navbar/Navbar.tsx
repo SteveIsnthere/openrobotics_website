@@ -85,6 +85,10 @@ const Navbar = () => {
               Donate
             </a>
           </div>
+          <div className="hidden md:inline-block px-2">
+            <Link to="/Admin"
+            className="py-3 px-4 border-2 border-red-600 hover:bg-red-600 text-gray-900 hover:text-gray-200 font-bold rounded-md shadow">Login</Link>
+          </div>
         </div>
       </nav>
     </section>

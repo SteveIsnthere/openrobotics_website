@@ -46,7 +46,7 @@ function App() {
           <Route path="/Recruitment" element={<Recruitment />} />
           <Route path="/Sponsor" element={<Sponsor />} />
           <Route path="/Projects" element={<Projects />} />
-          {/* <Route path="/Admin" element={<Login />} /> // remove before deploy */}
+          <Route path="/Admin" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <ScrollToTop />
