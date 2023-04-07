@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -61,7 +60,7 @@ function Sponsor() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="assets/img/sponsor/RioTinto.png" />
+          <img alt="RioTinto written in white on a red background" src="assets/img/sponsor/RioTinto.png" />
         </SwiperSlide>
       </Swiper>
     </section>

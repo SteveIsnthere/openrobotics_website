@@ -1,7 +1,5 @@
 import React from "react";
 
-import PianoBotTeam from "./TeamPianobot";
-
 function Projects() {
   return (
     <>
@@ -122,6 +120,7 @@ function Projects() {
                   data-wow-delay="0.3s"
                 >
                   <iframe
+                    title="PianoBot playing twinkle twinkle video"
                     className="w-full"
                     src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FUBCOpenRobotics%2Fvideos%2F2395379350590553%2F"
                     height="350"
@@ -133,21 +132,10 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Feature Section End */}
 
-        {/* Go to Top Link */}
-        <a
-          href="#"
-          className="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-red-900 text-white text-lg z-20 duration-300 hover:bg-red-700"
-        >
-          <i className="lni lni-arrow-up" />
-        </a>
-        {/* Preloader */}
-        {/*     <div id="preloader">
-<div class="loader" id="loader-1"></div>
-    </div> */}
-        {/* End Preloader */}
+        {/* Feature Section End */}
         {/* All js Here */}
+
       </div>
       {/* <PianoBotTeam /> */}
     </>

@@ -1,8 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import Position from "./Position";
-import { Link } from "react-router-dom";
 
 class Role {
   title: string;
@@ -258,6 +255,7 @@ const Recruitment = () => {
           <a
             className="style-none"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform"
           >
             Apply Now

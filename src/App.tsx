@@ -9,7 +9,7 @@ import {
 //main components
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 
 //Team
 import Team from "./components/Team/Team";
@@ -26,14 +26,14 @@ import Sponsor from "./components/Home/Sponsor";
 import RoboCup from "./components/Projects/Robocup";
 import ArtBot from "./components/Projects/Artbot";
 import PianoBot from "./components/Projects/Pianobot";
+import ScrollToTop from "./ScrollToTop";
 
 // internal
-import Login from "./components/Member/Register";
+// import Login from "./components/Member/Register";
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <div className="App w-screen overflow-x-hidden font-Roboto selection:bg-yellow-400 selection:text-gray-900 flex flex-col min-h-screen	justify-between">
         <Navbar />
         <Routes>
@@ -49,6 +49,7 @@ function App() {
           {/* <Route path="/Admin" element={<Login />} /> // remove before deploy */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <ScrollToTop />
         <Footer />
       </div>
     </Router>

@@ -1,7 +1,5 @@
 import React from "react";
 
-import ArtBotTeam from "./TeamArtbot";
-
 function Projects() {
   return (
     <>
@@ -137,19 +135,6 @@ function Projects() {
           </div>
         </div>
         {/* Feature Section End */}
-
-        {/* Go to Top Link */}
-        <a
-          href="#"
-          className="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-red-900 text-white text-lg z-20 duration-300 hover:bg-red-700"
-        >
-          <i className="lni lni-arrow-up" />
-        </a>
-        {/* Preloader */}
-        {/*     <div id="preloader">
-<div class="loader" id="loader-1"></div>
-    </div> */}
-        {/* End Preloader */}
         {/* All js Here */}
       </div>
       {/* <ArtBotTeam /> */}
