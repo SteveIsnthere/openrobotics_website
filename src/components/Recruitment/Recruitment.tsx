@@ -228,8 +228,8 @@ const Recruitment = () => {
         Thank you for your interest!
       </h1>
       <p className="py-4 text-md md:text-lg  text-gray-500">
-        Thank you for your interest in UBC Open Robotics. Our Fall recruitment has just closed and we would like to thank everyone who
-        applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in January and positions will be found here. For any questions feel free to 
+        Thank you for your interest in UBC Open Robotics. Our Spring recruitment has just closed and we would like to thank everyone who
+        applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in September and positions will be found here. For any questions feel free to 
         {" "}
         <Link
                 className="font-bold text-red-500 cursor-pointer hover:text-red-700"
