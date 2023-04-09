@@ -1,5 +1,6 @@
 import React from "react";
 import Position from "./Position";
+import { Link } from "react-router-dom";
 
 class Role {
   title: string;
@@ -226,7 +227,7 @@ const Recruitment = () => {
       <h1 className="text-2xl py-2 font-light md:text-3xl text-gray-700">
         Thank you for your interest!
       </h1>
-      {/* <p className="py-4 text-md md:text-lg  text-gray-500">
+      <p className="py-4 text-md md:text-lg  text-gray-500">
         Thank you for your interest in UBC Open Robotics. Our Fall recruitment has just closed and we would like to thank everyone who
         applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in January and positions will be found here. For any questions feel free to 
         {" "}
@@ -237,8 +238,8 @@ const Recruitment = () => {
                 contact 
         </Link>
         {" "}us
-      </p> */}
-      {positions.map((position: Role, idx) => (
+      </p>
+      {/* {positions.map((position: Role, idx) => (
         <Position
           key={idx}
           name={position.title}
@@ -249,8 +250,8 @@ const Recruitment = () => {
           qualifications={position.qualifications}
           pref={position.pref}
         />
-      ))}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform">
+      ))} */}
+      {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform">
         <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
           <a
             className="style-none"
@@ -261,7 +262,7 @@ const Recruitment = () => {
             Apply Now
           </a>
         </button>
-      </a>
+      </a> */}
     </section>
   );
 };

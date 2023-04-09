@@ -29,7 +29,7 @@ import PianoBot from "./components/Projects/Pianobot";
 import ScrollToTop from "./ScrollToTop";
 
 // internal
-// import Login from "./components/Member/Register";
+import Login from "./components/Member/Register";
 
 function App() {
   return (
