@@ -24,8 +24,11 @@ function Hero() {
               </strong>
             </h1>
 
-            <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
+            {/* <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
                  2023 Winter recruitment is now live ! Check out the Recruitment page to view open positions
+            </p> */}
+            <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl text-stone-900">
+            Get ready to join the exciting world of robotics with UBC Open Robotics, a dynamic student club that pushes the boundaries of innovation and technology!
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8 text-center">
