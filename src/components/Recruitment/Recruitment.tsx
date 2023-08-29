@@ -33,8 +33,29 @@ class Role {
 const Recruitment = () => {
   const positions: Array<Role> = [
     new Role(
-      "Admin Member",
+      // ADMIN TEAM ROLES
+      "Admin Team",
       "1",
+      "As UBC Open Robotics’ Graphic Designer, you will be in charge of handling all things graphic-related – social media posts, physical posters, and even team merch. You will work with the rest of the amazing Admin Team in order to preserve the team’s brand and aid in its growth.",
+      "Graphic Designer",
+      [
+      "Mock up and create social media posting for the team’s Instagram account",
+      "Ensure UBC Open Robotics’ brand and colours are implemented throughout our social media presence",
+      "Design physical promotional material such as banners and posters",
+      "(Occasionally) Design team merch"
+      ],
+      [
+      "Keen eye for visual design",
+      "Creative passion",
+      "Familiar with design software such as Adobe Photoshop / Illustrator & Figma"
+      ],
+      [
+        "Design portfolio"
+      ]
+    ),
+    new Role(
+      "Admin Member",
+      "1-2",
       "We are looking for a web developer to assist with the expansion of our new Open Robotics website.",
       "Web Developer (Full-Stack)",
       [
@@ -52,185 +73,434 @@ const Recruitment = () => {
       ]
     ),
     new Role(
-      "Mechanical Engineer",
-      "1-2",
-      "We are looking for additional mechanical sub-team members on Pianobot to assist in the designing of the pedal as well as making improvements to the current design.",
-      "PianoBot",
-      [
-        "3-D printing and prootyping",
-        "CAD Modelling",
-        "Critical thinking and design optimization (mainly weight optimization and manufacturing methods)",
-      ],
-      [
-        "Willingless to learn",
-        "Consistent communicator",
-        "Able to see a broad view of a project, able to understand why something needs to be done/changed and not just following instructions blindly",
-      ],
-      []
-    ),
-    new Role(
-      "Software Engineer",
-      "8-10",
-      `This is a position where you will work on a diverse range of challenges. You will need to be
-            practical yet creative as you will be required to troubleshoot difficult and often frustrating
-            problems.`,
-      "Robocup",
-      [
-        "Experience with modeling software such as Solidworks/Onshape",
-        "Experience with sensors and actuators",
-        `Able to communicate and collaborate with other software and hardware
-            engineers,through sketches, block diagrams, flow charts, technical writing, and
-            presentations`,
-        `Must maintain proper and accurate documentation of engineering
-             research,developments, experiments, purchases, etc.`,
-      ],
-      [
-        `Exceptional eagerness to learn and become better`,
-        `Experience with instrumentation and soldering`,
-        `Creative and systematic troubleshooting aptitude. Skilled at reading research papers
-              and gleaning inspiration from them.`,
-        `Strong hands on prototyping skills`,
-        `Experience writing code (C++/Python)`,
-        `Experience using ROS`,
-      ],
-      []
-    ),
-    new Role(
-      "Electrical Engineer",
-      "3",
-      `Our Robocup@Home team is progressing toward competing in the Robocup@Home
-            competition for service robots. The Drivetrain team is responsible for designing and building
-            the electrical portion of the drivetrain for our Robocup@Home robot. We have completed
-            the design stage and are moving on to the testing stage with parts on the way. We would be
-            involved in assembling and testing the drivetrain in the upcoming months.`,
-      "Robocup DriveTrain",
-      [
-        `Design and test the firmware for the drivetrain`,
-        `Create and test the various electrical components of the drivetrain`,
-        `Work with the mechanical sub-team to integrate the mechanical and
-              electrical parts`,
-        `Collaborate with the software sub-team for firmware integration and QA`,
-      ],
-      [
-        `Familiarity with circuit design and analysis`,
-        `Experience with lab equipment (i.e. Oscilloscopes, power supplies)`,
-        `PCB design experience`,
-        `Knowledge of or experience with firmware development`,
-      ],
-      []
-    ),
-    new Role(
-      "Electrical Engineer",
-      "3",
-      `Our Robocup@Home project involves cutting-edge R&D in the realm of service robotics. The team is progressing towards competing in the internationally-acclaimed Robocup Competition, @Home League. The Arms team is responsible for determining specifications, designing, and building an autonomous robotic manipulator for our Robocup@Home robot. This position focuses on the electrical side of the arm, but there will be collaboration with the mechanical team.`,
-      "Robocup Arms",
-      [
-        `Assisting in the electrical design of the robotic arm including the arm’s control and power circuits`,
-        ` Work with other electrical team members to design and build electrical test equipment`,
-        `Perform detailed validation and specification testing on hardware components and various stages of prototypes`,
-        `Write basic libraries in device firmware for integration`,
-      ],
-      [
-        `Have experience working with circuit design `,
-        `Preference given to candidates who have done at least one work term in the field of electrical engineering `,
-      ],
-      []
-    ),
-    new Role(
-      "Integration Lead",
+      "Admin Team",
       "1",
-      `We’re looking for a systematic person with an interest in leading this project. This naturally involves a lot of planning, organization, and having a high-level understanding of how the different technical sub-teams can integrate seamlessly. While this is a more leadership position, there are plenty of opportunities for technical work, and anyone in this position will be able to appreciate and gain experience with the different aspects of building an autonomous robot.
-            `,
-      "Robocup",
+      "The Sponsorship and Engagement Manager position involves securing funds for team projects, which allows the team to purchase supplies for their project designs, as well as rapidly prototype and iterate. This position also includes organizing team events to promote learning while developing meaningful relationships among team members.",
+      "Sponsorship and Engagement Manager",
       [
-        `Apply a variety of leadership techniques and management skills to lead the team as we build a cost-effective, efficient, and autonomous robot for competition`,
-        `Organize technical design reviews to ensure designs are of the highest quality and feasible within budget and timeline constraints`,
-        `Ensure strong, consistent communication within the sub-teams`,
-        `Ensure sub-teams stay on track for the competition, and if not investigate where delays are coming from`,
+      "Secure sponsorships and other forms of funding for the team",
+      "Plan and organize team events, including: workshops, guest speakers, social events (e.g., movie nights, games nights, etc.)",
+      "Seek conference opportunities for team members to attend",
+      "Communicate event details with the rest of the team"
       ],
       [
-        `Experience with project-based learning`,
-        `Experience with project management software (JIRA, Monday, Trello)`,
-        `Strong and effective communication skills`,
+      "Experience in planning events",
+      "Excellent verbal and written communication skills",
+      "Excellent organizational skills"
       ],
       [
-        `Experience with either mechanical design, circuit design, or software frameworks for robotic communication systems`,
-        `Previous leadership experience`,
+        "Experience in fundraising and obtaining sponsorships"
       ]
     ),
     new Role(
-      "Mechatronics Designer",
+      "Admin Team",
       "1",
-      `We’re looking to recruit one MECHA Designer for the Head and Neck team in order to improve, iterate, and prototype our robot designs. This naturally involves a lot of design, machining/manufacturing, and assembly work - a perfect place to get more hands-on experience. 
+      "The Social Media Manager position involves promoting the team on various social media platforms, as well as posting updates about the team’s progress and accomplishments.",
+      "Social Media Manager",
+      [
+      "Design and post social media content on Instagram, Facebook, Linkedin, etc. This includes collaborating with the graphic designer, creating captions, and generating written content for posts",
+      "Communicate with captains, leads, graphic designer, and events and sponsorships manager",
+      "Attend workshops, social events, outreach events, and full-team meetings to document pictures/videos for social media posts"
+      ],
+      [
+      "Experience with video production and editing",
+      "Excellent verbal and written communication skills",
+      ],
+      [
+        "Experience with brand social media posts"
+      ]
+    ),
 
-            Within the team, we have leadership roles we are looking to fill in the upcoming future. Step in and step up to not only become a stellar engineer, but also a confident leader.
-            `,
-      "Robocup Head/Neck",
+    // ROBOTRAINING ROLES
+    new Role(
+      "RoboTraining",
+      "N/A",
+      "Want to get your foot into the robotics industry? We’re looking to recruit bright-eyed first and second year students to give UBC Open Robotics some fresh blood. While these students will have responsibilities to carry out over the year, this role is less about what you can do for us and more about what we can do for you. We’re looking to train and tutor younger students and help transition them into excellent upper-year designers. We want to help you get more design, manufacturing, and assembly work - a perfect combination of hands-on experience. The responsibilities below outline skills we want to help you develop, so apply even if you don’t have them (yet)!",
+      "1st/2nd Yr Students",
       [
-        `Use Computer-Aided Design (CAD) software to design/modify the robotic neck and payload (head)`,
-        `Use 3D printers to create rapid prototypes of your design`,
-        `Machine parts and assemble the Neck and HwS`,
-        `Learn more about good design practices, leadership techniques, and management skills`,
-        `Applying aesthetic techniques to make good quality, attractive robot head panels`,
+        "Use Computer-Aided Design (CAD) software to design/modify parts",
+        "Learn how to use 3D printers to create rapid prototypes of your design",
+        "Wire electrical connections using Dupont wires and soldering techniques",
+        "Write Arduino code that will let your robot navigate autonomously",
+        "Carry out organizational tasks and practice some presentational skills",
+        "Learn more about good design practices and designing for manufacturing",
+        "Participate in a design challenge that will pit you against your peers",
+        "Learn how to **respectfully destroy your peers** in design challenges"
       ],
       [
-        `Preffered minimum third year standing`,
-        `Proficient in CAD prototyping with software such as SolidWorks and Onshape`,
-        `Experience in Design for Manufacturing and Assembly (DFMA)`,
-        `Experience with 3D printers and rapid prototyping`,
-        `Experience with project-based learning`,
-        `Interest in aesthetic panel design`,
+        "Willingness to learn and grow as a student, engineer, and person",
+        "Interest in robotics, mechanical design, and electromechanical components/machines",
+        "Understanding of other people and able to acknowledge that there are always people of higher and lower skill level",
+        "Alive and breathing (optional)"
       ],
       [
-        `Machine shop experience`,
-        `Experience with Finite Element Analysis (FEA)`,
-        `Multi-tasking proficiency`,
-        `Experience with Arduino`,
+        "Previous experience with extracurricular teams",
+        "Willingness to take on future leadership roles",
+        "An appreciation for mechas of all sizes",
+      ]
+    ),
+
+    // ROBOCUP@HOME ROLES
+    new Role(
+      "Senior Subteam Member (Mechanical Design)",
+      "2-3",
+      "We’re seeking experienced members for the Mechanical Arms subteam. As the subteam name suggests, we are responsible for the arms of our robot: this entails a dynamic arm designed for interacting with the environment, and a static arm engineered to provide support and consistently carry heavier loads. As a senior member on the team, you will play a crucial role in various aspects, including mechanical design, prototyping, assembly, and prototype testing. In addition, you will spearhead the conception and construction of a pivotal component for the forthcoming iteration of our 6-DOF articulated robotic arm, embodying a leadership position at the forefront of our advancements",
+      "Robocup@Home Arms",
+      [
+        "Lead the mechanical design and development of a critical component of the robotic arm (most likely one of the joints), including concept generation, detailed design, prototyping, and testing",
+        "Participate in brainstorming sessions and contribute creative ideas to enhance the performance and functionality of mechanical components",
+        "Utilize computer-aided design (CAD) software to create detailed and accurate 3D models of mechanical parts and assemblies",
+        "Contribute to the development of prototypes, conducting testing, and iterating designs based on feedback and results",
+        "Collaborate closely with cross-functional teams, including electrical engineers, software engineers, and researchers, to ensure seamless integration of mechanical components into complete robotic systems",
+        "Conduct thorough mechanical analysis, simulations, and testing to validate and optimize designs for performance, reliability, and safety.",
+        "Source and size required parts and components",
+        "Develop and maintain documentation, including design specifications, technical reports, and engineering drawings",
+        "Contribute to project planning, scheduling, and progress tracking to ensure timely delivery of projects"
+      ],
+      [
+        "Preferably 2nd year + Majoring in Mechanical Engineering, or other related field",
+        "Solid understanding of mechanical principles (Rigid Body Dynamics, Solid Mechanics, etc.)",
+        "Proficiency in CAD, such as SolidWorks and Onshape, or other tools",
+        "Experience with mechanical design methodologies and key mechanical parts (gears, bearings, etc.)",
+        "Hands-on experience with rapid prototyping methods such as 3D printing, sheet metal bending, mills and lathes",
+        "Excellent problem-solving skills and ability to adapt designs to evolving project needs",
+        "Strong leadership and communication skills + ability to work collaboratively in a team environment",
+      ],
+      [
+        "Experience with mechanical analysis and simulation tools (e.g., Finite Element Analysis) is advantageous", 
+        "Familiarity with robotic components, mechanisms, sensors, and actuators",
+        "Prior participation in robotics competitions, projects, or research is a plus.",
       ]
     ),
     new Role(
-      "Arms/DriveTrain MECH (1st & 2nd years)",
-      "TBD",
-      `We’re looking to recruit bright-eyed first and second year students to give UBC Open Robotics some fresh blood. While these students will have responsibilities to carry out over the year, this role is less about what you can do for us and more about what we can do for you. We’re looking to train and tutor younger students and help transition them into excellent upper-year designers. We want to help you get more design, machining/manufacturing, and assembly work - a perfect combination of hands-on experience.
-            `,
-      "Robocup",
+      "Mechanical Subteam Member",
+      "2-3",
+      `We are currently seeking motivated and enthusiastic individuals to join our Mechanical Arms subteam. As the subteam name suggests, we are responsible for the arms of our robot: this entails a dynamic arm designed for interacting with the environment, and a static arm engineered to provide support and consistently carry heavier loads. As a valued member of our team, you will play a pivotal role in various aspects, including mechanical design, prototyping, assembly, and prototype testing. We highly encourage you to bring forth fresh and innovative ideas that can enrich our projects. This role presents an exceptional opportunity for personal and professional growth, enabling you to cultivate hands-on experience and enhance your grasp of mechanical design principles. We welcome applications from candidates who may not fulfill all of the qualifications, we highly value enthusiasm and unique perspectives. 
+      At this time in the design process, we are in the process of refining the dynamic arm – a 6-DOF articulated robotic arm – for the upcoming iteration of our robot. Joining our team at this juncture promises an exhilarating and rewarding experience as we embark on this exciting phase of development.
+      `,
+      "Robocup@Home Arms",
       [
-        `Learn Computer-Aided Design (CAD) software to design/modify robotic manipulators`,
-        `Learn how to use 3D printers to create rapid prototypes of your design`,
-        `Learn how to machine parts`,
-        `Learn how to calculate and spec machine-design components such as motors, gearboxes, and bearings`,
-        `Find out why it is important to work closely with the ELEC sub-team to integrate electromechanical parts`,
-        `Carry out organizational tasks and practice some presentational skills`,
-        `Learn more about good design practices, leadership techniques, and management skills`,
-        `Participate in a design challenge that will pit you against your peers`,
-        `Learn how to respectfully destroy your peers in design challenges`,
+        "Participate in brainstorming sessions and contribute creative ideas to enhance the performance and functionality of mechanical components",
+        "Utilize computer-aided design (CAD) software to create detailed and accurate 3D models of mechanical parts and assemblies",
+        `Contribute to the development of prototypes, conducting testing, and iterating designs based on feedback and results`,
+        `Collaborate closely with cross-functional teams, including the Electrical and 
+        Software subteams, to ensure seamless integration of mechanical components into complete robotic systems`,
+        "Develop and maintain documentation, including design specifications, technical reports, and engineering drawings"
       ],
       [
-        `Willingness to learn and grow as a student, engineer, and person`,
-        `Interest in robotics, mechanical design, and electromechanical components/machines`,
-        `Understanding of other people and able to acknowledge that there are always people of higher and lower skill level`,
-        `Alive and breathing`,
+        `Strong passion and enthusiasm for designing and building cool stuff!`,
+        `Solid understanding of mechanical principles (Rigid Body Dynamics, Solid Mechanics, etc.)`,
+        `Excellent problem-solving skills and ability to adapt designs to evolving project needs`,
+        `Strong communication skills and ability to work collaboratively in a team environment`,
+        `Adaptability and willingness to learn and grow`
       ],
       [
-        `Previous experience with extracurricular teams`,
-        `Previous experience in leadership roles`,
-        `Previous experience in being a nerd`,
+        "Proficiency in CAD, such as SolidWorks and Onshape, or other tools",
+        "Hands-on experience with rapid prototyping methods such as 3D printing, sheet metal bending, mills and lathes",
+        "Experience with mechanical design methodologies and key mechanical parts (gears, bearings, etc.)",
+        "Experience with designing robots or other electromechanical systems is a plus"
       ]
     ),
+    new Role(
+      "Electrical Subteam Member",
+      "4-6",
+      `The team developing the electrical hardware and firmware design of the robot’s arm is looking for new members of all experience levels. We are looking to recruit members for the design of: 1. New stepper motor drivesrs, 2. Wire harness, 3. Firmware`,
+      "Robocup@Home Arms",
+      [
+        `Assisting in the design of PCBs for motor drivers and other electrical subsystems`,
+        `Design the wire harness for a 6-DOF robotic arm`,
+        `Write firmware for a 6-DOF robotic arm`,
+        `Collaborate with the Software and Mechanical subteams regarding integration`,
+      ],
+      [
+        `Strong communication skills`,
+        `1+ years of coding experience (no specific language requirement)`,
+        `Basic circuit knowledge`,
+      ],
+      [
+        'Experience with: PCB design software, Wire harness design, Experience with AVR and STM32 family of microcontrollers'
+      ]
+    ),
+    new Role(
+      "Mechanical Subteam Lead",
+      "1",
+      `Mechanical members of the Drivetrain subteam are responsible for designing the bottom half of the robot, including the structural chassis, aesthetic casing, and powertrain. The work involves designing, machining/manufacturing, and integrating the designs with the Torso subteam.`,
+      "Robocup@Home Drivetrain",
+      [
+        "Plan project timelines, assign tasks to mechanical team members, and monitor progress",
+        "Work closely with the electrical lead and members of the Drivetrain subteam to integrate electromechanical parts",
+        "Communicate needs and progress with captains and other subteam leads",
+        "Present subteam updates at full-team meetings",
+        "Use Computer-Aided Design (CAD) to design and modify chassis and casings",
+        "Use 3D printers to create rapid prototypes of the design",
+        "Machine parts and assemble the Drivetrain",
+        "Calculate and spec machine-design components, such as motors, gearboxes, and bearings"
+      ],
+      [
+        "Strong project management and organizational skills", 
+        "Strong communication and problem-solving skills",
+        "Ability to adapt designs as project needs evolve",
+        "Proficient in CAD prototyping with software such as SolidWorks and Onshape",
+        "Experience in Design for Manufacturing and Assembly (DFMA)",
+        "Experience with 3D printers and rapid prototyping",
+        "Experience with project-based learning"
+      ],
+      [
+        "Machine shop experience" ,
+        "Experience with Finite Element Analysis (FEA)",
+        "Multi-tasking proficiency",
+        "Post-secondary knowledge on electronics and exposure to electronic integration"
+      ]
+    ),
+    new Role(
+      "Mechanical Subteam Member",
+      "3",
+      "Mechanical members of the Drivetrain subteam are responsible for designing the bottom half of the robot, including the structural chassis, aesthetic casing, and powertrain. The work involves designing, machining/manufacturing, and integrating the designs with the Torso subteam.",
+      "Robocup@Home Drivetrain",
+      [
+        "Use Computer-Aided Design (CAD) to design and modify chassis and casings",
+        "Use 3D printers to create rapid prototypes of the design",
+        "Machine parts and assemble the Drivetrain",
+        "Calculate and spec machine-design components, such as motors, gearboxes, and bearings",
+        "Work closely with the electrical members of the Drivetrain subteam to integrate electromechanical parts"
+      ],
+      [
+        "Strong passion and enthusiasm for designing and prototyping",
+        "Proficient in CAD prototyping with software such as SolidWorks and Onshape",
+        "Experience in Design for Manufacturing and Assembly (DFMA)",
+        "Experience with 3D printers and rapid prototyping",
+        "Experience with project-based learning",
+        "Strong communication and problem-solving skills",
+        "Ability to adapt designs as project needs evolve"
+      ],
+      [
+        "Machine shop experience",
+        "Experience with Finite Element Analysis (FEA)",
+        "Multi-tasking proficiency"
+      ]
+    ),
+    new Role(
+      "Embedded System Hardware Designer",
+      "4",
+      `As an Embedded Hardware Engineer within our student design team for the RoboCup@Home competition, you will play a critical role in designing, developing, and implementing the drivetrain subsystem of our autonomous robot. Your expertise in embedded systems and hardware design will contribute to the success of our team's robot as it navigates and interacts in a home environment, completing various tasks and challenges set by the competition. This role offers a unique opportunity to apply theoretical knowledge to real-world robotic challenges, collaborate with multidisciplinary team members, and gain hands-on experience in advanced robotics technologies.`,
+      "Robocup@Home Drivetrain",
+      [
+        "Prepare and design the schematics, PCB placement and layout, and manufacturing and assembly files.",
+        "Perform circuit simulation (SPICE) for design verification",
+        "Select and integrate appropriate sensors, such as encoders and IMUs, to provide accurate feedback for navigation, and control algorithms.",
+        "Convert board level requirements into a board design concept (architecture, I/Os, key parts, power dissipation estimate, u-controller, firmware, etc.), including the motor control loop.",
+        "Perform board assembly and functional tests",
+        "Coordinate with the Firmware team to finalize the functional concept and facilitate the integration", 
+      ],
+      [
+        "Circuit analysis, simulation and design",
+        "Basic knowledge in serial communication protocols", 
+        "Familiar with hardware test equipment -- DMM, logic analyzers, oscilloscopes, function generator, etc.",
+      ],
+      [
+        "Schematics capture and multi-layer PCB layout & routing experience using (Altium/KiCad/EAGLE/Ultiboard)",
+        "Experience in designing high-power battery management system and/or buck converter",
+        "Experience in open-loop control using stepper motors",
+        "Experience in PCB assembly"
+      ]
+    ),
+    new Role(
+      "Head And Torso Subteam Member",
+      "2-3",
+      `The team developing the robot’s torso and head is looking for new members of all experience levels. We value commitment over experience, and members are expected to communicate with their lead regularly and complete tasks in a timely manner.`,
+      "Robocup@Home Head and Torso",
+      [
+        "Assist in the design and development of a prototype of the robot head and torso",
+        "Collaborate closely with all other subteams to ensure seamless integration and holistic functionality of robotic systems",
+        "Material selection for fittings/fixtures and components"
+      ],
+      [
+        "Proficiency in CAD Design (Onshape)",
+        "Experience with electrical and/or mechanical engineering projects"
+      ],
+      []
+    ),
+    new Role(
+      "Gripper Subteam Lead",
+      "1",
+      `As the lead for the Gripper subteam, you will oversee the fabrication of the gripper, the integration of electrical and mechanical components, and the integration with the Arms subteam.`,
+      "Robocup@Home Gripper",
+      [
+        "Cross-disciplinary Leadership: Lead a multidisciplinary team, including electrical and mechanical engineers, fostering collaboration and ensuring effective communication between team members.",
+        "Electromechanical Integration: Coordinate the seamless integration of electrical components, such as sensors, actuators, and control systems, with mechanical components to create cohesive solutions.",
+        "Project Management: Plan project timelines, allocate resources, and monitor progress to ensure timely delivery the gripper",
+        "Collaboration: Collaborate closely with other subteams, such as Software and Arms, to ensure seamless integration and holistic functionality of robotic systems.",
+      ],
+      [
+        "Upper year (3rd or higher but exceptions can apply if you can demonstrate experience) student in Electrical, Integrated, Computer, or Engineering Physics.",
+        "Project experience with robotics or integrated circuits with sensors and actuators.",
+        "Proficiency in CAD Design",
+        "Project management experience.",
+        "Strong leadership qualities",
+        "Proficiency in design and simulation tools",
+        "Familiarity with programming languages for control systems and automation"
+      ],
+      [
+        "Prior design team experience"
+      ]
+    ),
+    new Role(
+      "Mechanical Subteam Member",
+      "1",
+      `As part of the Gripper subteam, you will be working on the gripper of our robot that is planned to be used in the RoboCup@Home competition. You will be working hands-on on building and testing the gripper prototype, and integrating it with the electrical components and arm.`,
+      "Robocup@Home Gripper",
+      [
+        "Collaborate to design and develop mechanical aspects of the gripper, ensuring optimal performance and reliability.",
+        "Make and edit iterations of the CAD model of the gripper",
+        "Build and test the working prototype of the gripper",
+        "Collaborate with the Electrical and Software subteams to ensure seamless integration of mechanical components with electrical systems and software interfaces."
+      ],
+      [
+        "Basic understanding of machine design.",
+        "Familiarity with CAD software",
+        "Interest in robotics, mechatronics, or automation.",
+        "Problem-solving mindset and eagerness to learn and troubleshoot.",
+        "Effective communication and teamwork skills."
+      ],
+      [
+        "Hands-on 3D printing experience"
+      ]
+    ),
+    new Role(
+      "Electrical Subteam Member",
+      "3",
+      `As part of the subteam, you will be working on the gripper of our robot that is planned to be used in the RoboCup@Home competition. You will be researching, testing, and attaching sensors and motors, as well as some low-level coding to the robot hand. In addition, there will be some integration that is required with other subteams, such as Arms and Software.`,
+      "Robocup@Home Gripper",
+      [
+        "Collaborate to design and develop electrical systems that control the gripper's functionality, ensuring optimal performance and reliability.",
+        "Create circuit diagrams and read schematics for various electrical components, including sensors, actuators, motor controllers, and communication interfaces.",
+        "Research and select appropriate electrical components, considering factors such as efficiency, durability, compatibility, and cost-effectiveness.",
+        "Collaborate with the Mechanical and Software subteams to ensure seamless integration of electrical systems with mechanical components and software interfaces."
+      ],
+      [
+        "Basic understanding of electrical system components and circuitry.",
+        "Familiarity with fundamental electronics principles.",
+        "Some experience with design and simulation tools.",
+        "Interest in robotics, mechatronics, or automation.",
+        "Problem-solving mindset and eagerness to learn and troubleshoot.",
+        "Effective communication and teamwork skills."
+      ],
+      [
+        "Circuitry experience, especially in the sensor or motor department"
+      ]
+    ),
+    new Role(
+      "Software Subteam Member",
+      "6-7",
+      `As a software subteam member, you will be responsible for developing, testing, and integrating software that controls the robot. This software includes command and communication, controls, tasking, machine learning, and computer vision to operate and direct the various subsystems of the robot.
+
+      You will have the opportunity to interact with simulated and real-world versions of the robot and components to test the software. 
+      `,
+      "Robocup@Home Software",
+      [
+        "Speech: Develop software (Python) and train/utilize machine learning models for natural language processing (NLP), speech synthesis, and key word recognition to enable natural human-to-robot interactions.",
+        "Navigation: Develop software (Python, and some C/C++) for navigation tasks. This includes position determination and mapping in various environments, simulation, integration with hardware, obstacle avoidance, course navigation, and path planning.",
+        "Manipulation (Robotic Arm): Develop software (Python, and some C/C++) to control a robotic arm to achieve real-world tasks. This includes software for motion planning, simulation, integration with hardware, and integration with computer vision for object pickup.",
+        "Computer Vision: Develop software (Python) and train/utilize machine learning models for robot vision tasks. This includes object detection, person tracking, activity recognition, hardware integration (camera), and integration of a vision pipeline with Navigation and Arm teams.",
+        "Integration: Develop software (Python) for high-level tasking and logic that combines the functionalities of the subsystems."
+      ],
+      [
+        "Experience with Python",
+        "Basic understanding of robots"
+      ],
+      [
+        "Experience with C/C++",
+        "Experience with Git",
+        "Experience with Linux",
+        "Experience with ROS (Robot Operating System)",
+        "Experience with CAD modeling and URDFs",
+        "Knowledge of control systems"
+      ]
+    ),
+
+      // PIANOBOT ROLES
+      new Role(
+        "Mechanical Subteam Member",
+        "1",
+        `Pianobot Mechanical Team Member`,
+        "Pianobot",
+        [
+          "Designing and developing physical parts using manufacturing methods such as 3D printing and CNC waterjet/laser cut. This includes considering manufacturing methods when designing parts and knowing how it is manufactured + the limitations it has",
+          "Calculating estimates to be able to select the correct motors for the task",
+          "Material selection for fittings/fixtures and components"
+        ],
+        [
+          "Experience with some form of CAD (e.g., SolidWorks or Onshape)",
+          "Ability to visualize concepts/mechanics or able to explain them through drawings",
+          "Clear and constant communication skills"
+        ],
+        [
+          "Previous experience with actuation methods (Linear Actuators such as rails and belts, actuator drives, such as steppers and servos, and how to set them up)",
+          "A bit of knowledge on the electrical portion (e.g., microcontroller hookup I/O and power requirements). It helps to know the limitations of other subsections to be able to design around it"
+        ]
+      ),
+      new Role(
+        "Electrical Subteam Lead",
+        "1",
+        "Pianobot Electrical Subteam Lead",
+        "Pianobot",
+        [
+          "Designing and developing custom PCBs to streamline circuits and aesthetics.",
+          "Finding and implementing breakout boards/components to power and support the mechanical actuators",
+          "Ensuring that parts are software-compatible",
+          "Assembling, testing, and troubleshooting electrical circuits and firmware",
+          "Communicating and presenting progress and needs to other subteam leads",
+          "Administration work, including funding applications, meeting minutes, and project management",
+          "Assigning tasks to subteam members and working together" 
+        ],
+        [
+          "Knowledge about some form of schematic drawing software (e.g., Altium, Kicad, etc.)",
+          "Power electronics: knowing how to calculate and account for the system’s overall power consumption",
+          "Able to solder (wire connections and SMD components"
+        ],
+        [
+          "Circuit protection: How to prevent overloads and other electrical failures from occurring",
+          "Understanding how a piano is played/able to play piano"
+        ]
+      ),
+      new Role(
+        "Electrical Subteam Member",
+        "1-2",
+        `Pianobot Electrical Team Member`,
+        "Pianobot",
+        [
+          "Designing and developing custom PCBs to streamline circuits and aesthetics.",
+          "Finding and implementing breakout boards/components to power and support the mechanical actuators",
+          "Ensuring that parts are software-compatible (this requires you to be able to communicate with the Software subteam)",
+          "Assembling, testing, and troubleshooting electrical circuits and firmware (Will work with Mechanical subteam and Software subteam depending on what is being tested)" 
+        ],
+        [
+          "Knowledge about some form of schematic drawing software (e.g., Altium, Kicad, etc.)",
+          "Power electronics: knowing how to calculate and account for the system’s overall power consumption",
+          "Able to solder (wire connections and SMD components"
+        ],
+        [
+          "Circuit protection: How to prevent overloads and other electrical failures from occurring",
+          "Understanding how a piano is played/able to play piano"
+        ]
+      ),
   ];
 
   return (
     <section className="flex flex-col m-[10%] py-10 md:mt-24 sm:mt-30 xs:mt-60 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl justify-center items-center">
-      <h1 className="text-3xl py-1 font-extrabold md:text-5xl text-gray-900">
+      <h1 className="text-3xl py-4 font-extrabold md:text-5xl text-gray-900">
         Current Openings
       </h1>
-      <h1 className="text-2xl py-2 font-light md:text-3xl text-gray-700">
+      <span className="w-64 h-[2px] mt-0 bg-gray-900 mb-6"></span>
+      <h1 className="text-2xl py-2 font-light md:text-4xl text-gray-700">
         Thank you for your interest!
       </h1>
-      <p className="py-4 text-md md:text-lg  text-gray-500">
-        Thank you for your interest in UBC Open Robotics. Our Spring recruitment has just closed and we would like to thank everyone who
-        applied. Candidates that applied can expect to hear back from us soon. To those who missed out, our Recruitment will reopen in September and positions will be found here. For any questions feel free to 
-        {" "}
+      <p className="py-4 text-md md:text-xl  text-gray-500">
+        Our Fall Recruitment cycle is in full swing right now! If you're
+        interested in joining, apply for a technical position here. Note that
+        our applications are open to students across all faculties and of
+        varying skill levels. We look forward to your applications! For further
+        questions please{" "}
         <Link
                 className="font-bold text-red-500 cursor-pointer hover:text-red-700"
                 to="/Contact"
@@ -239,30 +509,24 @@ const Recruitment = () => {
         </Link>
         {" "}us
       </p>
-      {/* {positions.map((position: Role, idx) => (
+      {positions.map((position: Role) => (
         <Position
-          key={idx}
           name={position.title}
           positions={position.positions}
           team={position.team}
           desc={position.description}
-          responsibilites={position.responsibilities}
           qualifications={position.qualifications}
-          pref={position.pref}
+          responsibilites={position.responsibilities}
+          pref = {position.pref}
         />
-      ))} */}
-      {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform">
-        <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
-          <a
+      ))}
+      <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
+        <a
             className="style-none"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScf1mWB3E_kplos6jVBxR_eDopiHW5Gbo_iZFkpyKQUsWgDAw/viewform"
-          >
-            Apply Now
-          </a>
-        </button>
-      </a> */}
+            href="https://forms.gle/3CuSFmSuLybh3duXA">Apply Now</a>
+      </button>
     </section>
   );
 };
