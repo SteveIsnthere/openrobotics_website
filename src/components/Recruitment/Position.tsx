@@ -27,7 +27,7 @@ const Position = (props: Props) => {
     return !visible ? "rounded-t-none" : " ";
   };
   return (
-    <div className="flex flex-col w-full py-4">
+    <div className="flex flex-col w-4/5 py-4 place-self-center">
       <div
         className={
           "flex py-4 mt-4 flex-row cursor-pointer justify-between text-center items-start font-bold rounded-lg border-b-2 border-l-2 border-r-2 border-gray-200 bg-gray-200 text-gray-900 w-full " +
@@ -35,7 +35,7 @@ const Position = (props: Props) => {
         }
         onClick={() => setArrow(!arrow)}
       >
-        <h1 className="mx-2 text-md">{props.name} {" "} - {props.team}</h1>
+        <h1 className="mx-2 text-md"> {props.team ? props.team + " -" : ""} {" "} {props.name}</h1>
         <button className="outline-none style-none border-none bg-gray-200">
           {arrow ? (
             <AiOutlineDown className="mx-4 my-1 font-bold" />

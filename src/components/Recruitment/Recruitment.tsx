@@ -1,5 +1,5 @@
 import React from "react";
-import Position from "./Position";
+import Category from "./Category";
 import { Link } from "react-router-dom";
 
 class Role {
@@ -22,7 +22,7 @@ class Role {
   ) {
     this.title = title;
     this.positions = positions;
-    this.team = team;
+    this.team = team; // Only fill out for Robocup since Robocup has subteams
     this.description = description;
     this.responsibilities = responsibilities;
     this.qualifications = qualifications;
@@ -30,14 +30,28 @@ class Role {
   }
 }
 
+class Role_Category {
+  title: string;
+  positions: Array<Role>;
+ 
+  constructor(
+    title: string,
+    positions: Array<Role>,
+ 
+  ) {
+    this.title = title;
+    this.positions = positions;
+  }
+}
+
 const Recruitment = () => {
-  const positions: Array<Role> = [
+  const admin_positions: Array<Role> = [
     new Role(
       // ADMIN TEAM ROLES
-      "Admin Team",
+      "Graphic Designer",
       "1",
       "As UBC Open Robotics’ Graphic Designer, you will be in charge of handling all things graphic-related – social media posts, physical posters, and even team merch. You will work with the rest of the amazing Admin Team in order to preserve the team’s brand and aid in its growth.",
-      "Graphic Designer",
+      "",
       [
       "Mock up and create social media posting for the team’s Instagram account",
       "Ensure UBC Open Robotics’ brand and colours are implemented throughout our social media presence",
@@ -54,10 +68,10 @@ const Recruitment = () => {
       ]
     ),
     new Role(
-      "Admin Member",
+      "Web Developer (Full-Stack)",
       "1-2",
       "We are looking for a web developer to assist with the expansion of our new Open Robotics website.",
-      "Web Developer (Full-Stack)",
+      "",
       [
         "Discuss design requirements and new features with captains",
         "Mantain current codebase and write clean new code for the website",
@@ -73,10 +87,10 @@ const Recruitment = () => {
       ]
     ),
     new Role(
-      "Admin Team",
+      "Sponsorship and Engagement Manager",
       "1",
       "The Sponsorship and Engagement Manager position involves securing funds for team projects, which allows the team to purchase supplies for their project designs, as well as rapidly prototype and iterate. This position also includes organizing team events to promote learning while developing meaningful relationships among team members.",
-      "Sponsorship and Engagement Manager",
+      "",
       [
       "Secure sponsorships and other forms of funding for the team",
       "Plan and organize team events, including: workshops, guest speakers, social events (e.g., movie nights, games nights, etc.)",
@@ -93,10 +107,10 @@ const Recruitment = () => {
       ]
     ),
     new Role(
-      "Admin Team",
+      "Social Media Manager",
       "1",
       "The Social Media Manager position involves promoting the team on various social media platforms, as well as posting updates about the team’s progress and accomplishments.",
-      "Social Media Manager",
+      "",
       [
       "Design and post social media content on Instagram, Facebook, Linkedin, etc. This includes collaborating with the graphic designer, creating captions, and generating written content for posts",
       "Communicate with captains, leads, graphic designer, and events and sponsorships manager",
@@ -110,13 +124,14 @@ const Recruitment = () => {
         "Experience with brand social media posts"
       ]
     ),
-
+  ];
+  const robotraining_positions: Array<Role> = [
     // ROBOTRAINING ROLES
     new Role(
-      "RoboTraining",
+      "1st/2nd Yr Students",
       "N/A",
       "Want to get your foot into the robotics industry? We’re looking to recruit bright-eyed first and second year students to give UBC Open Robotics some fresh blood. While these students will have responsibilities to carry out over the year, this role is less about what you can do for us and more about what we can do for you. We’re looking to train and tutor younger students and help transition them into excellent upper-year designers. We want to help you get more design, manufacturing, and assembly work - a perfect combination of hands-on experience. The responsibilities below outline skills we want to help you develop, so apply even if you don’t have them (yet)!",
-      "1st/2nd Yr Students",
+      "",
       [
         "Use Computer-Aided Design (CAD) software to design/modify parts",
         "Learn how to use 3D printers to create rapid prototypes of your design",
@@ -139,13 +154,14 @@ const Recruitment = () => {
         "An appreciation for mechas of all sizes",
       ]
     ),
-
+  ];
+  const robocup_positions: Array<Role> = [
     // ROBOCUP@HOME ROLES
     new Role(
       "Senior Subteam Member (Mechanical Design)",
       "2-3",
       "We’re seeking experienced members for the Mechanical Arms subteam. As the subteam name suggests, we are responsible for the arms of our robot: this entails a dynamic arm designed for interacting with the environment, and a static arm engineered to provide support and consistently carry heavier loads. As a senior member on the team, you will play a crucial role in various aspects, including mechanical design, prototyping, assembly, and prototype testing. In addition, you will spearhead the conception and construction of a pivotal component for the forthcoming iteration of our 6-DOF articulated robotic arm, embodying a leadership position at the forefront of our advancements",
-      "Robocup@Home Arms",
+      "Arms",
       [
         "Lead the mechanical design and development of a critical component of the robotic arm (most likely one of the joints), including concept generation, detailed design, prototyping, and testing",
         "Participate in brainstorming sessions and contribute creative ideas to enhance the performance and functionality of mechanical components",
@@ -178,7 +194,7 @@ const Recruitment = () => {
       `We are currently seeking motivated and enthusiastic individuals to join our Mechanical Arms subteam. As the subteam name suggests, we are responsible for the arms of our robot: this entails a dynamic arm designed for interacting with the environment, and a static arm engineered to provide support and consistently carry heavier loads. As a valued member of our team, you will play a pivotal role in various aspects, including mechanical design, prototyping, assembly, and prototype testing. We highly encourage you to bring forth fresh and innovative ideas that can enrich our projects. This role presents an exceptional opportunity for personal and professional growth, enabling you to cultivate hands-on experience and enhance your grasp of mechanical design principles. We welcome applications from candidates who may not fulfill all of the qualifications, we highly value enthusiasm and unique perspectives. 
       At this time in the design process, we are in the process of refining the dynamic arm – a 6-DOF articulated robotic arm – for the upcoming iteration of our robot. Joining our team at this juncture promises an exhilarating and rewarding experience as we embark on this exciting phase of development.
       `,
-      "Robocup@Home Arms",
+      "Arms",
       [
         "Participate in brainstorming sessions and contribute creative ideas to enhance the performance and functionality of mechanical components",
         "Utilize computer-aided design (CAD) software to create detailed and accurate 3D models of mechanical parts and assemblies",
@@ -205,7 +221,7 @@ const Recruitment = () => {
       "Electrical Subteam Member",
       "4-6",
       `The team developing the electrical hardware and firmware design of the robot’s arm is looking for new members of all experience levels. We are looking to recruit members for the design of: 1. New stepper motor drivesrs, 2. Wire harness, 3. Firmware`,
-      "Robocup@Home Arms",
+      "Arms",
       [
         `Assisting in the design of PCBs for motor drivers and other electrical subsystems`,
         `Design the wire harness for a 6-DOF robotic arm`,
@@ -225,7 +241,7 @@ const Recruitment = () => {
       "Mechanical Subteam Lead",
       "1",
       `Mechanical members of the Drivetrain subteam are responsible for designing the bottom half of the robot, including the structural chassis, aesthetic casing, and powertrain. The work involves designing, machining/manufacturing, and integrating the designs with the Torso subteam.`,
-      "Robocup@Home Drivetrain",
+      "Drivetrain",
       [
         "Plan project timelines, assign tasks to mechanical team members, and monitor progress",
         "Work closely with the electrical lead and members of the Drivetrain subteam to integrate electromechanical parts",
@@ -256,7 +272,7 @@ const Recruitment = () => {
       "Mechanical Subteam Member",
       "3",
       "Mechanical members of the Drivetrain subteam are responsible for designing the bottom half of the robot, including the structural chassis, aesthetic casing, and powertrain. The work involves designing, machining/manufacturing, and integrating the designs with the Torso subteam.",
-      "Robocup@Home Drivetrain",
+      "Drivetrain",
       [
         "Use Computer-Aided Design (CAD) to design and modify chassis and casings",
         "Use 3D printers to create rapid prototypes of the design",
@@ -283,7 +299,7 @@ const Recruitment = () => {
       "Embedded System Hardware Designer",
       "4",
       `As an Embedded Hardware Engineer within our student design team for the RoboCup@Home competition, you will play a critical role in designing, developing, and implementing the drivetrain subsystem of our autonomous robot. Your expertise in embedded systems and hardware design will contribute to the success of our team's robot as it navigates and interacts in a home environment, completing various tasks and challenges set by the competition. This role offers a unique opportunity to apply theoretical knowledge to real-world robotic challenges, collaborate with multidisciplinary team members, and gain hands-on experience in advanced robotics technologies.`,
-      "Robocup@Home Drivetrain",
+      "Drivetrain",
       [
         "Prepare and design the schematics, PCB placement and layout, and manufacturing and assembly files.",
         "Perform circuit simulation (SPICE) for design verification",
@@ -308,7 +324,7 @@ const Recruitment = () => {
       "Head And Torso Subteam Member",
       "2-3",
       `The team developing the robot’s torso and head is looking for new members of all experience levels. We value commitment over experience, and members are expected to communicate with their lead regularly and complete tasks in a timely manner.`,
-      "Robocup@Home Head and Torso",
+      "Head and Torso",
       [
         "Assist in the design and development of a prototype of the robot head and torso",
         "Collaborate closely with all other subteams to ensure seamless integration and holistic functionality of robotic systems",
@@ -324,7 +340,7 @@ const Recruitment = () => {
       "Gripper Subteam Lead",
       "1",
       `As the lead for the Gripper subteam, you will oversee the fabrication of the gripper, the integration of electrical and mechanical components, and the integration with the Arms subteam.`,
-      "Robocup@Home Gripper",
+      "Gripper",
       [
         "Cross-disciplinary Leadership: Lead a multidisciplinary team, including electrical and mechanical engineers, fostering collaboration and ensuring effective communication between team members.",
         "Electromechanical Integration: Coordinate the seamless integration of electrical components, such as sensors, actuators, and control systems, with mechanical components to create cohesive solutions.",
@@ -348,7 +364,7 @@ const Recruitment = () => {
       "Mechanical Subteam Member",
       "1",
       `As part of the Gripper subteam, you will be working on the gripper of our robot that is planned to be used in the RoboCup@Home competition. You will be working hands-on on building and testing the gripper prototype, and integrating it with the electrical components and arm.`,
-      "Robocup@Home Gripper",
+      "Gripper",
       [
         "Collaborate to design and develop mechanical aspects of the gripper, ensuring optimal performance and reliability.",
         "Make and edit iterations of the CAD model of the gripper",
@@ -370,7 +386,7 @@ const Recruitment = () => {
       "Electrical Subteam Member",
       "3",
       `As part of the subteam, you will be working on the gripper of our robot that is planned to be used in the RoboCup@Home competition. You will be researching, testing, and attaching sensors and motors, as well as some low-level coding to the robot hand. In addition, there will be some integration that is required with other subteams, such as Arms and Software.`,
-      "Robocup@Home Gripper",
+      "Gripper",
       [
         "Collaborate to design and develop electrical systems that control the gripper's functionality, ensuring optimal performance and reliability.",
         "Create circuit diagrams and read schematics for various electrical components, including sensors, actuators, motor controllers, and communication interfaces.",
@@ -396,7 +412,7 @@ const Recruitment = () => {
 
       You will have the opportunity to interact with simulated and real-world versions of the robot and components to test the software. 
       `,
-      "Robocup@Home Software",
+      "Software",
       [
         "Speech: Develop software (Python) and train/utilize machine learning models for natural language processing (NLP), speech synthesis, and key word recognition to enable natural human-to-robot interactions.",
         "Navigation: Develop software (Python, and some C/C++) for navigation tasks. This includes position determination and mapping in various environments, simulation, integration with hardware, obstacle avoidance, course navigation, and path planning.",
@@ -417,13 +433,14 @@ const Recruitment = () => {
         "Knowledge of control systems"
       ]
     ),
-
+  ];
+  const pianobot_positions: Array<Role> = [
       // PIANOBOT ROLES
       new Role(
         "Mechanical Subteam Member",
         "1",
         `Pianobot Mechanical Team Member`,
-        "Pianobot",
+        "",
         [
           "Designing and developing physical parts using manufacturing methods such as 3D printing and CNC waterjet/laser cut. This includes considering manufacturing methods when designing parts and knowing how it is manufactured + the limitations it has",
           "Calculating estimates to be able to select the correct motors for the task",
@@ -443,7 +460,7 @@ const Recruitment = () => {
         "Electrical Subteam Lead",
         "1",
         "Pianobot Electrical Subteam Lead",
-        "Pianobot",
+        "",
         [
           "Designing and developing custom PCBs to streamline circuits and aesthetics.",
           "Finding and implementing breakout boards/components to power and support the mechanical actuators",
@@ -467,7 +484,7 @@ const Recruitment = () => {
         "Electrical Subteam Member",
         "1-2",
         `Pianobot Electrical Team Member`,
-        "Pianobot",
+        "",
         [
           "Designing and developing custom PCBs to streamline circuits and aesthetics.",
           "Finding and implementing breakout boards/components to power and support the mechanical actuators",
@@ -486,6 +503,13 @@ const Recruitment = () => {
       ),
   ];
 
+  const admin_category: Role_Category = new Role_Category("Admin Roles", admin_positions)
+  const robotraining_category: Role_Category = new Role_Category("RoboTraining Roles", robotraining_positions)
+  const robocup_category: Role_Category = new Role_Category("Robocup Roles", robocup_positions)
+  const pianobot_category: Role_Category = new Role_Category("Pianobot Roles", pianobot_positions)
+
+  const categories: Array<Role_Category> = [admin_category, robotraining_category, robocup_category, pianobot_category]
+
   return (
     <section className="flex flex-col m-[10%] py-10 md:mt-24 sm:mt-30 xs:mt-60 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl justify-center items-center">
       <h1 className="text-3xl py-4 font-extrabold md:text-5xl text-gray-900">
@@ -497,7 +521,7 @@ const Recruitment = () => {
       </h1>
       <p className="py-4 text-md md:text-xl  text-gray-500">
         Our Fall Recruitment cycle is in full swing right now! If you're
-        interested in joining, apply for a technical position here. Note that
+        interested in joining, apply for a technical or admin position here. Note that
         our applications are open to students across all faculties and of
         varying skill levels. We look forward to your applications! For further
         questions please{" "}
@@ -508,16 +532,21 @@ const Recruitment = () => {
                 contact 
         </Link>
         {" "}us
+
+        <br></br> <br></br>
+
+        <b>Note:</b> We strongly encourage anyone with a strong interest and passion to design and manufacture to apply, 
+        regardless of current experience. Our team values highly-motivated students who are willing to learn 
+        and take initiative. 
+
+
       </p>
-      {positions.map((position: Role) => (
-        <Position
-          name={position.title}
-          positions={position.positions}
-          team={position.team}
-          desc={position.description}
-          qualifications={position.qualifications}
-          responsibilites={position.responsibilities}
-          pref = {position.pref}
+      {categories.map((category: Role_Category) => (
+
+          <Category
+          name={category.title}
+          positions={category.positions}
+
         />
       ))}
       <button className="bg-gray-900 w-auto font-bold rounded-lg mt-8 md:mt-16 px-20 py-3 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-red-600  text-gray-200 text-center">
