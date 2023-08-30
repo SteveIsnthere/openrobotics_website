@@ -68,7 +68,7 @@ const ContactPage = () => {
                     Email Address
                   </h4>
                   <p className="text-base text-body-color">
-                    intelligence@www.ubcopenrobotics.ca
+                    ubcopenrobotics@gmail.com
                   </p>
                 </div>
               </div>
