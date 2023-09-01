@@ -129,7 +129,7 @@ const Recruitment = () => {
     // ROBOTRAINING ROLES
     new Role(
       "1st/2nd Yr Students",
-      "N/A",
+      "Depending on interest",
       "Want to get your foot into the robotics industry? We’re looking to recruit bright-eyed first and second year students to give UBC Open Robotics some fresh blood. While these students will have responsibilities to carry out over the year, this role is less about what you can do for us and more about what we can do for you. We’re looking to train and tutor younger students and help transition them into excellent upper-year designers. We want to help you get more design, manufacturing, and assembly work - a perfect combination of hands-on experience. The responsibilities below outline skills we want to help you develop, so apply even if you don’t have them (yet)!",
       "",
       [
@@ -235,6 +235,31 @@ const Recruitment = () => {
       ],
       [
         'Experience with: PCB design software, Wire harness design, Experience with AVR and STM32 family of microcontrollers'
+      ]
+    ),
+    new Role(
+      "Firmware Developer",
+      "TBD",
+      `Your role involves designing, coding, and maintaining embedded firmware that drives the drivetrain, arm, and other vital components of the robot using STM32 and AVR microcontrollers, and RTOS. Collaborate with hardware and software teams to define interfaces, develop hardware drivers, and ensure reliable ROS integration. Implement real-time algorithms for sensor data processing, motor control, and communication protocols.`,
+      "Firmware",
+      [
+        "Develop, debug and maintain embedded firmware for the robot using the STM32 microcontrollers running on CMSIS-RTOS using C/C++",
+        "Collaborate with the software team to integrate ROS into the overall firmware architecture",
+        "Collaborate with the electrical team to define clear interfaces and communication protocols between embedded software and hardware components"
+      ],
+      [
+        "Experience developing within a Linux environment using terminals",
+        "Experience using version control, in particular, git",
+        "Proficient in C/C++ programming and debugging",
+        "Understanding of MCU peripherals and modules (e.g. Timers, DMA, GPIO)",
+        "Ability to read and understand complex circuit schematics",
+        "Familiar with serial communication protocols (e.g. UART, SPI, I2C, CAN)"
+      ],
+      [
+        "Experience with Makefile and GDB",
+        "Experience with STM32/ Cortex M microcontrollers",
+        "Understanding of RTOS concepts (e.g. task scheduling, inter-task communication)",
+        "Experience in open-loop control systems using stepper motors"
       ]
     ),
     new Role(
