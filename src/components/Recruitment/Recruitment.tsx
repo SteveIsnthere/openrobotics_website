@@ -239,7 +239,7 @@ const Recruitment = () => {
     ),
     new Role(
       "Firmware Developer",
-      "TBD",
+      "4",
       `Your role involves designing, coding, and maintaining embedded firmware that drives the drivetrain, arm, and other vital components of the robot using STM32 and AVR microcontrollers, and RTOS. Collaborate with hardware and software teams to define interfaces, develop hardware drivers, and ensure reliable ROS integration. Implement real-time algorithms for sensor data processing, motor control, and communication protocols.`,
       "Firmware",
       [
