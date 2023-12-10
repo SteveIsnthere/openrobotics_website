@@ -52,10 +52,10 @@ const Team = () => {
     new Person(
       "Steve Wang",
       "Web Developer",
-      "im",
-      "im",
-      "assets/img/default_profile.jpg",
-      "im"
+      "www.linkedin.com/in/steve-wang-895ba3214",
+      "https://github.com/SteveIsnthere",
+      "assets/img/software/Steve_Wang.jpg",
+      "npminitfailed@gmail.com"
     ),
     new Person(
       "Kunal Bhasin",
