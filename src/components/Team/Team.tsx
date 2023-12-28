@@ -33,7 +33,7 @@ const Team = () => {
       "OpBots Captain",
       "im",
       "im",
-      "assets/img/admin/JD2.png",
+      "assets/img/admin/JD New.jpg",
       "im"
     ),
     // new Person("Matthew Poon", 'OpBots Captain', 'https://www.linkedin.com/in/matthew-poon-73626220b/?originalSubdomain=ca', 'im', "assets/img/admin/matthew.png", 'im'),
@@ -70,7 +70,7 @@ const Team = () => {
       "Social Media Manager",
       "im",
       "im",
-      "assets/img/default_profile.jpg",
+      "assets/img/admin/Shoue_Nariyoshi.jpg",
       "im"
     ),
     // new Person("Sashank Shukla", 'Web Developer', 'https://www.linkedin.com/in/sashank-shukla/', 'im', 'assets/img/admin/sashank.jpg', 'im'),
@@ -88,11 +88,27 @@ const Team = () => {
   const PianoBot: Array<Person> = [
     new Person(
       "Samuel Krisetia",
-      "Mechanical/Electrical Lead",
+      "Electrical Lead",
       "im",
       "im",
       "assets/img/pianobot/Samuel_Krisetia2.png",
       "im"
+    ),
+    new Person(
+        "Kai Shang",
+        "Mechanical Lead",
+        "im",
+        "im",
+        "assets/img/arm/Kai Shang.jpg",
+        "im"
+    ),
+    new Person(
+        "Gunbir Baveja",
+        "Software Lead",
+        "im",
+        "im",
+        "assets/img/default_profile.jpg",
+        "im"
     ),
     new Person(
       "Ryan Luke Acapulco",
@@ -113,40 +129,40 @@ const Team = () => {
     // new Person("Scott Beaulieu"       , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/scott.png"    ,'im'),
     // new Person("Yiting Wu"            , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/yiting.png"   ,'im'),
   ];
-  const ArtBot: Array<Person> = [
-    new Person(
-      "Aiden Smith",
-      "ArtBot Lead",
-      "im",
-      "im",
-      "assets/img/artbot/aiden.png",
-      "im"
-    ),
-    new Person(
-      "Navneeth Devadas",
-      "ArtBot Member",
-      "im",
-      "im",
-      "assets/img/default_profile.jpg",
-      "im"
-    ),
-    new Person(
-      "Felice Jie Chen",
-      "ArtBot Member",
-      "im",
-      "im",
-      "assets/img/default_profile.jpg",
-      "im"
-    ),
-    new Person(
-      "Benji Li",
-      "ArtBot Member",
-      "im",
-      "im",
-      "assets/img/artbot/benji.png",
-      "im"
-    ),
-  ];
+  // const ArtBot: Array<Person> = [
+  //   new Person(
+  //     "Aiden Smith",
+  //     "ArtBot Lead",
+  //     "im",
+  //     "im",
+  //     "assets/img/artbot/aiden.png",
+  //     "im"
+  //   ),
+  //   new Person(
+  //     "Navneeth Devadas",
+  //     "ArtBot Member",
+  //     "im",
+  //     "im",
+  //     "assets/img/default_profile.jpg",
+  //     "im"
+  //   ),
+  //   new Person(
+  //     "Felice Jie Chen",
+  //     "ArtBot Member",
+  //     "im",
+  //     "im",
+  //     "assets/img/default_profile.jpg",
+  //     "im"
+  //   ),
+  //   new Person(
+  //     "Benji Li",
+  //     "ArtBot Member",
+  //     "im",
+  //     "im",
+  //     "assets/img/artbot/benji.png",
+  //     "im"
+  //   ),
+  // ];
   const Arm: Array<Person> = [
     new Person(
       "Matthew Sam",
@@ -156,6 +172,7 @@ const Team = () => {
       "assets/img/arm/Matthew_Sam2.png",
       "im"
     ),
+
     new Person(
       "Danny Han",
       "Mechanical Lead",
@@ -243,6 +260,7 @@ const Team = () => {
       "assets/img/software/Andrew_Xie2.png",
       "im"
     ),
+
     // new Person("Francisco Farinha", 'Software Lead', 'im', 'im', 'assets/img/software/francisco.png', 'im'),
     // new Person("Andrew Xie", 'Software Lead', 'im', 'im', 'assets/img/software/andrew.png', 'im'),
     // new Person("Aayush Behl"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/aayush.png'    , 'im'),
@@ -311,23 +329,23 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="my-16 mx-[5%]">
-          <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            ArtBot (Completed)
-          </h1>
-          <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {ArtBot.map((lead) => (
-              <Member
-                name={lead.name}
-                position={lead.position}
-                linkedin={lead.linkedin}
-                github={lead.github}
-                img={lead.img}
-                email={lead.email}
-              />
-            ))}
-          </div>
-        </div>
+        {/*<div className="my-16 mx-[5%]">*/}
+        {/*  <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">*/}
+        {/*    ArtBot (Completed)*/}
+        {/*  </h1>*/}
+        {/*  <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">*/}
+        {/*    {ArtBot.map((lead) => (*/}
+        {/*      <Member*/}
+        {/*        name={lead.name}*/}
+        {/*        position={lead.position}*/}
+        {/*        linkedin={lead.linkedin}*/}
+        {/*        github={lead.github}*/}
+        {/*        img={lead.img}*/}
+        {/*        email={lead.email}*/}
+        {/*      />*/}
+        {/*    ))}*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
         <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
