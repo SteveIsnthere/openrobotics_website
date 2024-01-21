@@ -19,7 +19,7 @@ function Sponsor() {
 
         <p className="max-w mx-auto mt-5 text-gring-offset-warm-gray-500">
           As a measure to continue our steady growth and progressions, our team
-          needs your support in the form of sponsorship.Your investment in our
+          needs your support in the form of sponsorship. Your investment in our
           team will go beyond just helping our team’s growth and progression.
           Not only will you inspire our team as they gain new equipment and
           materials which they need, but also help generate more appreciation
@@ -60,7 +60,10 @@ function Sponsor() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img alt="RioTinto written in white on a red background" src="assets/img/sponsor/RioTinto.png" />
+          <img
+            alt="RioTinto written in white on a red background"
+            src="assets/img/sponsor/RioTinto.png"
+          />
         </SwiperSlide>
       </Swiper>
     </section>
