@@ -95,29 +95,29 @@ const Team = () => {
       "im"
     ),
     new Person(
-        "Kai Shang",
-        "Mechanical Lead",
-        "im",
-        "im",
-        "assets/img/arm/Kai Shang.jpg",
-        "im"
+      "Kai Shang",
+      "Mechanical Lead",
+      "im",
+      "im",
+      "assets/img/arm/Kai Shang.jpg",
+      "im"
     ),
     new Person(
-        "Gunbir Baveja",
-        "Software Lead",
-        "im",
-        "im",
-        "assets/img/default_profile.jpg",
-        "im"
-    ),
-    new Person(
-      "Ryan Luke Acapulco",
+      "Gunbir Baveja",
       "Software Lead",
       "im",
       "im",
       "assets/img/default_profile.jpg",
       "im"
     ),
+    // new Person(
+    //   "Ryan Luke Acapulco",
+    //   "Software Lead",
+    //   "im",
+    //   "im",
+    //   "assets/img/default_profile.jpg",
+    //   "im"
+    // ),
     // new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
     // new Person("Veronica Nguyen", 'Software Lead', 'https://www.linkedin.com/in/n-veronica/', 'im', "assets/img/pianobot/veronica.png", 'im'),
     // new Person("Samuel Krisetia", "Mechanical Lead", "https://www.linkedin.com/in/samuel-krisetia-515663161/", "im", "assets/img/default_profile.jpg", "im")
@@ -243,6 +243,22 @@ const Team = () => {
     // new Person("Chaewoon Song" , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
     // new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
   ];
+  const HeadTorso: Array<Person> = [
+    new Person(
+      "Sophia Yang",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    // new Person("Abdulmajeed Amran", 'Gripper Lead', 'im', 'im', 'assets/img/default_profile.jpg', 'im'),
+    // new Person("Matthew Sam"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/gripper/matthew.png' , 'im'),
+    // new Person("Husein Alatas" , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/husein.png'  , 'im'),
+    // new Person("Akhil Prabhu"  , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/akhil.png'   , 'im'),
+    // new Person("Chaewoon Song" , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
+    // new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
+  ];
   const Software: Array<Person> = [
     new Person(
       "Yousif El-Wishahy",
@@ -273,11 +289,11 @@ const Team = () => {
     <section className="bg-white w-screen overscroll-none mt-16 pt-10 z-10">
       <div className="container">
         <h1 className="text-4xl mx-[5%] font-extrabold font-Roboto700 mb-20 text-gray-800 capitalize lg:text-5xl">
-          Meet The Team
+          Meet The Team's Leadership
         </h1>
         <div className="my-16 mx-[5%] mb-24">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            Leads
+            Captain
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Leads.map((lead) => (
@@ -389,6 +405,24 @@ const Team = () => {
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
             {Gripper.map((lead) => (
+              <Member
+                name={lead.name}
+                position={lead.position}
+                linkedin={lead.linkedin}
+                github={lead.github}
+                img={lead.img}
+                email={lead.email}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="my-16 mx-[5%]">
+          <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
+            RoboCup Head/Torso
+          </h1>
+          <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            {HeadTorso.map((lead) => (
               <Member
                 name={lead.name}
                 position={lead.position}
