@@ -5,7 +5,8 @@ const Login = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [_, setPhoto] = useState(null);
+  // eslint-disable-next-line
+  const [photo, setPhoto] = useState(null);
   const [linkedin, setLinkedin] = useState("");
   const [github, setGithub] = useState("");
   const [team, setTeam] = useState("");
