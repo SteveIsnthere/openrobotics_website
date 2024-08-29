@@ -588,6 +588,14 @@ const Recruitment = () => {
       applyLink:
         "https://docs.google.com/document/d/1r7O46H4w34Sng4XUMWh90ulRybh7kDsas4xVbJ3b99g/edit?usp=sharing",
     },
+
+    {
+      title: "ROBOCUP@HOME Gripper",
+      description:
+        "Design and build the mechanical and electrical aspects of the end effector of our robot in order to improve its grasping capabilities.",
+      applyLink:
+        "https://docs.google.com/document/d/122C5sPPyW--IP_Ie8JEwXuKYDvxckSCnAho4hnAXGRo/edit",
+    },
   ];
 
   return (
@@ -653,6 +661,17 @@ const Recruitment = () => {
         </a>
       </button> */}
       {/* <h2 className="text-3xl font-bold text-center mb-8">Postings</h2> */}
+      <button className="bg-blue-500 w-64 font-bold rounded-lg px-12 py-4 text-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-blue-700 text-white text-center mb-8">
+        <a
+          className="style-none"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://forms.gle/5S7c2KVK7hVnP82w8" // Replace with the actual link
+        >
+          Recruitment Form
+        </a>
+      </button>
+
       <div className="max-w-3xl mx-auto">
         {jobPostings.map((job, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg p-6 mb-6">
