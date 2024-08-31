@@ -596,6 +596,14 @@ const Recruitment = () => {
       applyLink:
         "https://docs.google.com/document/d/122C5sPPyW--IP_Ie8JEwXuKYDvxckSCnAho4hnAXGRo/edit",
     },
+
+    {
+      title: "ROBOCUP@HOME Software Subteam Member",
+      description:
+        "Develop, test, and integrate the software that controls the robot.",
+      applyLink:
+        "https://docs.google.com/document/d/1ZqmK2oL3iYF0HVvD4w9ESDJiXamYVdbEMh0h3yva6cQ/edit?usp=sharing",
+    },
   ];
 
   return (
