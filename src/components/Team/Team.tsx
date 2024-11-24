@@ -30,14 +30,20 @@ const Team = () => {
   const Leads: Array<Person> = [
     new Person(
       "Juan Diego Balestrini",
-      "OpBots Captain",
+      "OpBots Co-Captain",
       "im",
       "im",
       "assets/img/admin/JD New.jpg",
       "im"
     ),
-    // new Person("Matthew Poon", 'OpBots Captain', 'https://www.linkedin.com/in/matthew-poon-73626220b/?originalSubdomain=ca', 'im', "assets/img/admin/matthew.png", 'im'),
-    // new Person("Fouad Elgamal", 'OpBots Captain', 'https://www.linkedin.com/in/fouad-elgamal/', 'im', "assets/img/admin/fouad.jpg", 'im'),
+    new Person(
+      "Albin Soni",
+      "OpBots Co-Captain",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
   ];
 
   const Admin: Array<Person> = [
@@ -50,239 +56,381 @@ const Team = () => {
       "im"
     ),
     new Person(
-      "Steve Wang",
+      "Paul Tiberghien",
       "Web Developer",
-      "www.linkedin.com/in/steve-wang-895ba3214",
-      "https://github.com/SteveIsnthere",
-      "assets/img/software/Steve_Wang.jpg",
-      "npminitfailed@gmail.com"
-    ),
-    new Person(
-      "Kunal Bhasin",
-      "Graphic Designer",
       "im",
       "im",
       "assets/img/default_profile.jpg",
-      "im"
-    ),
-    new Person(
-      "Shoue Nariyoshi",
-      "Social Media Manager",
-      "im",
-      "im",
-      "assets/img/admin/Shoue_Nariyoshi.jpg",
-      "im"
-    ),
-    // new Person("Sashank Shukla", 'Web Developer', 'https://www.linkedin.com/in/sashank-shukla/', 'im', 'assets/img/admin/sashank.jpg', 'im'),
-    // new Person("Inzaghi Moniaga", 'Web Developer', 'https://www.linkedin.com/in/inzaghi-moniaga-3692b7171/?originalSubdomain=ca', 'https://github.com/InMDev', 'assets/img/admin/inzaghi.jpg', 'https://inzaghi.tech/'),
-    // new Person("Ben Lu", 'Graphic Designer', 'https://www.linkedin.com/in/-ben-lu-/', 'im', 'assets/img/admin/ben.png', 'im'),
-    // new Person("Dhriti Bansal", 'Social Media Manager', 'https://www.linkedin.com/in/dhriti-bansal/', 'im', 'assets/img/admin/dhriti.jpg', 'im'),
-    // new Person("Kritika Joshi"   , 'Integration Lead' ,     'im' , 'im' , 'assets/img/admin/kritika.png'   , 'im'),
-    // new Person("Niki Manesh"     , 'Mentor'           ,     'im' , 'im' , 'assets/img/admin/niki.png'      , 'im'),
-    // new Person("Brian Zimmerman" , 'Finance Lead'     ,     'im' , 'im' , 'assets/img/admin/brian.png'     , 'im'),
-    // new Person("Nafae Saiyed"    , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Taymur Pasha"    , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Jay Hou"         , 'Finance Member'   ,     'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Tian Hao Xu"     , 'Safety Officer'   ,     'im' , 'im' , 'assets/img/admin/tian.png'      , 'im'),
-  ];
-  const PianoBot: Array<Person> = [
-    new Person(
-      "Samuel Krisetia",
-      "Electrical Lead",
-      "im",
-      "im",
-      "assets/img/pianobot/Samuel_Krisetia2.png",
-      "im"
-    ),
-    new Person(
-      "Kai Shang",
-      "Mechanical Lead",
-      "im",
-      "im",
-      "assets/img/arm/Kai Shang.jpg",
-      "im"
-    ),
-    new Person(
-      "Gunbir Baveja",
-      "Software Lead",
-      "im",
-      "im",
-      "assets/img/default_profile.jpg",
-      "im"
-    ),
-    // new Person(
-    //   "Ryan Luke Acapulco",
-    //   "Software Lead",
-    //   "im",
-    //   "im",
-    //   "assets/img/default_profile.jpg",
-    //   "im"
-    // ),
-    // new Person("Shawna Naderi"        , 'PianoBot Lead'   , 'im' , 'im' , "assets/img/pianobot/shawna.png"   ,'im'),
-    // new Person("Veronica Nguyen", 'Software Lead', 'https://www.linkedin.com/in/n-veronica/', 'im', "assets/img/pianobot/veronica.png", 'im'),
-    // new Person("Samuel Krisetia", "Mechanical Lead", "https://www.linkedin.com/in/samuel-krisetia-515663161/", "im", "assets/img/default_profile.jpg", "im")
-    // new Person("Evan Liu"             , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/evan.png"     ,'im'),
-    // new Person("Fernando Ng"          , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/fernando.png" ,'im'),
-    // new Person("Karthik Ravichandran" , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/karthik.png"  ,'im'),
-    // new Person("Prayus Shrestha"      , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/prayus.png"   ,'im'),
-    // new Person("Ryan Acapulco"        , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/ryan.png"     ,'im'),
-    // new Person("Scott Beaulieu"       , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/scott.png"    ,'im'),
-    // new Person("Yiting Wu"            , 'PianoBot Member' , 'im' , 'im' , "assets/img/pianobot/yiting.png"   ,'im'),
-  ];
-  // const ArtBot: Array<Person> = [
-  //   new Person(
-  //     "Aiden Smith",
-  //     "ArtBot Lead",
-  //     "im",
-  //     "im",
-  //     "assets/img/artbot/aiden.png",
-  //     "im"
-  //   ),
-  //   new Person(
-  //     "Navneeth Devadas",
-  //     "ArtBot Member",
-  //     "im",
-  //     "im",
-  //     "assets/img/default_profile.jpg",
-  //     "im"
-  //   ),
-  //   new Person(
-  //     "Felice Jie Chen",
-  //     "ArtBot Member",
-  //     "im",
-  //     "im",
-  //     "assets/img/default_profile.jpg",
-  //     "im"
-  //   ),
-  //   new Person(
-  //     "Benji Li",
-  //     "ArtBot Member",
-  //     "im",
-  //     "im",
-  //     "assets/img/artbot/benji.png",
-  //     "im"
-  //   ),
-  // ];
-  const Arm: Array<Person> = [
-    new Person(
-      "Matthew Sam",
-      "Electrical Lead",
-      "im",
-      "im",
-      "assets/img/arm/Matthew_Sam2.png",
       "im"
     ),
 
     new Person(
-      "Danny Han",
-      "Mechanical Lead",
-      "im",
-      "im",
-      "assets/img/arm/Danny_Han2.png",
-      "im"
-    ),
-    // new Person("Joey Gaffney", 'Electrical Lead', 'im', 'im', 'assets/img/arm/joey.png', 'im'),
-    // new Person("Arwin Patrick"    , 'Arm Lead'   , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Jonas Chianu"     , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/jonas.png'       , 'im'),
-    // new Person("Hazel Chongoti"   , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/hazel.png'       , 'im'),
-    // new Person("David Kim", 'Mechanical Lead', 'im', 'im', 'assets/img/arm/david.png', 'im'),
-    // new Person("Debby Lin"        , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/debby.png'       , 'im'),
-    // new Person("Cailin Ringstorm" , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Iris Xu"          , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Ryan Yeung"       , 'Arm Member' , 'im' , 'im' , 'assets/img/arm/ryan.png'        , 'im'),
-    // new Person("Grace Zhang"      , 'Arm Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-  ];
-  const Train: Array<Person> = [
-    new Person(
-      "James Na",
-      "Electrical Co-Lead",
-      "im",
-      "im",
-      "assets/img/train/James_Na2.png",
-      "im"
-    ),
-    new Person(
-      "Robin Yuan",
-      "Electrical Co-Lead",
+      "Sofiya Spolitak",
+      "Admin",
       "im",
       "im",
       "assets/img/default_profile.jpg",
       "im"
     ),
-    // new Person("David Kim", 'Mechanical Lead', 'im', 'im', 'assets/img/arm/david.png', "im"),
-    // new Person("Kuok Kun(AO) Chio" , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/kuok.png'      , 'im'),
-    // new Person("Yang Su"           , 'RoboCup Lead'   , 'im' , 'im' , 'assets/img/train/yang.png'      , 'im'),
-    // new Person("Kamran Alam"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/kamran.png'    , 'im'),
-    // new Person("Wilson Chen"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/wilson.png'    , 'im'),
-    // new Person("Vishal Desh"       , 'RoboCup Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Yoshi Inomata"     , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/yoshi.png'     , 'im'),
-    // new Person("Eros Rojas"        , 'RoboCup Member' , 'im' , 'im' , 'assets/img/train/eros.png'      , 'im'),
-    // new Person("Tian Hao Xu", 'Electrical Lead', 'im', 'im', 'assets/img/train/tian.png', 'im'),
-  ];
-  const Gripper: Array<Person> = [
     new Person(
-      "Mohammed AJ",
-      "Co-Lead",
-      "im",
-      "im",
-      "assets/img/gripper/Mohammed_AJ.jpg",
-      "im"
-    ),
-    new Person(
-      "Ehsan Twal",
-      "Co-Lead",
+      "Jonathan Liu",
+      "Admin",
       "im",
       "im",
       "assets/img/default_profile.jpg",
       "im"
     ),
-    // new Person("Abdulmajeed Amran", 'Gripper Lead', 'im', 'im', 'assets/img/default_profile.jpg', 'im'),
-    // new Person("Matthew Sam"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/gripper/matthew.png' , 'im'),
-    // new Person("Husein Alatas" , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/husein.png'  , 'im'),
-    // new Person("Akhil Prabhu"  , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/akhil.png'   , 'im'),
-    // new Person("Chaewoon Song" , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-  ];
-  const HeadTorso: Array<Person> = [
     new Person(
-      "Sophia Yang",
+      "Tara Magureanu",
+      "Admin",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Emily Lee",
+      "Admin",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Kevin Liu",
+      "Admin",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+  ];
+
+  const ArmProject = [
+    new Person(
+      "Soma Inokuchi",
       "Lead",
       "im",
       "im",
       "assets/img/default_profile.jpg",
       "im"
     ),
-    // new Person("Abdulmajeed Amran", 'Gripper Lead', 'im', 'im', 'assets/img/default_profile.jpg', 'im'),
-    // new Person("Matthew Sam"   , 'Gripper Lead'   , 'im' , 'im' , 'assets/img/gripper/matthew.png' , 'im'),
-    // new Person("Husein Alatas" , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/husein.png'  , 'im'),
-    // new Person("Akhil Prabhu"  , 'Gripper Member' , 'im' , 'im' , 'assets/img/gripper/akhil.png'   , 'im'),
-    // new Person("Chaewoon Song" , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-    // new Person("Jenica Sy"     , 'Gripper Member' , 'im' , 'im' , 'assets/img/default_profile.jpg' , 'im'),
-  ];
-  const Software: Array<Person> = [
     new Person(
-      "Yousif El-Wishahy",
-      "Co-Lead",
+      "Byronne Rolfe",
+      "Member",
       "im",
       "im",
       "assets/img/default_profile.jpg",
       "im"
     ),
     new Person(
-      "Andrew Xie",
-      "Co-Lead",
+      "Declan Ng",
+      "Member",
       "im",
       "im",
-      "assets/img/software/Andrew_Xie2.png",
+      "assets/img/default_profile.jpg",
       "im"
     ),
+    new Person(
+      "Nam Ha",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Kai Shang",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Brian Tian",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Kevin Gao",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Daniel Li",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Cody Liu",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+  ];
 
-    // new Person("Francisco Farinha", 'Software Lead', 'im', 'im', 'assets/img/software/francisco.png', 'im'),
-    // new Person("Andrew Xie", 'Software Lead', 'im', 'im', 'assets/img/software/andrew.png', 'im'),
-    // new Person("Aayush Behl"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/aayush.png'    , 'im'),
-    // new Person("Ashli Forbes"      , 'Software Member' , 'im' , 'im' , 'assets/img/default_profile.jpg'    , 'im'),
-    // new Person("Damien Fung"       , 'Software Member' , 'im' , 'im' , 'assets/img/software/damien.png'    , 'im'),
-    // new Person("Tawsif Hasan"      , 'Software Member' , 'im' , 'im' , 'assets/img/software/tawsif.png'    , 'im'),
+  const DrivetrainProject: Array<Person> = [
+    new Person(
+      "Sharvari Dhuri",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Chetan Gill",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Anraj Soni",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Dhruv Goel",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Daniel Wan",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+  ];
+
+  const GripperProject: Array<Person> = [
+    new Person(
+      "Felipe Nunes",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "John Jin",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Daylen Chun",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Cathy Chou",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Susana Phuong",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+  ];
+
+  const PowerProject: Array<Person> = [
+    new Person(
+      "James Na",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Patrick Delfin",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Andy Setiawan",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Guanyu Zhu",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Jamie Kang",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Nimesh Pandey",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+  ];
+
+  const Software = [
+    new Person(
+      "Nate Noguera",
+      "Lead",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Kevin Liu",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Dikpaal Patel",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Mo Ngai",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Devin Huang",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Paulo Lin",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Brian Liu",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Roman Sinkus",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Chen-Lung Tsai",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Ella Majkic",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Anthony Ji",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Eric Tang",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "David (Yetaek) Hong",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
+    new Person(
+      "Nikoo Vali",
+      "Member",
+      "im",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
   ];
 
   return (
@@ -329,46 +477,10 @@ const Team = () => {
 
         <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            PianoBot
+            Arm Project
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {PianoBot.map((lead) => (
-              <Member
-                name={lead.name}
-                position={lead.position}
-                linkedin={lead.linkedin}
-                github={lead.github}
-                img={lead.img}
-                email={lead.email}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/*<div className="my-16 mx-[5%]">*/}
-        {/*  <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">*/}
-        {/*    ArtBot (Completed)*/}
-        {/*  </h1>*/}
-        {/*  <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">*/}
-        {/*    {ArtBot.map((lead) => (*/}
-        {/*      <Member*/}
-        {/*        name={lead.name}*/}
-        {/*        position={lead.position}*/}
-        {/*        linkedin={lead.linkedin}*/}
-        {/*        github={lead.github}*/}
-        {/*        img={lead.img}*/}
-        {/*        email={lead.email}*/}
-        {/*      />*/}
-        {/*    ))}*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-
-        <div className="my-16 mx-[5%]">
-          <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            RoboCup Arm
-          </h1>
-          <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {Arm.map((lead) => (
+            {ArmProject.map((lead) => (
               <Member
                 name={lead.name}
                 position={lead.position}
@@ -383,10 +495,10 @@ const Team = () => {
 
         <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            RoboCup Drivetrain
+            Drivetrain Project
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {Train.map((lead) => (
+            {DrivetrainProject.map((lead) => (
               <Member
                 name={lead.name}
                 position={lead.position}
@@ -401,10 +513,10 @@ const Team = () => {
 
         <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            RoboCup Gripper
+            Gripper Project
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {Gripper.map((lead) => (
+            {GripperProject.map((lead) => (
               <Member
                 name={lead.name}
                 position={lead.position}
@@ -419,10 +531,10 @@ const Team = () => {
 
         <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
-            RoboCup Head/Torso
+            Power Project
           </h1>
           <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-            {HeadTorso.map((lead) => (
+            {PowerProject.map((lead) => (
               <Member
                 name={lead.name}
                 position={lead.position}
@@ -436,6 +548,24 @@ const Team = () => {
         </div>
 
         <div className="my-16 mx-[5%]">
+          <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
+            Software
+          </h1>
+          <div className="grid grid-cols-1 mt-12 gap-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+            {Software.map((lead) => (
+              <Member
+                name={lead.name}
+                position={lead.position}
+                linkedin={lead.linkedin}
+                github={lead.github}
+                img={lead.img}
+                email={lead.email}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* <div className="my-16 mx-[5%]">
           <h1 className="text-3xl font-lighter md:font-bold text-gray-800 capitalize -mb-4 lg:text-4xl">
             RoboCup@Home
           </h1>
@@ -451,7 +581,7 @@ const Team = () => {
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
