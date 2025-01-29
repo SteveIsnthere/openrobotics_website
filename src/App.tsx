@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 // import ScrollToTop from "./ScrollToTop";
 
-//Team
+//Team temp
 import Team from "./components/Team/Team";
 import Contact from "./components/ContactPage/ContactPage";
 import Recruitment from "./components/Recruitment/Recruitment";
