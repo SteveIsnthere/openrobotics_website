@@ -27,7 +27,7 @@ function Sponsor() {
           <br></br>
           <br></br>
           If you are considering a sponsorship, please click the following
-          button
+          buttons!
         </p>
         <div className="flex flex-wrap gap-4 mt-8 text-center">
           <a
@@ -44,28 +44,28 @@ function Sponsor() {
             Sponsorship Guide
           </a>
         </div>
+        <p className="max-w mx-auto mt-8 text-gring-offset-warm-gray-500">
+          A huge thank you to our current sponsors.
+        </p>
+        <section className="sponsor-logos">
+          <div className="flex items-center gap-8 mt-6">
+            <div className="h-24 w-48 flex items-center justify-center">
+              <img
+                alt="Zaber logo"
+                src="assets/img/sponsor/Zaber.png"
+                className="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div className="h-24 w-48 flex items-center justify-center">
+              <img
+                alt="LateCoere logo"
+                src="assets/img/sponsor/LateCoere.png"
+                className="max-h-full max-w-full object-contain"
+              />
+            </div>
+          </div>
+        </section>
       </div>
-      <Swiper
-        slidesPerView={5}
-        spaceBetween={10}
-        slidesPerGroup={3}
-        centeredSlides={true}
-        loop={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        loopFillGroupWithBlank={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <img
-            alt="RioTinto written in white on a red background"
-            src="assets/img/sponsor/RioTinto.png"
-          />
-        </SwiperSlide>
-      </Swiper>
     </section>
   );
 }
