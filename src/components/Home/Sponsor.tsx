@@ -3,9 +3,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import zaberLogo from "../../assets/sponsor/Zaber.png";
-import latecoereLogo from "../../assets/sponsor/LateCoere.png";
-
 // import required modules
 function Sponsor() {
   return (
@@ -50,14 +47,14 @@ function Sponsor() {
             <div className="h-24 w-48 flex items-center justify-center">
               <img
                 alt="Zaber logo"
-                src={zaberLogo}
+                src="assets/img/sponsor/Zaber.png"
                 className="max-h-full max-w-full object-contain"
               />
             </div>
             <div className="h-24 w-48 flex items-center justify-center">
               <img
                 alt="LateCoere logo"
-                src={latecoereLogo}
+                src="assets/img/sponsor/LateCoere.png"
                 className="max-h-full max-w-full object-contain"
               />
             </div>
