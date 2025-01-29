@@ -54,7 +54,7 @@ function Sponsor() {
             <div className="h-24 w-48 flex items-center justify-center">
               <img
                 alt="LateCoere logo"
-                src="assets/img/sponsor/LateCoere.png"
+                src="assets/img/sponsor/RioTinto.png"
                 className="max-h-full max-w-full object-contain"
               />
             </div>
