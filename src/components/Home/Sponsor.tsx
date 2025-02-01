@@ -21,8 +21,7 @@ function Sponsor() {
           for robotics in the UBC community.
           <br></br>
           <br></br>
-          If you are considering a sponsorship, please click the following
-          buttons!
+          If you are considering a sponsorship, please click below!
         </p>
         <div className="flex flex-wrap gap-4 mt-8 text-center">
           <a
@@ -31,13 +30,13 @@ function Sponsor() {
           >
             Sponsor Us Now
           </a>
-
-          <a
+          {/* THIS IS NOT YET FINISHED*/}
+          {/* <a
             className="block w-full px-12 py-3 text-md font-medium bg-gray-900 rounded shadow text-gray-200 sm:w-auto hover:text-white  focus:outline-none focus:ring"
             href="SponsorshipPackage.pdf"
           >
             Sponsorship Guide
-          </a>
+          </a> */}
         </div>
         <p className="max-w mx-auto mt-8 text-gring-offset-warm-gray-500">
           A huge thank you to our current sponsors.
