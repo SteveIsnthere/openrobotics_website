@@ -1,6 +1,4 @@
-import React from "react";
 // import Category from "./Category";
-import { Link } from "react-router-dom";
 //
 // class Role {
 //   title: string;
@@ -533,106 +531,106 @@ const Recruitment = () => {
   //     pianobot_category,
   // ];
 
-  const jobPostings = [
-    {
-      title: "Co/Vice-Captain",
-      description: "Managing the team’s admin and technical operations.",
-      applyLink:
-        "https://docs.google.com/document/d/1sJ-z3hVBgMQWQ5o8oixhh0RBy43hopNZqzGIOAqr2k4/edit?usp=sharing",
-    },
-    {
-      title: "Web Developer",
-      description:
-        "Maintaining and enhancing the club's showcasing and recruitment application.",
-      applyLink:
-        "https://docs.google.com/document/d/1t7u2CEvSddQwjojW3a7F0taRfbT_UjMPczQCLiiv4bM/edit?usp=sharing",
-    },
-    {
-      title: "Engagement Manager / Event Planner",
-      description: "Securing funds for team projects.",
-      applyLink:
-        "https://docs.google.com/document/d/1YpM-NLXFCYxkfMgwoPqNNg5H4BRbFGULSXjyxQMkxl0/edit?usp=sharing",
-    },
-    {
-      title: "Finance and Sponsorship Manager",
-      description:
-        "Securing funds for team projects, whether it be grants, sponsorships, or in-kind donations.",
-      applyLink:
-        "https://docs.google.com/document/d/1RIAQz8juVQDXEWOe7CZP6qBJNQRr3NQLSN5wVFzTknI/edit?usp=sharing",
-    },
-    {
-      title: "Social Media Manager",
-      description: "Promoting the team on various social media platforms.",
-      applyLink:
-        "https://docs.google.com/document/d/1OBgq28w0HNbfb6nxhpJjXQcc89jfz00gbujwjDL-8ko/edit?usp=sharing",
-    },
+  // const jobPostings = [
+  //   {
+  //     title: "Co/Vice-Captain",
+  //     description: "Managing the team’s admin and technical operations.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1sJ-z3hVBgMQWQ5o8oixhh0RBy43hopNZqzGIOAqr2k4/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "Web Developer",
+  //     description:
+  //       "Maintaining and enhancing the club's showcasing and recruitment application.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1t7u2CEvSddQwjojW3a7F0taRfbT_UjMPczQCLiiv4bM/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "Engagement Manager / Event Planner",
+  //     description: "Securing funds for team projects.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1YpM-NLXFCYxkfMgwoPqNNg5H4BRbFGULSXjyxQMkxl0/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "Finance and Sponsorship Manager",
+  //     description:
+  //       "Securing funds for team projects, whether it be grants, sponsorships, or in-kind donations.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1RIAQz8juVQDXEWOe7CZP6qBJNQRr3NQLSN5wVFzTknI/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "Social Media Manager",
+  //     description: "Promoting the team on various social media platforms.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1OBgq28w0HNbfb6nxhpJjXQcc89jfz00gbujwjDL-8ko/edit?usp=sharing",
+  //   },
 
-    {
-      title: "ROBOCUP@HOME Power System Member",
-      description:
-        "Playing a critical role in designing, developing, and implementing the power distribution subsystem of our autonomous robots.",
-      applyLink:
-        "https://docs.google.com/document/d/1J8jZ0ib5pnoGQwY-OZVyOrW_kq_mh5dDVycxXJUsojw/edit?usp=sharing",
-    },
-    {
-      title: "ROBOCUP@HOME Arms Electrical Designer",
-      description:
-        "Working on the electrical hardware and firmware design of a 6-DOF robotic arm.",
-      applyLink:
-        "https://docs.google.com/document/d/1od1zaU3qQNR66whR_8qKptgv19b3TKn4G7m0Ze_RUN4/edit?usp=sharing",
-    },
-    {
-      title: "ROBOCUP@HOME Chassis Mechanical Designer",
-      description:
-        "Working on the chassis, all-wheel-drive drivetrain, and torso of a robot.",
-      applyLink:
-        "https://docs.google.com/document/d/1r7O46H4w34Sng4XUMWh90ulRybh7kDsas4xVbJ3b99g/edit?usp=sharing",
-    },
+  //   {
+  //     title: "ROBOCUP@HOME Power System Member",
+  //     description:
+  //       "Playing a critical role in designing, developing, and implementing the power distribution subsystem of our autonomous robots.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1J8jZ0ib5pnoGQwY-OZVyOrW_kq_mh5dDVycxXJUsojw/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "ROBOCUP@HOME Arms Electrical Designer",
+  //     description:
+  //       "Working on the electrical hardware and firmware design of a 6-DOF robotic arm.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1od1zaU3qQNR66whR_8qKptgv19b3TKn4G7m0Ze_RUN4/edit?usp=sharing",
+  //   },
+  //   {
+  //     title: "ROBOCUP@HOME Chassis Mechanical Designer",
+  //     description:
+  //       "Working on the chassis, all-wheel-drive drivetrain, and torso of a robot.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1r7O46H4w34Sng4XUMWh90ulRybh7kDsas4xVbJ3b99g/edit?usp=sharing",
+  //   },
 
-    {
-      title: "ROBOCUP@HOME Gripper",
-      description:
-        "Design and build the mechanical and electrical aspects of the end effector of our robot in order to improve its grasping capabilities.",
-      applyLink:
-        "https://docs.google.com/document/d/122C5sPPyW--IP_Ie8JEwXuKYDvxckSCnAho4hnAXGRo/edit",
-    },
+  //   {
+  //     title: "ROBOCUP@HOME Gripper",
+  //     description:
+  //       "Design and build the mechanical and electrical aspects of the end effector of our robot in order to improve its grasping capabilities.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/122C5sPPyW--IP_Ie8JEwXuKYDvxckSCnAho4hnAXGRo/edit",
+  //   },
 
-    {
-      title: "ROBOCUP@HOME Software Subteam Member",
-      description:
-        "Develop, test, and integrate the software that controls the robot.",
-      applyLink:
-        "https://docs.google.com/document/d/1ZqmK2oL3iYF0HVvD4w9ESDJiXamYVdbEMh0h3yva6cQ/edit?usp=sharing",
-    },
-  ];
+  //   {
+  //     title: "ROBOCUP@HOME Software Subteam Member",
+  //     description:
+  //       "Develop, test, and integrate the software that controls the robot.",
+  //     applyLink:
+  //       "https://docs.google.com/document/d/1ZqmK2oL3iYF0HVvD4w9ESDJiXamYVdbEMh0h3yva6cQ/edit?usp=sharing",
+  //   },
+  // ];
 
   return (
     <section className="flex flex-col m-[10%] py-10 md:mt-24 sm:mt-30 xs:mt-60 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl justify-center items-center">
       <h1 className="text-3xl py-4 font-extrabold md:text-5xl text-gray-900">
-        Current Openings
+        Join Us!
       </h1>
       <span className="w-64 h-[2px] mt-0 bg-gray-900 mb-6"></span>
       <h1 className="text-2xl py-2 font-light md:text-4xl text-gray-700">
-        Recruitment is Opening!
+        We are currently not recruiting. Check back again in May!
       </h1>
       <p className="py-4 text-md md:text-xl  text-gray-500">
-        Our Recruitment cycle is in full swing right now! If you're interested
+        {/* Our Recruitment cycle is in full swing right now! If you're interested
         in joining, apply for a technical or admin position here. Note that our
         applications are open to students across all faculties and of varying
         skill levels. We look forward to your applications! For further
-        questions please{" "}
-        <Link
+        questions please{" "} */}
+        {/* <Link
           className="font-bold text-red-500 cursor-pointer hover:text-red-700"
           to="/Contact"
         >
           contact
         </Link>{" "}
-        us
-        <br></br> <br></br>
+        us */}
+        {/* <br></br> <br></br>
         <b>Note:</b> We strongly encourage anyone with a strong interest and
         passion to design and manufacture to apply, regardless of current
         experience. Our team values highly-motivated students who are willing to
-        learn and take initiative.
+        learn and take initiative. */}
       </p>
 
       {/*<p className="py-4 text-md md:text-xl  text-gray-500">*/}
@@ -669,7 +667,7 @@ const Recruitment = () => {
         </a>
       </button> */}
       {/* <h2 className="text-3xl font-bold text-center mb-8">Postings</h2> */}
-      <button className="bg-blue-500 w-64 font-bold rounded-lg px-12 py-4 text-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-blue-700 text-white text-center mb-8">
+      {/* <button className="bg-blue-500 w-64 font-bold rounded-lg px-12 py-4 text-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-blue-700 text-white text-center mb-8">
         <a
           className="style-none"
           target="_blank"
@@ -678,9 +676,9 @@ const Recruitment = () => {
         >
           Recruitment Form
         </a>
-      </button>
+      </button> */}
 
-      <div className="max-w-3xl mx-auto">
+      {/* <div className="max-w-3xl mx-auto">
         {jobPostings.map((job, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg p-6 mb-6">
             <h3 className="text-xl font-semibold mb-2">{job.title}</h3>
@@ -697,7 +695,7 @@ const Recruitment = () => {
             </button>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
