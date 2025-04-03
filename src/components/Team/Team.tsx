@@ -63,6 +63,14 @@ const Team = () => {
       "assets/img/default_profile.jpg",
       "im"
     ),
+    new Person(
+      "A. Leung",
+      "Web Developer",
+      "https://github.com/aleung30",
+      "im",
+      "assets/img/default_profile.jpg",
+      "im"
+    ),
 
     new Person(
       "Sofiya Spolitak",
