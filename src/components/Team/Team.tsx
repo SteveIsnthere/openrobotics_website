@@ -64,7 +64,7 @@ const Team = () => {
       "im"
     ),
     new Person(
-      "A. Leung",
+      "Anita Leung",
       "Web Developer",
       "https://github.com/aleung30",
       "im",

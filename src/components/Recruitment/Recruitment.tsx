@@ -1,5 +1,8 @@
 // import Category from "./Category";
-//
+import Contact from "../ContactPage/ContactPage";
+import { Link } from "react-router-dom";
+
+// 
 // class Role {
 //   title: string;
 //   positions: string;
@@ -610,9 +613,21 @@ const Recruitment = () => {
         Join Us!
       </h1>
       <span className="w-64 h-[2px] mt-0 bg-gray-900 mb-6"></span>
-      <h1 className="text-2xl py-2 font-light md:text-4xl text-gray-700">
-        We are currently not recruiting. Check back again in May!
-      </h1>
+      <h1 className="text-2xl py-2 font-light md:text-4xl text-gray-700 max-w-l">
+      Our recruitment cycle is in full swing right now! If you're interested
+        in joining, apply for a technical or admin position using the following <a className="font-medium text-red cursor-pointer underline hover:text-red:700" href="https://docs.google.com/forms/d/e/1FAIpQLScWN8Gqa_pe9x6g9SmL_UFGCFLdUMXr94qaeg-mxM5_oQ6nOg/viewform">Google Forms Link</a>. Note that our
+        applications are open to students across all faculties and of varying
+        skill levels. We look forward to your applications! For further
+        questions, please contact us <Link className="font-medium text-red cursor-pointer hover:text-red-700 underline" to="/Contact">here</Link>.
+        </h1>
+        <br/><br/>
+
+        <p className="font-medium text-medium max-w-l">Note: We strongly encourage anyone with a strong interest and
+        passion to design and manufacture to apply, regardless of current
+        experience. Our team values highly-motivated students who are willing to
+        learn and take initiative.
+        </p>
+
       <p className="py-4 text-md md:text-xl  text-gray-500">
         {/* Our Recruitment cycle is in full swing right now! If you're interested
         in joining, apply for a technical or admin position here. Note that our
