@@ -39,7 +39,7 @@ function Sponsor() {
           </a> */}
         </div>
         <p className="max-w mx-auto mt-8 text-gring-offset-warm-gray-500">
-          A huge thank you to our current sponsors.
+          A huge thank you to our current sponsors!
         </p>
         <section className="sponsor-logos">
           <div className="flex items-center gap-8 mt-6">
