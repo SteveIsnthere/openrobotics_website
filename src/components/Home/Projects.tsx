@@ -84,7 +84,7 @@ function Project() {
 
                 <p className="mt-2 text-sm text-gray-500">
                   The goal of this project is to create immensely helpful
-                  service and assistance robot technology for household usage.
+                  service and assistance robot technology for household usage!
                 </p>
 
                 <div className="inline-block pb-1 mt-4 font-medium text-red-600 border-b border-red-600 ">
