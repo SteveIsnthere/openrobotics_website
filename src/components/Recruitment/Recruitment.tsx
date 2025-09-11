@@ -1,5 +1,4 @@
 // import Category from "./Category";
-import Contact from "../ContactPage/ContactPage";
 import { Link } from "react-router-dom";
 
 // 
